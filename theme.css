@@ -1,0 +1,278 @@
+/* ╔════════════════════════════════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Obsidian Theme                                                                                                     ║ */
+/* ╠══════════════════════════╦═════════════════════════════════════════════════════════════════════════════════════════╣ */
+/* ║ Name:                    ║ CreArts                                                                                 ║ */
+/* ║ Version:                 ║ 1.0.0                                                                                   ║ */
+/* ║ Author:                  ║ Corellan                                                                                ║ */
+/* ║ License:                 ║ MIT                                                                                     ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Variables                ║ General                                                                                 ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+.theme-dark, .app-container{
+  /* Radius */
+  --radius-primary: 18px;
+  --radius-secondary: 12px;
+  --radius-tertiary: 6px;
+
+  --custom-background-primary: #303445;
+  --custom-background-secondary: #2a2d3b;
+  --custom-background-tertiary: #242633;
+
+  /* Layout */
+  --layout-margin: 8px;
+  --layout-titlebar: 20px;
+}
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Custom CSS               ║ Custom                                                                                  ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+.excalidraw.theme--dark, .theme-dark, .theme-light, .theme-light.minimal-light-contrast .titlebar, .theme-light.minimal-light-contrast.is-mobile .workspace-drawer.mod-left, .theme-light.minimal-light-contrast.minimal-status-off .status-bar, body .excalidraw {
+  --titlebar-background-focused: var(--custom-background-tertiary) !important;
+  --text-on-accent: #FFFFFF !important;
+}
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Custom CSS               ║ Workspace                                                                               ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+/* Spacing */
+.workspace-tab-container {
+  margin-bottom: var(--layout-titlebar) !important;
+}
+
+.workspace-leaf {
+  border-radius: var(--radius-secondary) !important;
+  margin-top: var(--layout-margin) !important;
+  height: unset !important;
+}
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Custom CSS               ║ Side Menu                                                                               ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+/* Ribbon */
+.workspace-ribbon {
+  background: var(--custom-background-secondary) !important;
+  border-radius: var(--radius-secondary);
+  margin: calc(40px + var(--layout-margin) + var(--layout-margin)) var(--layout-margin) calc(var(--layout-margin) + var(--layout-margin) + var(--layout-titlebar)) calc(var(--layout-margin) + var(--layout-margin)) !important;
+  border: none;
+}
+
+.workspace-ribbon .sidebar-toggle-button {
+  left: calc(var(--layout-margin) + var(--layout-margin));
+}
+
+.workspace-ribbon.mod-left:before {
+  width: calc(var(--ribbon-width) + var(--layout-margin) + var(--layout-margin) + var(--layout-margin));
+}
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Custom CSS               ║ Navigation                                                                              ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+.nav-header {
+  background: var(--custom-background-secondary);
+  border-radius: var(--radius-secondary);
+  margin: var(--layout-margin);
+  min-height: 44px;
+}
+
+.nav-files-container,
+.workspace-split.mod-left-split .view-content,
+.workspace-split.mod-right-split .view-content {
+  background: var(--custom-background-secondary);
+  border-radius: var(--radius-secondary);
+  margin: var(--layout-margin) var(--layout-margin) calc(var(--layout-margin) + var(--layout-margin)) var(--layout-margin);
+}
+
+.mod-right-split .workspace-tab-container {
+  margin-right: var(--layout-margin);
+}
+
+/* Calendar */
+.workspace-leaf-content[data-type=calendar] .view-content {
+  margin: 8px 8px 0px 8px !important;
+}
+
+.tag-container {
+  background: var(--custom-background-secondary);
+  border-radius: var(--radius-secondary);
+  margin: var(--layout-margin);
+}
+
+.workspace-split.mod-left-split .workspace-tabs:nth-child(4) .workspace-tab-header-container {
+  background: var(--custom-background-secondary);
+  border-radius: var(--radius-secondary);
+ margin-left: var(--layout-margin);
+ margin-right: var(--layout-margin);
+ margin-top: calc(var(--layout-margin) + var(--layout-margin));
+  min-height: 44px;
+}
+
+.workspace-split.mod-right-split .workspace-tabs:nth-child(4) .workspace-tab-header-container {
+  background: var(--custom-background-secondary);
+  border-radius: var(--radius-secondary);
+  margin-left: var(--layout-margin);
+  margin-right: calc(var(--layout-margin) + var(--layout-margin));
+  margin-top: calc(var(--layout-margin) + var(--layout-margin));
+  min-height: 44px;
+}
+
+.workspace-split.mod-right-split .workspace-tabs:nth-child(4) {
+margin-bottom: 8px;
+}
+
+
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Custom CSS               ║ Body                                                                                    ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+/* Header */
+.view-header {
+  background: var(--custom-background-secondary) !important;
+  border-radius: var(--radius-secondary) !important;
+  margin-top: 8px;
+  margin-right: var(--layout-margin) !important;
+  margin-bottom: 8px;
+  margin-left: 8px;
+  min-height: 44px;
+}
+
+/* Content */
+.workspace-tabs .workspace-leaf .view-content {
+  background: var(--custom-background-secondary) !important;
+  border-radius: var(--radius-secondary) !important;
+  margin: 8px 8px calc(var(--layout-margin) + var(--layout-margin)) 8px;
+  width: unset !important;
+}
+
+/* Kanban*/
+.kanban-plugin {
+  background: var(--custom-background-secondary) !important;
+  border-radius: var(--radius-secondary) !important;
+}
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Custom CSS               ║ Context Menu                                                                            ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+.menu {
+  max-height: 70vh;
+}
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Custom CSS               ║ Status-Bar                                                                              ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+.status-bar {
+  background: var(--custom-background-tertiary) !important;
+  width: 100%;
+  border-radius: 0px;
+  border-top: var(--tab-outline-width) solid var(--tab-outline-color);
+  height: var(--layout-titlebar);
+}
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Plugin                   ║ Editing Toolbar                                                                         ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+#cMenuToolbarModalBar.cMenuToolbarDefaultAesthetic {
+  border: none;
+}
+
+#cMenuToolbarModalBar.top {
+  background: var(--custom-background-primary);
+  border-radius: var(--radius-secondary);
+  margin: 8px;
+  box-shadow: none;
+}
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Plugin                   ║ Icon Folder                                                                             ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+.obsidian-icon-folder-icon path {
+  fill: #c5d0f4 !important;
+}
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Plugin                   ║ Full Calendar                                                                           ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+.fc a {
+  color: var(--nav-item-color);
+  text-decoration-line: none;
+}
+
+
+
+/* Testing... */
+
+/*
+.fc-theme-standard .fc-scrollgrid {
+  border: none !important;
+}
+
+
+.fc .fc-scrollgrid-section-body table,
+.fc .fc-scrollgrid-section-footer table {
+  border: none !important;
+}
+
+
+.fc-theme-standard td, .fc-theme-standard th {
+  border: none !important;
+}
+
+
+
+
+.fc .fc-cell-shaded, .fc .fc-day-disabled {
+  background: transparent;
+}
+
+
+
+
+
+
+
+.fc-h-event .fc-event-title {
+  display: inline-block;
+
+  left: 0;
+  right: 0;
+  max-width: 100%;
+  overflow: hidden;
+
+  vertical-align: center !important;
+  font-size: 12px;
+  padding: 4px;
+}
+
+*/
+
+
+/* border: 1px solid var(--fc-border-color, #ddd); */
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Testing                  ║ Testing                                                                                 ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+
+.callout {
+  mix-blend-mode: normal;
+}
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Remove                   ║ Help                                                                                    ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+[aria-label="Hilfe"] {
+  display: none;
+}
