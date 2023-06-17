@@ -17,18 +17,22 @@
 02・Documents/*
 03・Private/*
 04・Study/*
-05・Assets/attachments/*
-05・Assets/snippets/*
-05・Assets/banners/*
 
-!05・Assets/banners/space.png
-!05・Assets/banners/space2.png
-!05・Assets/banners/spac3.png
-!05・Assets/banners/space4.png
+05・Assets/attachments/*
+05・Assets/banners/*
+!space.jpg
+!space2.jpg
+!space3.jpg
+!space4.jpg
+05・Assets/snippets/*
+05・Assets/templates/*
 
 Sorting
 
 # Windows
+.DS_Store
+Thumbs.db
+
 $RECYCLE.BIN/
 [Dd]esktop.ini
 *.stackdump
