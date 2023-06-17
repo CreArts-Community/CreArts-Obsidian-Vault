@@ -109,6 +109,8 @@ This project utilizes a range of Obsidian core and community plugins. These plug
 
 Below, you will find a comprehensive list of the Obsidian core plugins and community plugins that are utilized in CreArts-Obsidian. These plugins have been carefully selected to provide you with a well-rounded and feature-rich Obsidian experience.
 
+<details><summary>Show Core Plugins</summary>
+
 ## Core Plugins:
 - [ ] Audio recorder
 - [x] Backlinks
@@ -136,6 +138,9 @@ Below, you will find a comprehensive list of the Obsidian core plugins and commu
 - [ ] Unique note creator
 - [x] Word count
 - [ ] Workspaces
+</details>
+
+<details><summary>Show Community Plugins</summary>
 
 ## Community Plugins:
 - [x] Admonition
@@ -169,6 +174,9 @@ Below, you will find a comprehensive list of the Obsidian core plugins and commu
 - [x] Simple Embeds
 - [x] Smart Typography
 - [x] Trash Explorer
+</details>
+
+<details><summary>Show Custom Frames Status</summary>
 
 ## Custom Frames:
 
@@ -179,8 +187,77 @@ Below, you will find a comprehensive list of the Obsidian core plugins and commu
 - [x] Clock
 - [ ] DeepL (10% done)
 - [ ] DeepL Write *(10% done)*
+</details>
+
+
+
+<!-- ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ -->
+<!-- ║ Docs                     ║ Support                                                                                 ║ -->
+<!-- ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ -->
+
+## Support
+
+If you have problems, found some bugs or have wishes for this theme, create a [Issue](https://github.com/CreArts-Community/Settings-Icons/issues) or join our [community](https://discord.gg/8W8E39Z) and communicate with us.
+
+<!-- ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ -->
+<!-- ║ Docs                     ║ Credits                                                                                 ║ -->
+<!-- ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ -->
 
 # Credits:
 CreArts-Obsidian builds on kepano's Minimal theme and adds artistic flair and customization options.
 
 Checkout the [Minimal theme](https://github.com/kepano/obsidian-minimal) (by [kepano](https://github.com/kepano))
+
+<!-- ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ -->
+<!-- ║ Docs                     ║ License                                                                                 ║ -->
+<!-- ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ -->
+
+## License
+
+```
+MIT License
+
+Copyright (c) 2022-2023 Daniel Klingel (@corellan)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
