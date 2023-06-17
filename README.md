@@ -101,4 +101,4 @@ Below, you will find a comprehensive list of the Obsidian core plugins and commu
 # Credits:
 CreArts-Obsidian builds on kepano's Minimal theme and adds artistic flair and customization options.
 
-Checkout the [Minimal Theme](<[Minimal theme](https://github.com/kepano/obsidian-minimal) (by [kepano](https://github.com/kepano))
+Checkout the [Minimal theme](https://github.com/kepano/obsidian-minimal) (by [kepano](https://github.com/kepano))
