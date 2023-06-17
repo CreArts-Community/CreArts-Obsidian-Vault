@@ -2,7 +2,7 @@
 <!-- ║ Docs                     ║ Language                                                                                ║ -->
 <!-- ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ -->
 
-<kbd>[<img title="English" alt="English" src="https://crearts-community.github.io/Assets/languages/english.png" width="40">](/readme.md)</kbd>
+<kbd>[<img title="English" alt="English" src="https://crearts-community.github.io/Assets/languages/english.png" width="40">](readme.md)</kbd>
 <kbd>[<img title="German" alt="German" src="https://crearts-community.github.io/Assets/languages/german.png" width="40">](/.github/docs/translations/readme/german.md)</kbd>
 <kbd>[<img title="French" alt="French" src="https://crearts-community.github.io/Assets/languages/french.png" width="40">](/.github/docs/translations/readme/french.md)</kbd>
 <kbd>[<img title="Italian" alt="Italian" src="https://crearts-community.github.io/Assets/languages/italian.png" width="40">](/.github/docs/translations/readme/italian.md)</kbd>
