@@ -98,6 +98,13 @@ Below, you will find a comprehensive list of the Obsidian core plugins and commu
 - [ ] DeepL (10% done)
 - [ ] DeepL Write *(10% done)*
 
+
+# Install
+
+1. Download the or Clone the full repository
+2. Move the folder to your liked location
+3. Load the folder as your new vault in Obsidian.
+
 # Credits:
 CreArts-Obsidian builds on kepano's Minimal theme and adds artistic flair and customization options.
 
