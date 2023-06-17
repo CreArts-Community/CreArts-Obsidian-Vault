@@ -81,5 +81,6 @@
   "05・Assets/templates/Gallery.md": "TyGallery",
   "05・Assets/templates/Kanban.md": "TyKanban",
   "Sorting": "TyFolder",
-  "01・Notes/ChatGPT/NiceGPT.md": "TyNote"
+  "01・Notes/ChatGPT/NiceGPT.md": "TyNote",
+  "02・Documents": "TyFolder"
 }
