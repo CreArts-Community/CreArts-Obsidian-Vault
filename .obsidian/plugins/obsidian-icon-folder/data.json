@@ -1,0 +1,85 @@
+{
+  "settings": {
+    "migrated": true,
+    "iconPacksPath": ".obsidian/plugins/obsidian-icon-folder/icons",
+    "fontSize": 16,
+    "emojiStyle": "none",
+    "iconColor": "#c4d0f3",
+    "recentlyUsedIcons": [
+      "TyNote",
+      "TySorting",
+      "TyGallery",
+      "TyKanban",
+      "TyFolder"
+    ],
+    "recentlyUsedIconsSize": 5,
+    "rules": [
+      {
+        "rule": "・",
+        "icon": "TyFolder",
+        "for": "everything"
+      },
+      {
+        "rule": ".canvas",
+        "icon": "TyCanvas",
+        "for": "everything"
+      },
+      {
+        "rule": ".css",
+        "icon": "TyCode",
+        "for": "everything"
+      },
+      {
+        "rule": ".gif",
+        "icon": "TyImage",
+        "for": "everything"
+      },
+      {
+        "rule": ".jpg",
+        "icon": "TyImage",
+        "for": "everything"
+      },
+      {
+        "rule": ".md",
+        "icon": "TyNote",
+        "for": "everything"
+      },
+      {
+        "rule": ".mp3",
+        "icon": "TyAudio",
+        "for": "everything"
+      },
+      {
+        "rule": ".pdf",
+        "icon": "TyDocument",
+        "for": "everything"
+      },
+      {
+        "rule": ".png",
+        "icon": "TyImage",
+        "for": "everything"
+      },
+      {
+        "rule": ".wav",
+        "icon": "TyAudio",
+        "for": "everything"
+      },
+      {
+        "rule": "Home.md",
+        "icon": "TyHome",
+        "for": "everything"
+      }
+    ],
+    "extraMargin": {
+      "top": 0,
+      "right": 4,
+      "bottom": 0,
+      "left": 0
+    },
+    "iconInTabsEnabled": false
+  },
+  "05・Assets/templates/Gallery.md": "TyGallery",
+  "05・Assets/templates/Kanban.md": "TyKanban",
+  "Sorting": "TyFolder",
+  "01・Notes/ChatGPT/NiceGPT.md": "TyNote"
+}

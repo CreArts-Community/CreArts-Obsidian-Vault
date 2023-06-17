@@ -1,0 +1,40 @@
+.trash-item {
+	margin-bottom: var(--size-2-1);
+	border-radius: var(--radius-s);
+	cursor: var(--cursor);
+	color: var(--nav-item-color);
+	font-size: var(--nav-item-size);
+	font-weight: var(--nav-item-weight);
+	line-height: var(--line-height-tight);
+	padding: var(--nav-item-padding);
+	padding-right: 0;
+	display: flex;
+	align-items: center;
+}
+
+.trash-item__textcontainer {
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+}
+
+.trash-item__name {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.trash-item__info {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	color: var(--text-faint);
+	font-size: var(--font-ui-small);
+}
+
+.trash-item__buttons {
+	margin-left: auto;
+	display: flex;
+	gap: 3px;
+	padding-left: 3px;
+}

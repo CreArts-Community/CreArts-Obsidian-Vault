@@ -1,0 +1,19 @@
+{
+  "accentColor": "#cd0952",
+  "baseFontSize": 18,
+  "cssTheme": "Minimal",
+  "theme": "obsidian",
+  "showViewHeader": true,
+  "interfaceFontFamily": "Quicksand",
+  "monospaceFontFamily": "FuraCode Nerd Font Mono",
+  "textFontFamily": "Quicksand",
+  "enabledCssSnippets": [
+    "vars",
+    "clutter-free-headings",
+    "crearts",
+    "chat-gpt",
+    "crearts - canvas",
+    "media-grid-snippet"
+  ],
+  "nativeMenus": false
+}

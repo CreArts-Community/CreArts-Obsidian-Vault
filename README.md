@@ -1,6 +1,105 @@
-# CreArts-Obsidian
+# CreArts-Obsidian 
 
-You need the Minimal Theme as a base:
+Welcome to CreArts-Obsidian, a customized version of the Minimal Theme for Obsidian. Created by kepano, the Minimal Theme serves as the foundation for this project, but with various modifications and enhancements tailored specifically for CreArts-Obsidian.
+
+Drawing inspiration from the Minimal Theme, CreArts-Obsidian embraces a rounded and flat design, combining modern aesthetics with the delightful catppuccino color scheme. This customized theme offers a visually appealing and intuitive interface for your Obsidian vault.
+
+By leveraging the power of the Minimal Theme as its base, CreArts-Obsidian provides an enhanced user experience with a focus on creativity and productivity. The project includes a preconfigured Vault template, allowing you to effortlessly set up your Obsidian workspace with the CreArts-Obsidian theme.
+
+Based on the Minimal theme:
 https://github.com/kepano/obsidian-minimal
 
-![image](https://user-images.githubusercontent.com/58918358/215862513-530bf18e-4ac6-4678-b3f2-e88d93307596.png)
+## Preview:
+This collection of images showcases a custom UI for Obsidian designed to enhance your note-taking experience. The first image reveals the beautifully crafted Home screen. The second image demonstrates the seamless integration of Google Calendar using the Custom-Frames Plugin, complemented by customized CSS modifications.
+
+The third image highlights Google Tasks within Obsidian. The fourth image showcases a chat conversation using the ChatGPT app. Lastly, the fifth image displays the German Wikipedia page. These images exemplify the versatility of this project, offering a cohesive and personalized note-taking experience.
+
+![image](https://github.com/CorellanStoma/CreArts-Obsidian/assets/58918358/5b2e8724-f796-4430-a09b-290b8ce8b1f6)
+
+![image](https://github.com/CorellanStoma/CreArts-Obsidian/assets/58918358/48fdde87-5898-4fd1-992d-7e689687dc5a)
+
+![image](https://github.com/CorellanStoma/CreArts-Obsidian/assets/58918358/1219d68a-e28c-4ab4-9149-2fbd77f46c2b)
+
+![image](https://github.com/CorellanStoma/CreArts-Obsidian/assets/58918358/24ea8f9d-0059-4906-add1-fa509b25e1e9)
+
+![image](https://github.com/CorellanStoma/CreArts-Obsidian/assets/58918358/ae1ee903-0f03-4240-a269-ee1b0db72bad)
+
+## Used Plugins:
+
+This project utilizes a range of Obsidian core and community plugins. These plugins expand the capabilities of Obsidian, allowing you to personalize your note-taking and knowledge management experience to suit your needs. 
+
+Below, you will find a comprehensive list of the Obsidian core plugins and community plugins that are utilized in CreArts-Obsidian. These plugins have been carefully selected to provide you with a well-rounded and feature-rich Obsidian experience.
+
+## Core Plugins:
+- [ ] Audio recorder
+- [x] Backlinks
+- [x] Bookmarks
+- [x] Canvas
+- [x] Command palette
+- [ ] Daily notes
+- [x] File recovery
+- [x] Files
+- [ ] Format converter
+- [x] Graph view
+- [ ] Note composer
+- [x] Outgoing Links
+- [x] Outline
+- [x] Page preview
+- [ ] Publish
+- [ ] Quick switchre
+- [ ] Random note
+- [x] Search
+- [x] Slash commands
+- [ ] Slides
+- [ ] Sync
+- [x] Tags
+- [x] Templates
+- [ ] Unique note creator
+- [x] Word count
+- [ ] Workspaces
+
+## Community Plugins:
+* Admonition
+* Banners
+* Better Word Count
+* Buttons
+* Calendar
+* Callout Manager
+* Custom Frames
+* Dictionary
+* Editing Toolbar
+* Editor Synta Highlight
+* Emoji Shortcodes
+* File Explorer Note Count
+* File Hider
+* Highlightr
+* Home tab
+* Homepage
+* Icon Folder
+* Image Gallery
+* Kanban
+* Minimal Theme Settings
+* Natural Language Dates
+* Obsidian Columns
+* Paste URL into selection
+* Plugin Groups
+* Reading Time
+* Recent Files
+* Remember cursor position
+* Reveal Active File Button
+* Simple Embeds
+* Smart Typography
+* Trash Explorer
+
+## Custom Frames
+
+- [x] Chat GPT
+- [x] Google Calendar* (50% done)*
+- [x] Google Tasks
+- [x] Wikipedia *(German Version)*
+- [x] Clock
+- [ ] DeepL (10% done)
+- [ ] DeepL Write *(10% done)*
+
+# Credits:
+* Minimal Theme ([kepano](https://github.com/kepano))

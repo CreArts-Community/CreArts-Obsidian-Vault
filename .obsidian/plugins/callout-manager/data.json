@@ -1,0 +1,38 @@
+{
+  "callouts": {
+    "custom": [
+      "button"
+    ],
+    "settings": {
+      "button": [
+        {
+          "changes": {
+            "icon": "remix-ExternalLinkLine"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "light"
+          },
+          "changes": {
+            "color": "62, 67, 87"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "dark"
+          },
+          "changes": {
+            "color": "175, 182, 212"
+          }
+        }
+      ]
+    }
+  },
+  "calloutDetection": {
+    "obsidianFallbackForced": false,
+    "obsidian": true,
+    "theme": true,
+    "snippet": true
+  }
+}

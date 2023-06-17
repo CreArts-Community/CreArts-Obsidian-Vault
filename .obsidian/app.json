@@ -1,0 +1,27 @@
+{
+  "newFileLocation": "folder",
+  "newFileFolderPath": "/",
+  "spellcheck": true,
+  "tabSize": 8,
+  "showInlineTitle": false,
+  "trashOption": "local",
+  "showUnsupportedFiles": true,
+  "attachmentFolderPath": "05・Assets/attachments",
+  "promptDelete": false,
+  "useTab": true,
+  "showFrontmatter": false,
+  "foldHeading": false,
+  "pdfExportSettings": {
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "2",
+    "downscalePercent": 100
+  },
+  "showLineNumber": false,
+  "showIndentGuide": false,
+  "spellcheckLanguages": [
+    "de",
+    "en"
+  ],
+  "defaultViewMode": "preview"
+}

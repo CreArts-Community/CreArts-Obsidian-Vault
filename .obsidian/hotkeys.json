@@ -1,0 +1,10 @@
+{
+  "garble-text:toggle-garble-text": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "="
+    }
+  ]
+}
