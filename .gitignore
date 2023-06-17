@@ -12,19 +12,26 @@
 .obsidian/workspaces.json
 
 .trash/*
+!.gitkeep
 
 01・Notes/*
+!.gitkeep
 02・Documents/*
+!.gitkeep
 03・Private/*
+!.gitkeep
 04・Study/*
+!.gitkeep
 
 05・Assets/attachments/*
+!.gitkeep
 05・Assets/banners/*
 !space.jpg
 !space2.jpg
 !space3.jpg
 !space4.jpg
 05・Assets/snippets/*
+!.gitkeep
 05・Assets/templates/*
 
 Sorting
