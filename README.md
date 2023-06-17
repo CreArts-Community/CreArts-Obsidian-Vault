@@ -6,9 +6,6 @@ Drawing inspiration from the Minimal Theme, CreArts-Obsidian embraces a rounded 
 
 By leveraging the power of the Minimal Theme as its base, CreArts-Obsidian provides an enhanced user experience with a focus on creativity and productivity. The project includes a preconfigured Vault template, allowing you to effortlessly set up your Obsidian workspace with the CreArts-Obsidian theme.
 
-Based on the Minimal theme:
-https://github.com/kepano/obsidian-minimal
-
 ## Preview:
 This collection of images showcases a custom UI for Obsidian designed to enhance your note-taking experience. The first image reveals the beautifully crafted Home screen. The second image demonstrates the seamless integration of Google Calendar using the Custom-Frames Plugin, complemented by customized CSS modifications.
 
@@ -104,4 +101,4 @@ Below, you will find a comprehensive list of the Obsidian core plugins and commu
 # Credits:
 CreArts-Obsidian builds on kepano's Minimal theme and adds artistic flair and customization options.
 
-Checkout the Minimal Theme (by [kepano](https://github.com/kepano))
+Checkout the [Minimal Theme](<[Minimal theme](https://github.com/kepano/obsidian-minimal) (by [kepano](https://github.com/kepano))
