@@ -13,6 +13,8 @@ The third image highlights Google Tasks within Obsidian. The fourth image showca
 
 ![image](https://github.com/CorellanStoma/CreArts-Obsidian/assets/58918358/5b2e8724-f796-4430-a09b-290b8ce8b1f6)
 
+<details><summary>Show More Images</summary>
+
 ![image](https://github.com/CorellanStoma/CreArts-Obsidian/assets/58918358/48fdde87-5898-4fd1-992d-7e689687dc5a)
 
 ![image](https://github.com/CorellanStoma/CreArts-Obsidian/assets/58918358/1219d68a-e28c-4ab4-9149-2fbd77f46c2b)
@@ -20,6 +22,7 @@ The third image highlights Google Tasks within Obsidian. The fourth image showca
 ![image](https://github.com/CorellanStoma/CreArts-Obsidian/assets/58918358/24ea8f9d-0059-4906-add1-fa509b25e1e9)
 
 ![image](https://github.com/CorellanStoma/CreArts-Obsidian/assets/58918358/ae1ee903-0f03-4240-a269-ee1b0db72bad)
+</details>
 
 ## Downloads:
 * CreArts-Obsidian:
@@ -35,18 +38,31 @@ The third image highlights Google Tasks within Obsidian. The fourth image showca
 
 ## Configuration
 1. Click on Trust author and enable plugins
+
+<details><summary>Show Image</summary>
+  
 ![image](https://github.com/CorellanStoma/CreArts-Obsidian/assets/58918358/68a8d981-008a-4456-8c58-91f7c9971d7a)
-2. Open the Settings page and go to the Appearance tab.
+</details>
+
+3. Open the Settings page and go to the Appearance tab.
+
+<details><summary>Show Image</summary>
+
 ![image](https://github.com/CorellanStoma/CreArts-Obsidian/assets/58918358/183b9fe7-eda4-43a9-97b1-a759d66c089e)
-- change the font size to ``18``
-- change the zoom level to ``131%``
-- change the Window frame style to ``Obsidian frame``
-3. Restart Obsidian
+</details>
+
+- change the font size to ``18``.
+- change the zoom level to ``131%``.
+- change the Window frame style to ``Obsidian frame``.
+3. Restart your Obsidian Client.
 4. modify the sidebar as you like, you can open the graph and move it to the bottom right (as I did in the preview images, it will save the position).
   - once you open the clock from the sidebar and moved it into the right dock, you can hide the button in the end.
 5. In the last step you can hide the license and readme file or just delete them from the folder. Use rightclick on the file and click on ``Hide File``.
-![image](https://github.com/CorellanStoma/CreArts-Obsidian/assets/58918358/a33ab54f-4d2d-4a4b-bedb-79eca70d7ec1)
 
+<details><summary>Show Image</summary>
+  
+![image](https://github.com/CorellanStoma/CreArts-Obsidian/assets/58918358/a33ab54f-4d2d-4a4b-bedb-79eca70d7ec1)
+</details>
 
 # Used Plugins:
 This project utilizes a range of Obsidian core and community plugins. These plugins expand the capabilities of Obsidian, allowing you to personalize your note-taking and knowledge management experience to suit your needs. 
