@@ -45,6 +45,8 @@ The third image highlights Google Tasks within Obsidian. The fourth image showca
 4. modify the sidebar as you like, you can open the graph and move it to the bottom right (as I did in the preview images, it will save the position).
   - once you open the clock from the sidebar and moved it into the right dock, you can hide the button in the end.
 5. In the last step you can hide the license and readme file or just delete them from the folder. Use rightclick on the file and click on ``Hide File``.
+![image](https://github.com/CorellanStoma/CreArts-Obsidian/assets/58918358/a33ab54f-4d2d-4a4b-bedb-79eca70d7ec1)
+
 
 # Used Plugins:
 This project utilizes a range of Obsidian core and community plugins. These plugins expand the capabilities of Obsidian, allowing you to personalize your note-taking and knowledge management experience to suit your needs. 
