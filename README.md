@@ -21,8 +21,32 @@ The third image highlights Google Tasks within Obsidian. The fourth image showca
 
 ![image](https://github.com/CorellanStoma/CreArts-Obsidian/assets/58918358/ae1ee903-0f03-4240-a269-ee1b0db72bad)
 
-## Used Plugins:
+## Downloads:
+* CreArts-Obsidian:
+[Download Now](https://github.com/CorellanStoma/CreArts-Obsidian/archive/refs/heads/master.zip)
 
+* Quicksand Font:
+[Download Now](https://fonts.google.com/specimen/Quicksand)
+
+## Install:
+1. Download the or clone the full repository
+2. Move the folder to your liked location
+3. Load the folder as your new vault in Obsidian.
+
+## Configuration
+1. Click on Trust author and enable plugins
+![image](https://github.com/CorellanStoma/CreArts-Obsidian/assets/58918358/68a8d981-008a-4456-8c58-91f7c9971d7a)
+2. Open the Settings page and go to the Appearance tab.
+![image](https://github.com/CorellanStoma/CreArts-Obsidian/assets/58918358/183b9fe7-eda4-43a9-97b1-a759d66c089e)
+- change the font size to ``18``
+- change the zoom level to ``131%``
+- change the Window frame style to ``Obsidian frame``
+3. Restart Obsidian
+4. modify the sidebar as you like, you can open the graph and move it to the bottom right (as I did in the preview images, it will save the position).
+  - once you open the clock from the sidebar and moved it into the right dock, you can hide the button in the end.
+5. In the last step you can hide the license and readme file or just delete them from the folder. Use rightclick on the file and click on ``Hide File``.
+
+# Used Plugins:
 This project utilizes a range of Obsidian core and community plugins. These plugins expand the capabilities of Obsidian, allowing you to personalize your note-taking and knowledge management experience to suit your needs. 
 
 Below, you will find a comprehensive list of the Obsidian core plugins and community plugins that are utilized in CreArts-Obsidian. These plugins have been carefully selected to provide you with a well-rounded and feature-rich Obsidian experience.
@@ -88,7 +112,7 @@ Below, you will find a comprehensive list of the Obsidian core plugins and commu
 - [x] Smart Typography
 - [x] Trash Explorer
 
-## Custom Frames
+## Custom Frames:
 
 - [x] Chat GPT
 - [x] Google Calendar* (50% done)*
@@ -97,13 +121,6 @@ Below, you will find a comprehensive list of the Obsidian core plugins and commu
 - [x] Clock
 - [ ] DeepL (10% done)
 - [ ] DeepL Write *(10% done)*
-
-
-# Install
-
-1. Download the or Clone the full repository
-2. Move the folder to your liked location
-3. Load the folder as your new vault in Obsidian.
 
 # Credits:
 CreArts-Obsidian builds on kepano's Minimal theme and adds artistic flair and customization options.
