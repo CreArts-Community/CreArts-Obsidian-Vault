@@ -32,222 +32,218 @@
 <!-- ║ Docs                     ║ Shields                                                                                 ║ -->
 <!-- ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ -->
 
-# Settings-Icons
+# CreArts-Obsidian 
 
-[![Version](https://img.shields.io/github/manifest-json/v/CreArts-Community/Settings-Icons?labelColor=2e343e&color=%23CD0952&style=for-the-badge)](.github/docs/changelog.md)
-[![License](https://img.shields.io/github/license/CreArts-Community/Settings-Icons?labelColor=2e343e&color=%23CD0952&style=for-the-badge)](license)
-[![Downloads](https://img.shields.io/github/downloads/CreArts-Community/Settings-Icons/total?labelColor=2e343e&color=%23CD0952&style=for-the-badge)](https://github.com/CreArts-Community/Settings-Icons/releases)
+[![Version](https://img.shields.io/github/manifest-json/v/CreArts-Community/CreArts-Obsidian?labelColor=2e343e&color=%23CD0952&style=for-the-badge)](.github/docs/changelog.md)
 [![Paypal](https://img.shields.io/badge/Donate-PayPal-blue?&labelColor=2e343e&color=%23CD0952&style=for-the-badge)](https://www.paypal.com/donate/?hosted_button_id=5MQYGQ2FGQDWJ)
-[![Discord](https://img.shields.io/discord/534376415202639903?label=Discord&labelColor=2e343e&color=%23CD0952&style=for-the-badge)](https://discord.gg/8W8E39Z)
+[![Discord](https://img.shields.io/discord/534376415202639903?label=Discord&labelColor=2e343e&color=%23CD0952&style=for-the-badge)](https://discord.gg/jjT2TfWnVn)
 
-**Settings-Icons** ist ein Theme Add-on für [Discord](https://discord.com), das dem Einstellungsmenü Icons hinzufügt. Dieses Projekt ist unter der MIT-Lizenz lizenziert. Obwohl dieses Projekt unter der [MIT License](license) steht, würden wir uns über jede Anerkennung freuen. Settings-Icons ist ein aktiv entwickeltes Theme Add-on, das mit praktisch allen Discord-Modding-Clients kompatibel ist.
+Willkommen bei CreArts-Obsidian, einer angepassten Version des Minimal Themes für Obsidian. Das Minimal-Theme dient als Grundlage für dieses Projekt, aber mit verschiedenen Modifikationen und Erweiterungen, die speziell für CreArts-Obsidian zugeschnitten sind.
 
-![Preview](https://i.imgur.com/lp8p9N9.png)
+CreArts-Obsidian ist vom Minimal-Theme inspiriert und zeichnet sich durch ein abgerundetes und flaches Design aus, das moderne Ästhetik mit dem reizvollen Farbschema Catppuccino kombiniert. Dieses angepasste Theme bietet eine visuell ansprechende und intuitive Schnittstelle für Ihren Obsidian-Tresor.
 
-<!-- ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ -->
-<!-- ║ Docs                     ║ Table of Contents                                                                       ║ -->
-<!-- ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ -->
-
-### Inhaltsverzeichnis
-
-⚡ [Erste Schritte](#erste-schritte)
-
-📑 [Installation](#installation)
-
-🎨 [Personalisierung](#personalisierung)
-
-❓ [Support](#support)
-
-⚖️ [Lizenz](#lizenz)
+CreArts-Obsidian nutzt die Stärken des Minimal-Themas als Basis und bietet eine verbesserte Benutzererfahrung mit Fokus auf Kreativität und Produktivität. Das Projekt enthält eine vorkonfigurierte Tresor-Vorlage, die es Ihnen ermöglicht, Ihren Obsidian-Arbeitsbereich mühelos mit dem CreArts-Obsidian-Theme einzurichten.
 
 <!-- ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ -->
-<!-- ║ Docs                     ║ Getting Started                                                                         ║ -->
+<!-- ║ Docs                     ║ Preview                                                                                 ║ -->
 <!-- ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ -->
 
-## Erste Schritte
+## Preview:
+Diese Sammlung von Bildern zeigt eine benutzerdefinierte Benutzeroberfläche für Obsidian, die das Erfassen von Notizen erleichtert. Das erste Bild zeigt den schön gestalteten Startbildschirm. Das zweite Bild zeigt die nahtlose Integration von Google Calendar mit dem Custom-Frames Plugin, ergänzt durch angepasste CSS-Modifikationen.
 
-Um dieses Theme-Add-on zu verwenden, benötigen Sie einen Client-Mod oder ein Browser-Plugin, das das Laden von benutzerdefiniertem CSS ermöglicht. Es gibt mehrere Möglichkeiten, die erste und empfohlene Variante wäre ein Client-Mod, zum Beispiel [Replugged](https://github.com/replugged-org/replugged), [BetterDiscord](https://github.com/BetterDiscord/BetterDiscord) oder [GooseMod](https://github.com/GooseMod/GooseMod).
+Das dritte Bild zeigt Google Tasks in Obsidian. Das vierte Bild zeigt eine Chat-Konversation mit der ChatGPT-App. Das fünfte Bild schließlich zeigt die deutsche Wikipedia-Seite. Diese Bilder veranschaulichen die Vielseitigkeit dieses Projekts, das eine kohärente und personalisierte Notizerfahrung bietet.
 
-Wir möchten jedoch darauf hinweisen, dass die Verwendung eines Client-Mods zur Sperrung des Accounts führen kann. Discord geht derzeit nicht aktiv gegen Benutzer von Client-Mods vor. Wenn Sie Bedenken bei der Verwendung einer Client-Mod haben, ist ein CSS-Browser-Plugin wie Stylus möglicherweise die bessere Wahl.
+![image](https://github.com/CorellanStoma/CreArts-Obsidian/assets/58918358/5b2e8724-f796-4430-a09b-290b8ce8b1f6)
 
-Dieses Thema kann auch mit einer Browser-Erweiterung wie [Stylus](https://github.com/openstyles/stylus) verwendet werden, es kann mit [Chromium](https://github.com/chromium/chromium)-basierten Browsern, [Opera](https://addons.opera.com/de/extensions/details/stylus/) oder [Firefox](https://addons.mozilla.org/de/firefox/addon/styl-us/) verwendet werden.
+<details><summary>Show More Images</summary>
 
-> **Note:**
-> Derzeit kann die volle Funktionalität nur mit einer Powercord-basierten Client-Mod wie Replugged gewährleistet werden. 
+![image](https://github.com/CorellanStoma/CreArts-Obsidian/assets/58918358/48fdde87-5898-4fd1-992d-7e689687dc5a)
 
-## Installation
+![image](https://github.com/CorellanStoma/CreArts-Obsidian/assets/58918358/1219d68a-e28c-4ab4-9149-2fbd77f46c2b)
 
-Dieses Thema kann auf verschiedene Arten verwendet werden, mit einem Client-Mod oder im Browser mit einer Erweiterung, die es erlaubt, benutzerdefinierte CSS zu laden. im unteren Abschnitt finden Sie verschiedene Anweisungen.
+![image](https://github.com/CorellanStoma/CreArts-Obsidian/assets/58918358/24ea8f9d-0059-4906-add1-fa509b25e1e9)
+
+![image](https://github.com/CorellanStoma/CreArts-Obsidian/assets/58918358/ae1ee903-0f03-4240-a269-ee1b0db72bad)
+</details>
+
+## Downloads:
+* CreArts-Obsidian:
+[Download Now](https://github.com/CorellanStoma/CreArts-Obsidian/archive/refs/heads/master.zip)
+
+* Quicksand Font:
+[Download Now](https://fonts.google.com/specimen/Quicksand)
 
 <!-- ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ -->
-<!-- ║ Docs                     ║ Installation (CSS Import)                                                               ║ -->
+<!-- ║ Docs                     ║ Install                                                                                 ║ -->
 <!-- ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ -->
 
-<!-- CSS Import -->
-<details>
-<summary><b>CSS Import</b></summary>
+## Install:
+1. Laden Sie das vollständige Repository herunter oder klonen Sie es.
+2. Verschieben Sie den Ordner an den gewünschten Ort.
+3. Laden Sie den Ordner als Ihren neuen Tresor in Obsidian.
 
-* **Schritt 1:** Kopieren Sie den Link Importieren:
+<!-- ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ -->
+<!-- ║ Docs                     ║ Configuration                                                                           ║ -->
+<!-- ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ -->
 
-* **Schritt 2:** Fügen Sie den Code über Ihrem Theme-Code ein oder laden Sie ihn über Quick CSS.
+## Configuration
+1. Klicken Sie auf Autor vertrauen und aktivieren Sie Plugins
 
-```css
-@import url("https://crearts-community.github.io/Settings-Icons/clients/settings-icons.theme.css");
-```
+<details><summary>Show Image</summary>
+  
+![image](https://github.com/CreArts-Community/CreArts-Obsidian/assets/58918358/45cea827-7772-4f18-9fa0-146c50a96c38)
+</details>
+
+3. Öffnen Sie die Seite "Einstellungen" und gehen Sie zur Registerkarte "Erscheinungsbild".
+
+<details><summary>Show Image</summary>
+
+![image](https://github.com/CreArts-Community/CreArts-Obsidian/assets/58918358/f58ece54-8c44-4547-80eb-0b07f6b678c6)
+</details>
+
+- Ändern Sie die Schriftgröße auf ``18``.
+- Ändern Sie die Zoomstufe auf ``131%``.
+- Ändern Sie den Stil des Fensterrahmens auf ``Obsidian frame``.
+3. Starten Sie Ihren Obsidian Client neu.
+4. Ändern Sie die Seitenleiste nach Ihren Wünschen, Sie können den Graphen öffnen und ihn nach unten rechts verschieben (wie ich es in den Vorschaubildern getan habe, es wird die Position speichern).
+  - Wenn Sie die Uhr aus der Seitenleiste geöffnet und in das rechte Dock verschoben haben, können Sie die Schaltfläche am Ende ausblenden.
+5. Im letzten Schritt können Sie die Lizenz- und Readme-Datei ausblenden oder einfach aus dem Ordner löschen. Klicken Sie dazu mit der rechten Maustaste auf die Datei und wählen Sie ``Datei ausblenden``.
+
+<details><summary>Show Image</summary>
+  
+![image](https://github.com/CreArts-Community/CreArts-Obsidian/assets/58918358/8a247b20-fc4e-4355-a050-4f15184a69a6)
 </details>
 
 <!-- ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ -->
-<!-- ║ Docs                     ║ Installation (Replugged)                                                                ║ -->
+<!-- ║ Docs                     ║ Plugins                                                                                 ║ -->
 <!-- ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ -->
 
-<details>
-<summary><b>Replugged</b></summary>
+## Used Plugins:
+Dieses Projekt nutzt eine Reihe von Obsidian Core- und Community-Plugins. Diese Plugins erweitern die Möglichkeiten von Obsidian und ermöglichen es Ihnen, Ihre Notizen und Ihr Wissensmanagement nach Ihren Bedürfnissen zu gestalten. 
 
-* **Schritt 1:** Öffnen Sie die **Eingabeaufforderung** / **Terminal**
+Nachfolgend finden Sie eine umfassende Liste der Obsidian Core-Plugins und Community-Plugins, die in CreArts-Obsidian verwendet werden. Diese Plugins wurden sorgfältig ausgewählt, um Ihnen ein abgerundetes und funktionsreiches Obsidian-Erlebnis zu bieten.
 
-* **Schritt 2:** Fügen Sie den folgenden Code in Ihr Terminal ein:
+<details><summary>Core Plugins anzeigen</summary>
 
-```bash
-cd replugged/themes
-```
-
-```bash
-git clone https://github.com/CreArts-Community/Settings-Icons.git
-```
-
-* Oder benutzen Sie diesen Link:
-https://replugged.dev/install?url=https://github.com/CreArts-Community/Settings-Icons
-
+### Core Plugins:
+- [ ] Audio recorder
+- [x] Backlinks
+- [x] Bookmarks
+- [x] Canvas
+- [x] Command palette
+- [ ] Daily notes
+- [x] File recovery
+- [x] Files
+- [ ] Format converter
+- [x] Graph view
+- [ ] Note composer
+- [x] Outgoing Links
+- [x] Outline
+- [x] Page preview
+- [ ] Publish
+- [ ] Quick switchre
+- [ ] Random note
+- [x] Search
+- [x] Slash commands
+- [ ] Slides
+- [ ] Sync
+- [x] Tags
+- [x] Templates
+- [ ] Unique note creator
+- [x] Word count
+- [ ] Workspaces
 </details>
 
-<!-- ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ -->
-<!-- ║ Consilio                 ║ Installation (Consilio)                                                                 ║ -->
-<!-- ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ -->
+<details><summary>Community-Plugins anzeigen</summary>
 
-<details>
-<summary><b>Consilio</b></summary>
-
-* **Schritt 1:** Öffnen Sie die **Eingabeaufforderung** / **Terminal**
-
-* **Schritt 2:** Fügen Sie den folgenden Code in Ihr Terminal ein:
-
-```bash
-cd consilio/src/themes
-```
-
-```bash
-git clone https://github.com/CreArts-Community/Settings-Icons.git
-```
+### Community Plugins:
+- [x] Admonition
+- [x] Banners
+- [x] Better Word Count
+- [x] Buttons
+- [x] Calendar
+- [x] Callout Manager
+- [x] Custom Frames
+- [x] Dictionary
+- [x] Editing Toolbar
+- [x] Editor Synta Highlight
+- [x] Emoji Shortcodes
+- [x] File Explorer Note Count
+- [x] File Hider
+- [x] Highlightr
+- [x] Home tab
+- [x] Homepage
+- [x] Icon Folder
+- [x] Image Gallery
+- [x] Kanban
+- [x] Minimal Theme Settings
+- [x] Natural Language Dates
+- [x] Obsidian Columns
+- [x] Paste URL into selection
+- [x] Plugin Groups
+- [x] Reading Time
+- [x] Recent Files
+- [x] Remember cursor position
+- [x] Reveal Active File Button
+- [x] Simple Embeds
+- [x] Smart Typography
+- [x] Trash Explorer
 </details>
 
-<!-- ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ -->
-<!-- ║ Docs                     ║ Installation (BetterDiscord)                                                            ║ -->
-<!-- ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ -->
+<details><summary>Zeige Custom Frames Status</summary>
 
-<details>
-<summary><b>BetterDiscord</b></summary>
+### Custom Frames:
 
-* **Schritt 1:** Gehen Sie zur [Release](https://github.com/CreArts-Community/Settings-Icons/releases) Seite dieser Repo.
-
-* **Schritt 2:** Klicken Sie auf `Settings-Icons.theme.css` um diese Datei herunterzuladen.
-
-* **Schritt 3:** Fügen Sie die heruntergeladene Datei in den Theme ordner von **BetterDiscord** ein.
+- [x] Chat GPT
+- [x] Google Calendar* (50% done)*
+- [x] Google Tasks
+- [x] Wikipedia *(German Version)*
+- [x] Clock
+- [ ] DeepL (10% done)
+- [ ] DeepL Write *(10% done)*
 </details>
-
-<!-- ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ -->
-<!-- ║ Docs                     ║ Installation (GooseMod)                                                                 ║ -->
-<!-- ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ -->
-
-<details>
-<summary><b>GooseMod</b></summary>
-
-* **Schritt 1:** Öffnen Sie den Theme Store von **GooseMod** und suchen Sie nach "**Settings-Icons**".
-
-
-* **Schritt 2:** Drücken Sie den Installations Button.
-</details>
-
-<!-- ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ -->
-<!-- ║ Docs                     ║ Installation (Cumcord)                                                                  ║ -->
-<!-- ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ -->
-
-<!-- Cumcord -->
-<details>
-<summary><b>Cumcord</b></summary>
-
-* **Step 1:** Installieren Sie das [Cumstain](https://github.com/yellowsink/cc-plugins) Plugin für Cumcord.
-
-* **Step 2:** Öffnen Sie die Option "Neues Thema", die in den Einstellungen erscheint.
-
-* **Step 3:** Installieren Sie das Theme über diesen Link:
-```
-https://crearts-community.github.io/Settings-Icons/clients/settings-icons.theme.css
-```
-
-* **Optional:** Fügen Sie den Theme-Store-Link hinzu:
-```
-https://crearts-community.github.io/CreArts-Discord
-```
-</details>
-
-<!-- ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ -->
-<!-- ║ Docs                     ║ Installation (Stylus)                                                                   ║ -->
-<!-- ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ -->
-
-<!-- Stylus -->
-<details>
-<summary><b>Stylus</b></summary>
-
-* **Step 1:** Installieren Sie die [**Stylus**](https://add0n.com/stylus.html)-Erweiterung für [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) / [Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/) / [Opera](https://github.com/openstyles/stylus/wiki/Opera,-Outdated-Stylus).
-
-* **Step 2:** Rufen Sie nach der Installation [diesen Link](https://github.com/CreArts-Community/Settings-Icons/releases/latest/download/settings-icons.user.css) auf.
-
-* **Step 3:** Klicken Sie auf den **Install Style** Button.
-
-</details>
-
-<!-- ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ -->
-<!-- ║ Docs                     ║ Customization                                                                           ║ -->
-<!-- ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ -->
-
-## Personalisierung
-
-Das Theme-Add-on kann mit einigen [Variablen](.github/docs/translations/variables/english.md) angepasst werden. Sie können diese in Ihrem eigenen Code verwenden oder die Custom CSS oder Quick CSS einiger Client-Mods nutzen, um Anpassungen vorzunehmen.
 
 <!-- ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ -->
 <!-- ║ Docs                     ║ Support                                                                                 ║ -->
 <!-- ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ -->
 
 ## Support
+Wenn Sie Probleme haben, Bugs gefunden haben oder Wünsche für dieses Theme haben, erstellen Sie ein [Issue] (https://github.com/CreArts-Community/Settings-Icons/issues) oder treten Sie unserer [Community] (https://discord.gg/8W8E39Z) bei und kommunizieren Sie mit uns.
 
-Wenn Sie Probleme haben, Bugs gefunden haben oder Wünsche für dieses Theme haben, erstellen Sie einen [Issue](https://github.com/CreArts-Community/Settings-Icons/issues) oder treten Sie unserer [Community](https://discord.gg/8W8E39Z) bei und kommunizieren Sie mit uns.
+<!-- ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ -->
+<!-- ║ Docs                     ║ Credits                                                                                 ║ -->
+<!-- ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ -->
+
+## Credits:
+CreArts-Obsidian baut auf dem Minimal-Theme von kepano auf und fügt künstlerisches Flair und Anpassungsoptionen hinzu.
+
+Probieren Sie das [Minimal-Thema](https://github.com/kepano/obsidian-minimal) (von [kepano](https://github.com/kepano))
 
 <!-- ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ -->
 <!-- ║ Docs                     ║ License                                                                                 ║ -->
 <!-- ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ -->
 
-## Lizenz
-
+## License
 ```
-MIT License
+MIT-Lizenz
 
-Copyright (c) 2021 CreArts-Community
+Urheberrecht (c) 2022-2023 Daniel Klingel (@corellan)
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+Hiermit wird jeder Person, die eine Kopie dieser Software und der zugehörigen Dokumentationsdateien (die "Software") erhält, die kostenlose Erlaubnis erteilt
+dieser Software und der zugehörigen Dokumentationsdateien (die "Software") erhält, die Erlaubnis, die Software
+der Software ohne Einschränkung zu handeln, einschließlich und ohne Einschränkung der Rechte
+zu nutzen, zu kopieren, zu modifizieren, zusammenzuführen, zu veröffentlichen, zu vertreiben, zu unterlizenzieren und/oder zu verkaufen
+der Software zu nutzen, zu kopieren, zu modifizieren, zu veröffentlichen, zu vertreiben, zu unterlizenzieren und/oder zu verkaufen, und
+zu erlauben, dies zu tun, vorbehaltlich der folgenden Bedingungen:
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+Der obige Copyright-Hinweis und dieser Genehmigungshinweis müssen in allen Kopien oder wesentlichen Teilen der Software enthalten sein.
+Kopien oder wesentlichen Teilen der Software enthalten sein.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+DIE SOFTWARE WIRD OHNE MÄNGELGEWÄHR UND OHNE JEGLICHE AUSDRÜCKLICHE ODER
+ODER STILLSCHWEIGEND, EINSCHLIESSLICH, ABER NICHT BESCHRÄNKT AUF DIE GEWÄHRLEISTUNG DER MARKTGÄNGIGKEIT,
+EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTVERLETZUNG VON RECHTEN DRITTER. IN KEINEM FALL SIND DIE
+DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR JEGLICHE ANSPRÜCHE, SCHÄDEN ODER ANDERE
+HAFTUNG, SEI ES AUS VERTRAG, UNERLAUBTER HANDLUNG ODER ANDERWEITIG, DIE SICH AUS,
+AUS ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER DEM SONSTIGEN UMGANG MIT DER
 SOFTWARE.
 ```
