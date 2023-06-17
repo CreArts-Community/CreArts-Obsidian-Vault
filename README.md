@@ -46,6 +46,10 @@ Drawing inspiration from the Minimal Theme, CreArts-Obsidian embraces a rounded 
 
 By leveraging the power of the Minimal Theme as its base, CreArts-Obsidian provides an enhanced user experience with a focus on creativity and productivity. The project includes a preconfigured Vault template, allowing you to effortlessly set up your Obsidian workspace with the CreArts-Obsidian theme.
 
+<!-- ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ -->
+<!-- ║ Docs                     ║ Preview                                                                                 ║ -->
+<!-- ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ -->
+
 ## Preview:
 This collection of images showcases a custom UI for Obsidian designed to enhance your note-taking experience. The first image reveals the beautifully crafted Home screen. The second image demonstrates the seamless integration of Google Calendar using the Custom-Frames Plugin, complemented by customized CSS modifications.
 
@@ -71,10 +75,18 @@ The third image highlights Google Tasks within Obsidian. The fourth image showca
 * Quicksand Font:
 [Download Now](https://fonts.google.com/specimen/Quicksand)
 
+<!-- ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ -->
+<!-- ║ Docs                     ║ Install                                                                                 ║ -->
+<!-- ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ -->
+
 ## Install:
 1. Download or clone the full repository.
 2. Move the folder to the desired location.
 3. Load the folder as your new vault in Obsidian.
+
+<!-- ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ -->
+<!-- ║ Docs                     ║ Configuration                                                                           ║ -->
+<!-- ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ -->
 
 ## Configuration
 1. Click on Trust author and enable plugins
@@ -104,14 +116,18 @@ The third image highlights Google Tasks within Obsidian. The fourth image showca
 ![image](https://github.com/CorellanStoma/CreArts-Obsidian/assets/58918358/a33ab54f-4d2d-4a4b-bedb-79eca70d7ec1)
 </details>
 
-# Used Plugins:
+<!-- ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ -->
+<!-- ║ Docs                     ║ Plugins                                                                                 ║ -->
+<!-- ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ -->
+
+## Used Plugins:
 This project utilizes a range of Obsidian core and community plugins. These plugins expand the capabilities of Obsidian, allowing you to personalize your note-taking and knowledge management experience to suit your needs. 
 
 Below, you will find a comprehensive list of the Obsidian core plugins and community plugins that are utilized in CreArts-Obsidian. These plugins have been carefully selected to provide you with a well-rounded and feature-rich Obsidian experience.
 
 <details><summary>Show Core Plugins</summary>
 
-## Core Plugins:
+### Core Plugins:
 - [ ] Audio recorder
 - [x] Backlinks
 - [x] Bookmarks
@@ -142,7 +158,7 @@ Below, you will find a comprehensive list of the Obsidian core plugins and commu
 
 <details><summary>Show Community Plugins</summary>
 
-## Community Plugins:
+### Community Plugins:
 - [x] Admonition
 - [x] Banners
 - [x] Better Word Count
@@ -178,7 +194,7 @@ Below, you will find a comprehensive list of the Obsidian core plugins and commu
 
 <details><summary>Show Custom Frames Status</summary>
 
-## Custom Frames:
+### Custom Frames:
 
 - [x] Chat GPT
 - [x] Google Calendar* (50% done)*
@@ -189,21 +205,18 @@ Below, you will find a comprehensive list of the Obsidian core plugins and commu
 - [ ] DeepL Write *(10% done)*
 </details>
 
-
-
 <!-- ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ -->
 <!-- ║ Docs                     ║ Support                                                                                 ║ -->
 <!-- ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ -->
 
 ## Support
-
 If you have problems, found some bugs or have wishes for this theme, create a [Issue](https://github.com/CreArts-Community/Settings-Icons/issues) or join our [community](https://discord.gg/8W8E39Z) and communicate with us.
 
 <!-- ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ -->
 <!-- ║ Docs                     ║ Credits                                                                                 ║ -->
 <!-- ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ -->
 
-# Credits:
+## Credits:
 CreArts-Obsidian builds on kepano's Minimal theme and adds artistic flair and customization options.
 
 Checkout the [Minimal theme](https://github.com/kepano/obsidian-minimal) (by [kepano](https://github.com/kepano))
@@ -213,7 +226,6 @@ Checkout the [Minimal theme](https://github.com/kepano/obsidian-minimal) (by [ke
 <!-- ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ -->
 
 ## License
-
 ```
 MIT License
 
@@ -237,27 +249,3 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
