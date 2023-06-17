@@ -29,8 +29,8 @@ The third image highlights Google Tasks within Obsidian. The fourth image showca
 [Download Now](https://fonts.google.com/specimen/Quicksand)
 
 ## Install:
-1. Download the or clone the full repository
-2. Move the folder to your liked location
+1. Download or clone the full repository.
+2. Move the folder to the desired location.
 3. Load the folder as your new vault in Obsidian.
 
 ## Configuration
