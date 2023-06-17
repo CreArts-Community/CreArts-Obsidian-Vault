@@ -93,14 +93,14 @@ The third image highlights Google Tasks within Obsidian. The fourth image showca
 
 <details><summary>Show Image</summary>
   
-![image](https://github.com/CorellanStoma/CreArts-Obsidian/assets/58918358/68a8d981-008a-4456-8c58-91f7c9971d7a)
+![image](https://github.com/CreArts-Community/CreArts-Obsidian/assets/58918358/45cea827-7772-4f18-9fa0-146c50a96c38)
 </details>
 
 3. Open the Settings page and go to the Appearance tab.
 
 <details><summary>Show Image</summary>
 
-![image](https://github.com/CorellanStoma/CreArts-Obsidian/assets/58918358/183b9fe7-eda4-43a9-97b1-a759d66c089e)
+![image](https://github.com/CreArts-Community/CreArts-Obsidian/assets/58918358/f58ece54-8c44-4547-80eb-0b07f6b678c6)
 </details>
 
 - change the font size to ``18``.
@@ -113,7 +113,7 @@ The third image highlights Google Tasks within Obsidian. The fourth image showca
 
 <details><summary>Show Image</summary>
   
-![image](https://github.com/CorellanStoma/CreArts-Obsidian/assets/58918358/a33ab54f-4d2d-4a4b-bedb-79eca70d7ec1)
+![image](https://github.com/CreArts-Community/CreArts-Obsidian/assets/58918358/8a247b20-fc4e-4355-a050-4f15184a69a6)
 </details>
 
 <!-- ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ -->
