@@ -59,37 +59,37 @@ Below, you will find a comprehensive list of the Obsidian core plugins and commu
 - [ ] Workspaces
 
 ## Community Plugins:
-* Admonition
-* Banners
-* Better Word Count
-* Buttons
-* Calendar
-* Callout Manager
-* Custom Frames
-* Dictionary
-* Editing Toolbar
-* Editor Synta Highlight
-* Emoji Shortcodes
-* File Explorer Note Count
-* File Hider
-* Highlightr
-* Home tab
-* Homepage
-* Icon Folder
-* Image Gallery
-* Kanban
-* Minimal Theme Settings
-* Natural Language Dates
-* Obsidian Columns
-* Paste URL into selection
-* Plugin Groups
-* Reading Time
-* Recent Files
-* Remember cursor position
-* Reveal Active File Button
-* Simple Embeds
-* Smart Typography
-* Trash Explorer
+- [x] Admonition
+- [x] Banners
+- [x] Better Word Count
+- [x] Buttons
+- [x] Calendar
+- [x] Callout Manager
+- [x] Custom Frames
+- [x] Dictionary
+- [x] Editing Toolbar
+- [x] Editor Synta Highlight
+- [x] Emoji Shortcodes
+- [x] File Explorer Note Count
+- [x] File Hider
+- [x] Highlightr
+- [x] Home tab
+- [x] Homepage
+- [x] Icon Folder
+- [x] Image Gallery
+- [x] Kanban
+- [x] Minimal Theme Settings
+- [x] Natural Language Dates
+- [x] Obsidian Columns
+- [x] Paste URL into selection
+- [x] Plugin Groups
+- [x] Reading Time
+- [x] Recent Files
+- [x] Remember cursor position
+- [x] Reveal Active File Button
+- [x] Simple Embeds
+- [x] Smart Typography
+- [x] Trash Explorer
 
 ## Custom Frames
 
@@ -102,4 +102,6 @@ Below, you will find a comprehensive list of the Obsidian core plugins and commu
 - [ ] DeepL Write *(10% done)*
 
 # Credits:
-* Minimal Theme ([kepano](https://github.com/kepano))
+CreArts-Obsidian builds on kepano's Minimal theme and adds artistic flair and customization options.
+
+Checkout the Minimal Theme (by [kepano](https://github.com/kepano))
