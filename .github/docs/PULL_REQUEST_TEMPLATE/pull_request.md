@@ -33,13 +33,6 @@ Which operating system do you use?
 - [ ] Windows
 - [ ] macOS
 
-**tested with**:
-- [ ] Powercord:
-- [ ] GooseMod:
-- [ ] BetterDiscord:
-- [ ] Vizality:
-- [ ] Web:
-
 # Checklist:
 
 - [ ] My code follows the style guidelines of this project
