@@ -1,0 +1,11 @@
+{
+	"id": "copy-url-in-preview",
+	"name": "Copy Image and URL context menu",
+	"version": "1.5.0",
+	"minAppVersion": "0.16.3",
+	"description": "Copy Image, Copy URL and Open PDF externally context menu in reading view (formerly preview mode)",
+	"author": "NomarCub",
+	"authorUrl": "https://github.com/NomarCub",
+	"fundingUrl": "https://ko-fi.com/nomarcub",
+	"isDesktopOnly": false
+}

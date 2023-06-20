@@ -1,6 +1,7 @@
 ---
 tag: template, gallery
 publish: false
+cssClass: gallery
 ---
 # Gallery
 --- 

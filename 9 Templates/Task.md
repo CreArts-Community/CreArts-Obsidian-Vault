@@ -1,8 +1,9 @@
 ---
 tag: template, task
 publish: false
+cssClass: task
 ---
-Task
+# Task
 --- 
 
 ## My Tasks

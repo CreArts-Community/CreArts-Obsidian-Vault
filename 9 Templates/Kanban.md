@@ -1,6 +1,7 @@
 ---
 tag: template, kanban
 publish: false
+cssClass: kanban
 kanban-plugin: basic
 ---
 
