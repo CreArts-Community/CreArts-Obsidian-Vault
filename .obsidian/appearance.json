@@ -10,10 +10,21 @@
   "enabledCssSnippets": [
     "vars",
     "clutter-free-headings",
-    "crearts",
     "chat-gpt",
     "crearts - canvas",
-    "media-grid-snippet"
+    "media-grid-snippet",
+    "crearts-test",
+    "crearts",
+    "crearts-remove-scrollbars",
+    "crearts-vault-header",
+    "crearts-remove-icons",
+    "crearts-justify-text",
+    "crearts-hide-folder-number",
+    "crearts-folder-header",
+    "crearts-folder-description",
+    "crearts-hover",
+    "crearts-folder-highlight",
+    "crearts-hide-files"
   ],
   "nativeMenus": false
 }

@@ -17,10 +17,8 @@
   "recent-files-obsidian",
   "obsidian-kanban",
   "obsidian-banners",
-  "obsidian-trash-explorer",
   "obsidian-image-gallery",
   "emoji-shortcodes",
-  "obsidian-dictionary-plugin",
   "simple-embeds",
   "obsidian-plugin-groups",
   "obsidian-admonition",
@@ -28,6 +26,10 @@
   "obsidian-columns",
   "callout-manager",
   "home-tab",
-  "obsidian-custom-frames",
-  "OA-file-hider"
+  "OA-file-hider",
+  "obsidian-hider",
+  "dataview",
+  "obsidian-sortable",
+  "flashcards-obsidian",
+  "obsidian-custom-frames"
 ]

@@ -12,15 +12,14 @@
 /* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
 
 .theme-dark, .app-container{
+  --crearts-background-secondary: #2a2d3b;
+
   /* Radius */
   --radius-primary: 18px;
   --radius-secondary: 12px;
   --radius-tertiary: 6px;
 
-  --custom-background-primary: #303445;
-  --custom-background-secondary: #2a2d3b;
-  --custom-background-tertiary: #242633;
-  --custom-color-primary: #c5d0f4;
+  --crearts-text-primary: var(--tx1);
 
   /* Layout */
   --layout-margin: 8px;
@@ -52,9 +51,11 @@
   margin-bottom: var(--layout-titlebar) !important;
 }
 
+/*
 .mod-top-right-space .workspace-tab-container {
   margin-bottom: var(--layout-margin) !important;
 }
+*/
 
 .workspace-tabs .workspace-leaf .view-content {
   width: unset !important;
@@ -65,13 +66,13 @@
 /* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
 
 .excalidraw.theme--dark, .theme-dark, .theme-light, .theme-light.minimal-light-contrast .titlebar, .theme-light.minimal-light-contrast.is-mobile .workspace-drawer.mod-left, .theme-light.minimal-light-contrast.minimal-status-off .status-bar, body .excalidraw {
-  --titlebar-background-focused: var(--custom-background-tertiary) !important;
+  --titlebar-background-focused: var(--bg2) !important;
   --text-on-accent: #FFFFFF !important;
 }
 
 /* Background */
 .is-frameless:not(.is-hidden-frameless) {
-  background: var(--custom-background-tertiary);
+  background: var(--bg2);
 }
 
 /* No Icons */
@@ -82,13 +83,13 @@
 
 /* Minimize Button */
 .mod-windows .titlebar-button.mod-minimize {
-  color: var(--custom-color-primary);
+  color: var(--crearts-text-primary);
 }
 
 /* Maximize Button */
 .mod-windows .titlebar-button.mod-maximize:after {
   content: "";
-  background: var(--custom-color-primary);
+  background: var(--crearts-text-primary);
   width: 16px;
   height: 16px;
   mask: var(--icon);
@@ -99,7 +100,7 @@
 /* Close Button */
 .mod-windows .titlebar-button.mod-close:after {
   content: "";
-  background: var(--custom-color-primary);
+  background: var(--crearts-text-primary);
   width: 16px;
   height: 16px;
   mask: var(--icon);
@@ -126,7 +127,7 @@
 /* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
 
 .status-bar {
-  background: var(--custom-background-tertiary) !important;
+  background: var(--bg2) !important;
   width: 100%;
   border-radius: 0px;
   border-top: var(--tab-outline-width) solid var(--tab-outline-color);
@@ -139,7 +140,7 @@
 
 /* Header */
 .mod-root .view-header {
-  background: var(--custom-background-secondary) !important;
+  background: var(--crearts-background-secondary) !important;
   border-radius: var(--radius-secondary) !important;
   margin-top: 8px;
   margin-right: var(--layout-margin) !important;
@@ -149,39 +150,57 @@
 }
 
 /* Content */
-.mod-root .workspace-tabs .workspace-leaf .view-content {
-  background: var(--custom-background-secondary) !important;
+.workspace .view-content {
+  background: var(--crearts-background-secondary) !important;
   border-radius: var(--radius-secondary) !important;
   margin: 8px 8px calc(var(--layout-margin) + var(--layout-margin)) 8px;
 }
 
 /* Kanban*/
 .mod-root .kanban-plugin {
-  background: var(--custom-background-secondary) !important;
+  background: var(--crearts-background-secondary) !important;
   border-radius: var(--radius-secondary) !important;
 }
 
 /* Canvas */
 .mod-root .canvas-wrapper {
-  background: var(--custom-background-secondary);
-}
-
-/* Document */
-.pdf-toolbar {
-  background-color: var(--custom-background-secondary);
-}
-
-.pdf-viewer {
-  background-color: var(--custom-background-secondary);
-}
-
-.pdf-container ::-webkit-scrollbar {
-  display: none !important;
+  background: var(--crearts-background-secondary);
 }
 
 /* Image */
 .image-container img {
   border-radius: 12px !important;
+}
+
+/* Document */
+[data-type="pdf"] .view-content {
+  background: transparent !important;
+  flex-direction: column-reverse !important;
+}
+
+[data-type="pdf"] .pdf-sidebar-container {
+  background: transparent;
+  margin-right: 200px !important;
+  padding-right: var(--layout-margin);
+}
+
+[data-type="pdf"] .pdf-thumbnail-view {
+  background: var(--crearts-background-secondary) !important;
+  border-radius: var(--radius-secondary) !important;
+}
+
+[data-type="pdf"] .pdf-toolbar {
+  align-items: stretch;
+  background: var(--crearts-background-secondary);
+  border-radius: 12px;
+  margin-top: 20px;
+  border: none;
+}
+
+[data-type="pdf"] .pdf-viewer-container {
+  background: var(--crearts-background-secondary) !important;
+  border-radius: var(--radius-secondary) !important;
+  margin-left: var(--layout-margin);
 }
 
 /* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
@@ -190,7 +209,7 @@
 
 /* Ribbon */
 .workspace-ribbon {
-  background: var(--custom-background-secondary) !important;
+  background: var(--crearts-background-secondary) !important;
   border-radius: var(--radius-secondary);
   margin: calc(40px + var(--layout-margin) + var(--layout-margin)) var(--layout-margin) calc(var(--layout-margin) + var(--layout-margin) + var(--layout-titlebar)) calc(var(--layout-margin) + var(--layout-margin)) !important;
   border: none;
@@ -206,28 +225,83 @@
 }
 
 /* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Custom CSS               ║ Sidebar Button                                                                          ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+/* Background */
+body:not(.is-grabbing) .tree-item-self.is-clickable:hover  {
+  background: var(--interactive-accent)
+}
+
+/* Name */
+body:not(.is-grabbing) .tree-item-self.is-clickable:hover .tree-item-inner  {
+  color: white;
+}
+
+/* Icon */
+body:not(.is-grabbing) .tree-item-self.is-clickable:hover .obsidian-icon-folder-icon path {
+  fill: white !important;
+}
+
+/* Collapse */
+body:not(.is-grabbing) .tree-item-self.is-clickable:hover   .collapse-icon svg.svg-icon {
+  color: white !important;
+}
+
+/* Description */
+body:not(.is-grabbing) .tree-item-self.is-clickable:hover .tree-item-inner::after  {
+  opacity: 100%;
+  color: white;
+}
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
 /* ║ Custom CSS               ║ Sidebar (Left)                                                                          ║ */
 /* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
 
 /* Nav */
 .mod-left-split .nav-header {
-  background: var(--custom-background-secondary);
+  background: var(--crearts-background-secondary);
   border-radius: var(--radius-secondary);
   margin: var(--layout-margin);
   min-height: 44px;
 }
 
 .mod-left-split .view-content {
-  background: var(--custom-background-secondary);
+  background: var(--crearts-background-secondary);
   border-radius: var(--radius-secondary);
   margin: var(--layout-margin) var(--layout-margin) calc(var(--layout-margin) + var(--layout-margin)) var(--layout-margin);
 }
 
 .mod-left-split .nav-files-container {
-  background: var(--custom-background-secondary);
+  background: var(--crearts-background-secondary);
   border-radius: var(--radius-secondary);
   margin: var(--layout-margin) var(--layout-margin) calc(var(--layout-margin) + var(--layout-margin)) var(--layout-margin);
 }
+
+/* Vault Header */
+.nav-folder.mod-root > .nav-folder-title {
+  padding-left: var(--layout-margin) !important;
+  margin-top: var(--layout-margin);
+}
+
+/* Left Sidebar */
+.nav-files-container {
+  margin-bottom: 0px !important;
+}
+
+.mod-left-split .mod-top-left-space .workspace-tab-container {
+  margin-bottom: var(--layout-margin) !important;
+}
+
+.mod-left-split .mod-top-left-space .view-content {
+  margin-bottom: 0px !important;
+}
+
+.mod-left-split .mod-top-left-space .search-result-container {
+  margin-bottom: 0px !important;
+}
+
+
 
 /* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
 /* ║ Custom CSS               ║ Sidebar (Right)                                                                         ║ */
@@ -235,20 +309,20 @@
 
 /* Nav */
 .mod-right-split .nav-header {
-  background: var(--custom-background-secondary);
+  background: var(--crearts-background-secondary);
   border-radius: var(--radius-secondary);
   margin: var(--layout-margin);
   min-height: 44px;
 }
 
 .mod-right-split .view-content {
-  background: var(--custom-background-secondary);
+  background: var(--crearts-background-secondary);
   border-radius: var(--radius-secondary);
   margin: var(--layout-margin) var(--layout-margin) calc(var(--layout-margin) + var(--layout-margin)) var(--layout-margin);
 }
 
 body:not(.sidebar-tabs-underline):not(.sidebar-tabs-index):not(.sidebar-tabs-square) .workspace>.workspace-split:not(.mod-root) .workspace-tabs:not(.mod-top) .workspace-tab-header-container {
-  background: var(--custom-background-secondary);
+  background: var(--crearts-background-secondary);
   border-radius: var(--radius-secondary);
 
   margin: var(--layout-margin) var(--layout-margin) 0px var(--layout-margin);
@@ -256,26 +330,39 @@ body:not(.sidebar-tabs-underline):not(.sidebar-tabs-index):not(.sidebar-tabs-squ
   min-height: 44px;
 }
 
+/* Right Sidebar */
+.mod-right-split .workspace-tab-container {
+  margin-bottom: var(--layout-margin) !important;
+}
+
+body:not(.sidebar-color) .mod-right-split {
+  padding-bottom: var(--layout-margin) !important;
+}
+
+.mod-right-split .view-content:not(.custom-frames-view) {
+  margin-top: 0px !important;
+}
+
 /* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
 /* ║ Custom CSS               ║ Search                                                                                  ║ */
 /* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
 
 .search-row {
-  background: var(--custom-background-secondary);
+  background: var(--crearts-background-secondary);
   padding: 8px;
   border-radius: var(--radius-secondary);
   margin-bottom: 0px;
 }
 
 .search-results-info {
-  background: var(--custom-background-secondary);
+  background: var(--crearts-background-secondary);
   margin-top: calc(var(--layout-margin) + var(--layout-margin));
   border-radius: var(--radius-secondary);
   height: 44px;
 }
 
 .search-result-container {
-  background: var(--custom-background-secondary) !important;
+  background: var(--crearts-background-secondary) !important;
   border-radius: var(--radius-secondary);
   margin: calc(var(--layout-margin) + var(--layout-margin)) var(--layout-margin) var(--layout-margin) var(--layout-margin);
   border: none;
@@ -284,6 +371,43 @@ body:not(.sidebar-tabs-underline):not(.sidebar-tabs-index):not(.sidebar-tabs-squ
 .global-search-input-container.search-input-container input {
   border: none !important;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
 /* ║ Plugin                   ║ Graph                                                                                   ║ */
@@ -302,24 +426,28 @@ body:not(.sidebar-tabs-underline):not(.sidebar-tabs-index):not(.sidebar-tabs-squ
 /* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
 
 #calendar-container .today {
-  background: var(--text-accent) !important;
+  background: var(--interactive-accent) !important;
   color: white;
 }
 
 #calendar-container .today .dot-container.svelte-q3wqg9 {
-  background: white;
+background: transparent !important;
   border-radius: 4px;
   height: 2px;
-  opacity: 0%;
+  color: white !important;
+}
+
+#calendar-container .today .dot, #calendar-container .today.active .dot {
+  fill: rgba(255, 255, 255, 0.400);
 }
 
 #calendar-container .dot-container.svelte-q3wqg9 {
-  background: var(--custom-background-primary);
+  background: var(--bg1);
   border-radius: 8px;
 }
 
 #calendar-container .adjacent-month .dot-container.svelte-q3wqg9 {
-  background: var(--custom-background-tertiary);
+  background: var(--bg2);
   opacity: 0;
 }
 
@@ -338,7 +466,7 @@ body:not(.sidebar-tabs-underline):not(.sidebar-tabs-index):not(.sidebar-tabs-squ
 
 /* Background */
 #cMenuToolbarModalBar.top {
-  background: var(--custom-background-primary);
+  background: var(--bg1);
   border-radius: var(--radius-secondary);
   margin: 14px 18px 14px 14px;
   box-shadow: none;
@@ -350,21 +478,12 @@ body:not(.sidebar-tabs-underline):not(.sidebar-tabs-index):not(.sidebar-tabs-squ
 }
 
 /* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
-/* ║ Plugin                   ║ Banner                                                                                  ║ */
-/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
-
-.obsidian-banner.solid {
-  border: none;
-  padding: 14px 6px 0px 14px;
-}
-
-.banner-image {
-  border-radius: 12px !important;
-}
-
-/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
 /* ║ Plugin                   ║ Custom Frames                                                                           ║ */
 /* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+.custom-frames-frame {
+  background: transparent !important;
+}
 
 .mod-right-split .custom-frames-view {
   margin-bottom: 0px !important;
@@ -374,40 +493,51 @@ body:not(.sidebar-tabs-underline):not(.sidebar-tabs-index):not(.sidebar-tabs-squ
   height: 0px !important;
 }
 
-
-
-
-
 /* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
 /* ║ Plugin                   ║ Icon Folder                                                                             ║ */
 /* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
 
 .obsidian-icon-folder-icon path {
-  fill: var(--custom-color-primary) !important;
+  fill: var(--crearts-text-primary) !important;
 }
 
 .tree-item-icon:not(.nav-folder-collapse-indicator) path {
-  fill: var(--custom-color-primary) !important;
+  fill: var(--crearts-text-primary) !important;
 }
 
 .tree-item-self .tree-item-icon:before {
   height: 2px;
 }
 
+
+
+
 /* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
 /* ║ Plugin                   ║ Folder Icons                                                                            ║ */
 /* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
 
 .obsidian-icon-folder-icon-preview path {
-  fill: var(--custom-color-primary);
+  fill: var(--crearts-text-primary);
 }
 
 .obsidian-icon-folder-modal.prompt-results .suggestion-item {
-  color: var(--custom-color-primary);
+  color: var(--crearts-text-primary);
 }
 
 .prompt .obsidian-icon-folder-subheadline {
-  color: var(--custom-color-primary);
+  color: var(--crearts-text-primary);
+}
+
+/* Icons */
+[d="M21.2505 5.77V9C21.2505 11.1146 20.5427 11.899 18.6312 12.0068C18.3555 12.0223 18.1305 11.7961 18.1305 11.52V10.38C18.1305 7.26 16.7405 5.87 13.6205 5.87H12.4805C12.2043 5.87 11.9781 5.64494 11.9937 5.36924C12.1014 3.45773 12.8859 2.75 15.0005 2.75H18.2305C20.5205 2.75 21.2505 3.48 21.2505 5.77Z"],
+[d="M16.6291 10.3811V13.6211C16.6291 15.9011 15.8991 16.6311 13.6191 16.6311H10.3791C8.09914 16.6311 7.36914 15.9011 7.36914 13.6211V10.3811C7.36914 8.10109 8.09914 7.37109 10.3791 7.37109H13.6191C15.8991 7.37109 16.6291 8.10109 16.6291 10.3811Z"],
+[d="M11.52 18.1305C11.7961 18.1305 12.0223 18.3555 12.0068 18.6312C11.899 20.5427 11.1146 21.2505 9 21.2505H5.77C3.48 21.2505 2.75 20.5205 2.75 18.2305V15.0005C2.75 12.8859 3.45773 12.1014 5.36924 11.9937C5.64494 11.9781 5.87 12.2043 5.87 12.4805V13.6205C5.87 16.7405 7.26 18.1305 10.38 18.1305H11.52Z"],
+[d="M20.8593 8.36985L13.9293 2.82985C12.8593 1.96985 11.1293 1.96985 10.0693 2.81985L3.13929 8.36985C2.35929 8.98985 1.85929 10.2998 2.02929 11.2798L3.35929 19.2398C3.59929 20.6598 4.95929 21.8098 6.39929 21.8098H17.5993C19.0293 21.8098 20.3993 20.6498 20.6393 19.2398L21.9693 11.2798C22.1293 10.2998 21.6293 8.98985 20.8593 8.36985ZM11.9993 15.4998C10.6193 15.4998 9.49929 14.3798 9.49929 12.9998C9.49929 11.6198 10.6193 10.4998 11.9993 10.4998C13.3793 10.4998 14.4993 11.6198 14.4993 12.9998C14.4993 14.3798 13.3793 15.4998 11.9993 15.4998Z"],
+[d="M22 7.80983V16.1898C22 19.3998 19.4 21.9998 16.19 21.9998H7.81C4.6 21.9998 2 19.3998 2 16.1898V7.80983C2 5.31983 3.02 3.50983 4.83 2.62983C5.49 2.30983 6.25 2.80983 6.25 3.53983V12.4198C6.25 13.6098 6.71 14.5598 7.54 15.0398C8.38 15.5098 9.44 15.4098 10.52 14.7598L11.82 13.9798C11.9 13.9398 12.1 13.9398 12.16 13.9698L13.48 14.7598C14.2 15.1898 14.82 15.3298 15.32 15.3298C15.84 15.3298 16.24 15.1698 16.48 15.0298C17.29 14.5598 17.75 13.6098 17.75 12.4198V3.53983C17.75 2.80983 18.52 2.30983 19.17 2.62983C20.98 3.50983 22 5.31983 22 7.80983Z"],
+[d="M15.25 2C15.8 2 16.25 2.45 16.25 3V12.42C16.25 13.06 16.06 13.54 15.73 13.73C15.39 13.93 14.85 13.83 14.25 13.47L12.93 12.68C12.42 12.37 11.58 12.37 11.07 12.68L9.75 13.47C9.15 13.83 8.61 13.92 8.27 13.73C7.94 13.54 7.75 13.06 7.75 12.42V3C7.75 2.45 8.2 2 8.75 2H15.25Z"],
+[d="M16.75 3.56V5C16.75 5.41 16.41 5.75 16 5.75C15.59 5.75 15.25 5.41 15.25 5V3.5H8.75V5C8.75 5.41 8.41 5.75 8 5.75C7.59 5.75 7.25 5.41 7.25 5V3.56C4.3 3.83 3 5.73 3 8.5V17C3 20 4.5 22 8 22H16C19.5 22 21 20 21 17V8.5C21 5.73 19.7 3.83 16.75 3.56ZM12 16.75H8C7.59 16.75 7.25 16.41 7.25 16C7.25 15.59 7.59 15.25 8 15.25H12C12.41 15.25 12.75 15.59 12.75 16C12.75 16.41 12.41 16.75 12 16.75ZM16 11.75H8C7.59 11.75 7.25 11.41 7.25 11C7.25 10.59 7.59 10.25 8 10.25H16C16.41 10.25 16.75 10.59 16.75 11C16.75 11.41 16.41 11.75 16 11.75Z"],
+[d="M16.19 2H7.81C4.17 2 2 4.17 2 7.81V16.18C2 19.83 4.17 22 7.81 22H16.18C19.82 22 21.99 19.83 21.99 16.19V7.81C22 4.17 19.83 2 16.19 2ZM16.78 9.7L11.11 15.37C10.97 15.51 10.78 15.59 10.58 15.59C10.38 15.59 10.19 15.51 10.05 15.37L7.22 12.54C6.93 12.25 6.93 11.77 7.22 11.48C7.51 11.19 7.99 11.19 8.28 11.48L10.58 13.78L15.72 8.64C16.01 8.35 16.49 8.35 16.78 8.64C17.07 8.93 17.07 9.4 16.78 9.7Z"] {
+  fill:var(--crearts-text-primary) !important;
 }
 
 /* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
@@ -441,9 +571,9 @@ body:not(.sidebar-tabs-underline):not(.sidebar-tabs-index):not(.sidebar-tabs-squ
 /* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
 
 .tag-container {
-  background: var(--custom-background-secondary);
+  background: var(--crearts-background-secondary);
   border-radius: var(--radius-secondary);
-  margin: var(--layout-margin) var(--layout-margin) calc(var(--layout-margin) + var(--layout-margin)) var(--layout-margin);
+  margin: var(--layout-margin) var(--layout-margin) 0px var(--layout-margin);
 }
 
 /* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
@@ -455,101 +585,41 @@ body:not(.sidebar-tabs-underline):not(.sidebar-tabs-index):not(.sidebar-tabs-squ
   border: none !important;
 }
 
-
-
-
-
-
-
-
-
-
-
 /* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
-/* ║ Testing                  ║ Sidebar Hover                                                                           ║ */
+/* ║ Plugin                   ║ Banner                                                                                  ║ */
 /* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
 
-
-/* Normal */
-.mod-right-split .workspace-tabs:not(.mod-top) .workspace-tab-header-container {
-  display: none;
-}
-
-.mod-right-split .workspace-leaf-content[data-type=calendar] .view-content {
-  margin-top: 0px !important;
-}
-
-.mod-right-split .workspace-tab-container {
-  margin-bottom: var(--layout-margin) !important;
-}
-
-body:not(.sidebar-color) .mod-right-split {
-  padding-bottom: var(--layout-margin) !important;
-}
-
-.mod-right-split .view-content {
-  margin-top: 0px !important;
-}
-
-/* Hover */
-.mod-right-split:hover .workspace-tabs:not(.mod-top) .workspace-tab-header-container {
-  display: flex;
-}
-
-.mod-right-split:hover .workspace-leaf-content[data-type=calendar] .view-content {
-  margin: 8px 8px 0px 8px !important;
+.theme-dark .markdown-preview-view img, .theme-dark .markdown-source-view img {
+  opacity: 100%;
 }
 
 
 /* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
-/* ║ Hover                    ║ Icons Left                                                                              ║ */
+/* ║ Plugin                   ║ Breadcrumbs                                                                             ║ */
 /* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
 
-/*
-.mod-left-split .workspace-tab-header-container-inner {
-  opacity: 0;
-}
-
-.mod-left-split:hover .workspace-tab-header-container-inner {
-  opacity: 1 !important;
-}
-*/
-
-/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
-/* ║ Hover                    ║ Icons Right                                                                             ║ */
-/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
-
-.mod-right-split .workspace-tab-header-container-inner {
-  opacity: 0;
-}
-
-.mod-right-split:hover .workspace-tab-header-container-inner {
+/* Breadcrumbs */
+.view-header-title-container {
   opacity: 1 !important;
 }
 
+/* ╔════════════════════════════════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Sorting                                                                                                            ║ */
+/* ╚════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝ */
 
-/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
-/* ║ Hover                    ║ Menu Dock                                                                               ║ */
-/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
-
-/*
-.side-dock-settings .clickable-icon {
-  opacity: 0;
+.workspace-tab-header-container {
+  background: var(--bg2);
 }
 
-.workspace-ribbon:hover .side-dock-settings .clickable-icon {
-  opacity: 1;
-}
-*/
 
 
-/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
-/* ║ Remove                   ║ Help                                                                                    ║ */
-/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
 
-/* Remove Help*/
-.side-dock-settings .clickable-icon:nth-child(2) {
-  display: none !important;
-}
+
+
+
+
+
+
+
 
 

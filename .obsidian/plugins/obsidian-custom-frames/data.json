@@ -2,7 +2,7 @@
   "frames": [
     {
       "url": "https://chat.openai.com/c/83289885-e021-408a-b325-2ee8c7d9a096",
-      "displayName": "Chat GPT",
+      "displayName": "ChatGPT",
       "icon": "message-square",
       "hideOnMobile": true,
       "addRibbonIcon": true,
@@ -42,23 +42,12 @@
       "openInCenter": true,
       "zoomLevel": 1,
       "forceIframe": false,
-      "customCss": "/* Remove */\n.dl_ad_pro_container, #lmt_pro_ad_container, #lmt_pro_ad_container, #dl_quotes_container, #dl_career_container, #dl_researchPopUp, .dl_footerV2_container, .rg-badge-container-DF-1962, #iosAppAdPortal {\n    display: none !important;\n}\n\n.dl_header {\n    display: none !important;\n}\n\n.lmt__docTrans-tab-container {\n    display: none !important;\n}\n\n.dl_body--redesign .dl_top_element--wide {\n  margin: 0px !important;\n  padding: 12px !important;\n}\n\n.dl_translator_page_container {\n    flex-grow: 2 !important\n}\n\n#dl_translator {\n  background: #2a2d3a !important\n}\n\n.dl_body--redesign {\n    background: #2a2d3a !important;\n    height: 0px!important;\n    max-height: 0px !important;\n    min-height: 0px !important\n}\n\n.linked_language_pairs {\n    display: none !important\n}\n\n\n[class=\"dl_body--redesign dl_top_element--wide dl_visible_desktop_only eSEOtericText\"] {\n    display: none !important;\n}\n\nbody {\n    background: red !important;\n}\n\n\n#dictionary-section {\n    margin-top: 20px;\n}\n\n#lmt__dict_container {\n    display: none;\n}\n\n\n\n\n.lmt--web .lmt__sides_container {\n    border: none;\n}\n\n\n\n\n\n\n.lmt__textarea_container{\n    background: #303445 !important;\n}\n\n.integratedLanguageSelectors .lmt--web .lmt__sides_container .lmt__language_container{\n    background: #303445 !important;\n}\n\n\n\n.lmt--web textarea, .lmt--web select, .lmt--web button {\n    color: #c5d0f4;\n}\n\n\n\n\n.integratedLanguageSelectors .lmt--web .lmt__sides_container .lmt__language_container {\n    color: #c5d0f4 !important;\n    margin-bottom: 20px;\n}\n\n\n\nblockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {\n    color: #c5d0f4;\n}\n\n\n.lmt__language_container_sec .lmt__targetLangMenu_extensions {\n    background: red;\nborder-radius: 12px\n}\n\n\n.lmt__glossary_button {\n    padding: 0px\n}"
-    },
-    {
-      "url": "https://www.deepl.com/write",
-      "displayName": "DeepL Write",
-      "icon": "edit-3",
-      "hideOnMobile": true,
-      "addRibbonIcon": true,
-      "openInCenter": true,
-      "zoomLevel": 1,
-      "forceIframe": false,
       "customCss": ""
     },
     {
       "url": "https://de.m.wikipedia.org/",
       "displayName": "Wikipedia",
-      "icon": "globe",
+      "icon": "book-copy",
       "hideOnMobile": true,
       "addRibbonIcon": true,
       "openInCenter": true,
@@ -71,12 +60,56 @@
       "displayName": "Clock",
       "icon": "clock",
       "hideOnMobile": true,
-      "addRibbonIcon": true,
+      "addRibbonIcon": false,
       "openInCenter": false,
       "zoomLevel": 1,
       "forceIframe": false,
       "customCss": "/* latin */\n@font-face {\n  font-family: \"Varela\";\n  font-style: normal;\n  font-weight: 400;\n  font-display: swap;\n  src: url(https://fonts.gstatic.com/s/varelaround/v20/w8gdH283Tvk__Lua32TysjIfp8uP.woff2) format('woff2');\n  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;\n}\n\n#clock {\n  font-family: Varela !important;\n  font-size: 20vw !important;\n  color: #c5d0f4 !important;\n}\n\nbody {\n  font-family: Varela !important;\n}\n\n\n/* Background */\nbody {\n    background: #2a2d3a !important\n}\n\n/* Hide Header */\n[id=\"1\"], [id=\"2\"], [id=\"4\"], [id=\"goFullScreen\"] {\n    display: none !important;\n}\n\n.littleNavbar {\nopacity: 0 !important;\n}\n\nbody:hover .littleNavbar {\nopacity: 1 !important;\n}"
+    },
+    {
+      "url": "https://keep.google.com/",
+      "displayName": "Google Keep",
+      "icon": "edit",
+      "hideOnMobile": true,
+      "addRibbonIcon": true,
+      "openInCenter": true,
+      "zoomLevel": 1,
+      "forceIframe": false,
+      "customCss": "/* Font */\n@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');\n\n* {\n  font-family: Quicksand !important;\n  hyphens: auto !important;\n  text-align: justify !important;\n  -moz-text-align-last: left !important;\n  text-align-last: left !important;\n}\n\n\n.IZ65Hb-WsjYwc-nUpftc .r4nke-YPqjbf {\n  font-weight: 600 !important;\n  font-size: 18px !important;\n  text-align: left !important;\n  color: #c5d0f4 !important;\n}\n\n\n.IZ65Hb-WsjYwc-nUpftc .h1U9Be-YPqjbf {\n  font-weight: 500 !important;\n  font-size: 14px !important;\n  color: #c5d0f4 !important;\n}\n\n.PvRhvb-ibnC6b:not(.gk6SMd) {\n    color: #c5d0f4 !important;\n}\n\n\n.PvRhvb-ibnC6b.gk6SMd.PvRhvb-ibnC6b svg {\n  fill: white !important\n}\n\n\n/* Icons */\n.PvRhvb-ibnC6b svg {\n  fill: #c5d0f4 !important\n}\n\n/* Header - Background*/\n.gb_Pa.gb_xd .gb_td,\n.gb_Pa:not(.gb_Qa) .gb_td {\n    background: #2a2d3a !important;\n}\n\n/* Header - Spacing */\n.gb_sd.gb_id.gb_jd {\n    min-width: auto !important;\n    padding: 0px !important;\n}\n\n\n/* Menu */\n.h1U9Be-xhiy4 .IZ65Hb-n0tgWb {\n  --tw-shadow: 0 0 15px rgba(0,0,0,.1)!important;\n  --tw-shadow-colored: 0 0 15px var(--tw-shadow-color)!important;\n  box-shadow: 0 0 transparent,0 0 transparent,var(--tw-shadow)!important;\n  box-shadow: var(--tw-ring-offset-shadow,0 0 transparent),var(--tw-ring-shadow,0 0 transparent),var(--tw-shadow)!important;   \n}\n\n\n\n/* Content - Background */\nbody {\n    background: #2a2d3a !important;\n}\n\n/* Content - Cards */\n.zTETae-h1U9Be-hxXJme.IZ65Hb-TBnied {\n  background: #303445 !important;\n  border: none !important;\n  --tw-shadow: 0 0 15px rgba(0,0,0,.1)!important;\n  --tw-shadow-colored: 0 0 15px var(--tw-shadow-color)!important;\n  box-shadow: 0 0 transparent,0 0 transparent,var(--tw-shadow)!important;\n  box-shadow: var(--tw-ring-offset-shadow,0 0 transparent),var(--tw-ring-shadow,0 0 transparent),var(--tw-shadow)!important;\n}\n\n\n/* Content - Header */\n.neVct-LS81yb-tJHJj {\n  font-weight: 600 !important;\n  font-size: 20px !important;\n  color: #c5d0f4 !important;\n  margin-left: 18px !important;\n    line-height: 0px\n}\n\n\n\n\n/* Cards - Spacing */\n/*\n.IZ65Hb-WsjYwc-nUpftc .r4nke-YPqjbf {\n  overflow: hidden;\n  white-space: pre;\n  text-overflow: ellipsis;\n}\n\n.IZ65Hb-INgbqf {\n  position: relative !important;\n    opacity: 1 !important;\n    top: 0px !important;\n    background: #303444 !important;\n    width: 100% !important;\n}\n*/\n\n\n\n/* Searchbar */\n.gb_2d {\n  background: #303445 !important;\n  border-radius: 12px;\n  --tw-shadow: 0 0 15px rgba(0,0,0,.1)!important;\n  --tw-shadow-colored: 0 0 15px var(--tw-shadow-color)!important;\n  box-shadow: 0 0 transparent,0 0 transparent,var(--tw-shadow)!important;\n  box-shadow: var(--tw-ring-offset-shadow,0 0 transparent),var(--tw-ring-shadow,0 0 transparent),var(--tw-shadow)!important;   \n}\n\n\n/* Sidebar - Background */\n.PvRhvb-bN97Pc {\n    background: #2a2d3a !important;\n}\n\n\n/* Sidebar - Active Button */\n.PvRhvb-ibnC6b.gk6SMd {\n    background-color: #d0024f !important;\n    color: white !important;\n    font-weight: 800 !important;\n    border-radius: 12px !important;\n}\n\n.PvRhvb-qAWA2 .PvRhvb-bN97Pc:hover .PvRhvb-ibnC6b {\n  border-radius: 12p !abovex;\n}\n\n\n/* Remove */\n.gb_Dd.gb_eb.gb_sd {\n    display: none !important;\n}\n\n.gb_Pc.gb_Od {\n    display: none !important;\n}\n\n\n::-webkit-scrollbar {\n    display: none !important;\n}\n\n.PvRhvb-hSRGPd-haAclf {\n    display: none !important;\n}\n\n/* Sorting */\n.zTETae-h1U9Be-hxXJme:not(.h1U9Be-AHe6Kc-sKfxWe) .CmABtb.RNfche, .zTETae-h1U9Be-hxXJme.x5ghY-MJoBVe-yOOK0-Bz112c, .zTETae-h1U9Be-hxXJme.IZ65Hb-NGme3c, .zTETae-h1U9Be-hxXJme:not(.h1U9Be-AHe6Kc-sKfxWe) .IZ65Hb-DaY83b-gKvOdd, .zTETae-h1U9Be-hxXJme.IZ65Hb-n0tgWb.oT9UPb {\n    background: transparent !important;\n}\n\n.h1U9Be-xhiy4 .RmniWd-HiaYvf-h1U9Be  {\n    opacity: 1 !important;\n}\n\n\n\n\n"
+    },
+    {
+      "url": "https://www.google.com/",
+      "displayName": "Google Search",
+      "icon": "search",
+      "hideOnMobile": true,
+      "addRibbonIcon": true,
+      "openInCenter": true,
+      "zoomLevel": 1,
+      "forceIframe": false,
+      "customCss": ""
+    },
+    {
+      "url": "https://www.google.com/maps",
+      "displayName": "Google Maps",
+      "icon": "map-pin",
+      "hideOnMobile": true,
+      "addRibbonIcon": true,
+      "openInCenter": true,
+      "zoomLevel": 1,
+      "forceIframe": false,
+      "customCss": ""
+    },
+    {
+      "url": "https://contacts.google.com/",
+      "displayName": "Google Contacts",
+      "icon": "user",
+      "hideOnMobile": true,
+      "addRibbonIcon": true,
+      "openInCenter": true,
+      "zoomLevel": 1,
+      "forceIframe": false,
+      "customCss": ""
     }
   ],
-  "padding": 5
+  "padding": 0
 }

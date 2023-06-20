@@ -1,0 +1,92 @@
+/* ╔════════════════════════════════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Obsidian Add-On                                                                                                    ║ */
+/* ╠══════════════════════════╦═════════════════════════════════════════════════════════════════════════════════════════╣ */
+/* ║ Name:                    ║ CreArts Hide Folder Number                                                              ║ */
+/* ║ Version:                 ║ 1.0.0                                                                                   ║ */
+/* ║ Author:                  ║ Corellan                                                                                ║ */
+/* ║ License:                 ║ MIT                                                                                     ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Hover                    ║ Sidebar (Right) Hover                                                                   ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+/* Normal */
+.mod-right-split .workspace-tabs:not(.mod-top) .workspace-tab-header-container {
+  display: none;
+}
+
+.mod-right-split .workspace-leaf-content[data-type=calendar] .view-content {
+  margin-top: 0px !important;
+}
+
+/* Hover */
+.mod-right-split:hover .workspace-tabs:not(.mod-top) .workspace-tab-header-container {
+  display: flex;
+}
+
+.mod-right-split:hover .workspace-leaf-content[data-type=calendar] .view-content {
+  margin: 8px 8px 0px 8px !important;
+}
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Hover                    ║ Sidebar (Left) Hover                                                                    ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+/* Normal */
+.mod-left-split .workspace-tabs:not(.mod-top) .workspace-tab-header-container {
+  display: none;
+}
+
+.mod-left-split .workspace-leaf-content .view-content {
+  margin-top: 0px !important;
+}
+
+/* Hover */
+.mod-left-split:hover .workspace-tabs:not(.mod-top) .workspace-tab-header-container {
+  display: flex;
+}
+
+.mod-left-split:hover .workspace-leaf-content .view-content {
+  margin-top: var(--layout-margin) !important;
+}
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Hover                    ║ Icons Left                                                                              ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+/*
+.mod-left-split .workspace-tab-header-container-inner {
+  opacity: 0;
+}
+
+.mod-left-split:hover .workspace-tab-header-container-inner {
+  opacity: 1 !important;
+}
+
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Hover                    ║ Icons Right                                                                             ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+.mod-right-split .workspace-tab-header-container-inner {
+  opacity: 0;
+}
+
+.mod-right-split:hover .workspace-tab-header-container-inner {
+  opacity: 1 !important;
+}
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Hover                    ║ Menu Dock                                                                               ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+/*
+.side-dock-settings .clickable-icon {
+  opacity: 0;
+}
+
+.workspace-ribbon:hover .side-dock-settings .clickable-icon {
+  opacity: 1;
+}
+*/
