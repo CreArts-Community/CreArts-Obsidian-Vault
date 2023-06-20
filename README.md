@@ -53,7 +53,8 @@ This collection of images showcases a custom UI for Obsidian designed to enhance
 
 The third image highlights Google Tasks within Obsidian. The fourth image showcases a chat conversation using the ChatGPT app. Lastly, the fifth image displays the German Wikipedia page. These images exemplify the versatility of this project, offering a cohesive and personalized note-taking experience.
 
-![image](https://github.com/CorellanStoma/CreArts-Obsidian/assets/58918358/5b2e8724-f796-4430-a09b-290b8ce8b1f6)
+![image](https://github.com/CreArts-Community/CreArts-Obsidian/assets/58918358/31607e6e-49b1-4b44-b553-c8a000681244)
+
 
 <details><summary>Show More Images</summary>
 
