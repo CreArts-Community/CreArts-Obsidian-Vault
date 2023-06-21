@@ -5,5 +5,5 @@
   "devLogs": false,
   "devices": [],
   "doLoadSynchronously": true,
-  "showStatusbarIcon": "None"
+  "showStatusbarIcon": "Text"
 }

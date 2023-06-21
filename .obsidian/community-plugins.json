@@ -21,7 +21,6 @@
   "emoji-shortcodes",
   "simple-embeds",
   "obsidian-plugin-groups",
-  "obsidian-admonition",
   "buttons",
   "obsidian-columns",
   "callout-manager",
@@ -31,7 +30,8 @@
   "dataview",
   "obsidian-sortable",
   "flashcards-obsidian",
-  "obsidian-custom-frames",
   "copy-url-in-preview",
-  "obsidian-sample-plugin"
+  "obsidian-sample-plugin",
+  "surfing",
+  "obsidian-custom-frames"
 ]

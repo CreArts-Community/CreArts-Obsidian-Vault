@@ -1,0 +1,61 @@
+/* ╔════════════════════════════════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Obsidian Add-On                                                                                                    ║ */
+/* ╠══════════════════════════╦═════════════════════════════════════════════════════════════════════════════════════════╣ */
+/* ║ Name:                    ║ CreArts Neumorphism Test                                                                ║ */
+/* ║ Version:                 ║ 1.0.0                                                                                   ║ */
+/* ║ Author:                  ║ Corellan                                                                                ║ */
+/* ║ License:                 ║ MIT                                                                                     ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Custom CSS               ║ Variables                                                                               ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+.mod-root .view-header {
+  background: #2a2d3a;
+  border-radius: 12px !important;
+  box-shadow: inset 5px 5px 20px #1f212b,
+              inset -5px -5px 20px #353949;
+}
+
+.workspace-ribbon {
+  background: #2a2d3a;
+  border-radius: 12px !important;
+  box-shadow: inset 5px 5px 20px #1f212b,
+              inset -5px -5px 20px #353949;
+}
+
+.nav-header {
+  background: #2a2d3a;
+  border-radius: 12px !important;
+  box-shadow: inset 5px 5px 20px #1f212b,
+              inset -5px -5px 20px #353949;
+}
+
+.nav-files-container {
+  background: #2a2d3a;
+  border-radius: 12px !important;
+  box-shadow: inset 5px 5px 20px #1f212b,
+              inset -5px -5px 20px #353949;
+}
+
+.view-content {
+  background: #2a2d3a;
+  border-radius: 12px !important;
+  box-shadow: inset 5px 5px 20px #1f212b,
+              inset -5px -5px 20px #353949;
+}
+
+body:not(.sidebar-tabs-underline):not(.sidebar-tabs-index):not(.sidebar-tabs-square) .workspace>.workspace-split:not(.mod-root) .workspace-tabs:not(.mod-top) .workspace-tab-header-container {
+  background: #2a2d3a;
+  border-radius: 12px !important;
+  box-shadow: inset 5px 5px 20px #1f212b,
+              inset -5px -5px 20px #353949;
+}
+
+.obsidian-weather-plugin {
+  background: #2a2d3a;
+  border-radius: 12px !important;
+  box-shadow: inset 5px 5px 20px #1f212b,
+              inset -5px -5px 20px #353949;
+}

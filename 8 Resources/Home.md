@@ -1,6 +1,7 @@
 ---
 tag: home
 publish: false
+cssClass: home
 banner: "![[space3.jpg]]"
 banner_y: 0.470
 ---
@@ -11,16 +12,12 @@ banner_y: 0.470
 
 ---
 
-## Search:
-
 ```search-bar
 only search bar
 show starred files
 ```
 
 ---
-
-## Shortcuts:
 
 `````col
 ````col-md
@@ -47,14 +44,13 @@ class home-button
 flexGrow=1
 ===
 ```button
-name Google Search
+name Wikipedia
 type command
-action Custom Frames: Open Google Search
+action Custom Frames: Open Wikipedia
 class home-button
 ```
 ````
 `````
-
 
 `````col
 ````col-md

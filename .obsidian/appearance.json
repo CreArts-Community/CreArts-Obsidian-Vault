@@ -25,7 +25,8 @@
     "crearts-hover",
     "crearts-hide-files",
     "crearts-folder-highlight",
-    "crearts-template-flashcards"
+    "crearts-template-flashcards",
+    "crearts-template-home"
   ],
   "nativeMenus": false
 }
