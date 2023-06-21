@@ -29,6 +29,18 @@
   margin: 8px 8px 0px 8px !important;
 }
 
+/* Weather Plugin */
+.mod-right-split .workspace-tabs:not(.mod-top) .obsidian-weather-plugin {
+  margin-top: 0px;
+}
+
+/* Hover */
+.mod-right-split:hover .workspace-tabs:not(.mod-top) .obsidian-weather-plugin {
+  margin-top: var(--layout-margin);
+}
+
+
+
 /* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
 /* ║ Hover                    ║ Sidebar (Left) Hover                                                                    ║ */
 /* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
@@ -90,3 +102,4 @@
   opacity: 1;
 }
 */
+

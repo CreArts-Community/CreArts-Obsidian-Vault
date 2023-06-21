@@ -1,0 +1,11 @@
+{
+	"id": "obsidian-sample-plugin",
+	"name": "Weather Plugin",
+	"version": "1.0.0",
+	"minAppVersion": "0.15.0",
+	"description": "This is a weather plugin for Obsidian",
+	"author": "Obsidian",
+	"authorUrl": "https://obsidian.md",
+	"fundingUrl": "https://obsidian.md/pricing",
+	"isDesktopOnly": false
+}

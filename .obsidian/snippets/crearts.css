@@ -603,6 +603,97 @@ background: transparent !important;
   opacity: 1 !important;
 }
 
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Plugin                   ║ Weather                                                                                 ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+/* Background */
+.obsidian-weather-plugin {
+  background: var(--crearts-background-secondary);
+  height: 100%;
+  margin: var(--layout-margin) var(--layout-margin) calc(var(--layout-margin) + var(--layout-margin)) var(--layout-margin);
+  border-radius: var(--radius-secondary) !important;
+}
+
+/* Location */
+.location-name {
+  font-weight: 600;
+  margin-top: 20px;
+  margin-bottom: -2px;
+  padding: 0px;
+  margin-top: 8px;
+}
+
+/* Weather */
+[style="display: flex; justify-content: center;"] div {
+  background: var(--bg1) !important;
+  border-radius: 12px;
+  width: 64px;
+  padding: 4px 0px 0px 0px;
+}
+
+[style="font-size: 0.8em; margin-bottom: 5px;"] {
+  font-weight: 500;
+}
+
+/* Spacing */
+[style="margin-left: 0.2em; margin-right: 0.2em;"] {
+  display: none;
+}
+
+[style="display: flex; align-items: center; justify-content: center;"] {
+  font-weight: 800;
+  margin-bottom: 4px;
+}
+
+/* Remove Image */
+[style="margin-right: 5px;"] {
+  display: none;
+}
+
+/* Remove Infos */
+[style="display: flex; align-items: center; justify-content: center;"] > div > div {
+  display: none;
+}
+
+.feels-like {
+  display: none !important;
+}
+
+/* Remove Condition */
+.obsidian-weather-plugin .condition-text {
+  display: none !important;
+}
+
+/* Remove Refresh Button */
+.weather-refresh-button {
+  display: none;
+}
+
+/* Remove Update Time */
+.obsidian-weather-plugin .update-time {
+  display: none !important;
+}
+
+/* Replace Icons - Rain */
+[src="http://cdn.weatherapi.com/weather/64x64/day/302.png"],
+[src="http://cdn.weatherapi.com/weather/64x64/day/308.png"] {
+  object-position: -99999px 99999px;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='a' x1='22.56' y1='21.96' x2='39.2' y2='50.8' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23f3f7fe'/%3E%3Cstop offset='0.45' stop-color='%23f3f7fe'/%3E%3Cstop offset='1' stop-color='%23deeafb'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' x1='22.53' y1='42.95' x2='25.47' y2='48.05' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%234286ee'/%3E%3Cstop offset='0.45' stop-color='%234286ee'/%3E%3Cstop offset='1' stop-color='%230950bc'/%3E%3C/linearGradient%3E%3ClinearGradient id='c' x1='29.53' y1='42.95' x2='32.47' y2='48.05' xlink:href='%23b'/%3E%3ClinearGradient id='d' x1='36.53' y1='42.95' x2='39.47' y2='48.05' xlink:href='%23b'/%3E%3C/defs%3E%3Cpath d='M46.5,31.5l-.32,0a10.49,10.49,0,0,0-19.11-8,7,7,0,0,0-10.57,6,7.21,7.21,0,0,0,.1,1.14A7.5,7.5,0,0,0,18,45.5a4.19,4.19,0,0,0,.5,0v0h28a7,7,0,0,0,0-14Z' stroke='%23e6effc' stroke-miterlimit='10' stroke-width='0.5' fill='url(%23a)'/%3E%3Cline x1='24.39' y1='43.03' x2='23.61' y2='47.97' fill='none' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' stroke='url(%23b)'%3E%3CanimateTransform attributeName='transform' type='translate' values='1 -5; -2 10' dur='0.7s' repeatCount='indefinite'/%3E%3Canimate attributeName='opacity' values='0;1;1;0' dur='0.7s' repeatCount='indefinite'/%3E%3C/line%3E%3Cline x1='31.39' y1='43.03' x2='30.61' y2='47.97' fill='none' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' stroke='url(%23c)'%3E%3CanimateTransform attributeName='transform' begin='-0.4s' type='translate' values='1 -5; -2 10' dur='0.7s' repeatCount='indefinite'/%3E%3Canimate attributeName='opacity' begin='-0.4s' values='0;1;1;0' dur='0.7s' repeatCount='indefinite'/%3E%3C/line%3E%3Cline x1='38.39' y1='43.03' x2='37.61' y2='47.97' fill='none' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' stroke='url(%23d)'%3E%3CanimateTransform attributeName='transform' begin='-0.2s' type='translate' values='1 -5; -2 10' dur='0.7s' repeatCount='indefinite'/%3E%3Canimate attributeName='opacity' begin='-0.2s' values='0;1;1;0' dur='0.7s' repeatCount='indefinite'/%3E%3C/line%3E%3C/svg%3E");background-size: 60px;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: bottom;
+}
+
+/* Replace Icons - Sun Rain */
+[src="http://cdn.weatherapi.com/weather/64x64/day/176.png"] {
+  object-position: -99999px 99999px;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='a' x1='16.5' y1='19.67' x2='21.5' y2='28.33' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23fbbf24'/%3E%3Cstop offset='0.45' stop-color='%23fbbf24'/%3E%3Cstop offset='1' stop-color='%23f59e0b'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' x1='22.56' y1='21.96' x2='39.2' y2='50.8' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23f3f7fe'/%3E%3Cstop offset='0.45' stop-color='%23f3f7fe'/%3E%3Cstop offset='1' stop-color='%23deeafb'/%3E%3C/linearGradient%3E%3ClinearGradient id='c' x1='22.53' y1='42.95' x2='25.47' y2='48.05' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%234286ee'/%3E%3Cstop offset='0.45' stop-color='%234286ee'/%3E%3Cstop offset='1' stop-color='%230950bc'/%3E%3C/linearGradient%3E%3ClinearGradient id='d' x1='29.53' y1='42.95' x2='32.47' y2='48.05' xlink:href='%23c'/%3E%3ClinearGradient id='e' x1='36.53' y1='42.95' x2='39.47' y2='48.05' xlink:href='%23c'/%3E%3C/defs%3E%3Ccircle cx='19' cy='24' r='5' stroke='%23f8af18' stroke-miterlimit='10' stroke-width='0.5' fill='url(%23a)'/%3E%3Cpath d='M19,15.67V12.5m0,23V32.33m5.89-14.22,2.24-2.24M10.87,32.13l2.24-2.24m0-11.78-2.24-2.24M27.13,32.13l-2.24-2.24M7.5,24h3.17M30.5,24H27.33' fill='none' stroke='%23fbbf24' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2'%3E%3CanimateTransform attributeName='transform' type='rotate' values='0 19 24; 360 19 24' dur='45s' repeatCount='indefinite'/%3E%3C/path%3E%3Cpath d='M46.5,31.5l-.32,0a10.49,10.49,0,0,0-19.11-8,7,7,0,0,0-10.57,6,7.21,7.21,0,0,0,.1,1.14A7.5,7.5,0,0,0,18,45.5a4.19,4.19,0,0,0,.5,0v0h28a7,7,0,0,0,0-14Z' stroke='%23e6effc' stroke-miterlimit='10' stroke-width='0.5' fill='url(%23b)'/%3E%3Cline x1='24.39' y1='43.03' x2='23.61' y2='47.97' fill='none' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' stroke='url(%23c)'%3E%3CanimateTransform attributeName='transform' type='translate' values='1 -5; -2 10' dur='0.7s' repeatCount='indefinite'/%3E%3Canimate attributeName='opacity' values='0;1;1;0' dur='0.7s' repeatCount='indefinite'/%3E%3C/line%3E%3Cline x1='31.39' y1='43.03' x2='30.61' y2='47.97' fill='none' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' stroke='url(%23d)'%3E%3CanimateTransform attributeName='transform' begin='-0.4s' type='translate' values='1 -5; -2 10' dur='0.7s' repeatCount='indefinite'/%3E%3Canimate attributeName='opacity' begin='-0.4s' values='0;1;1;0' dur='0.7s' repeatCount='indefinite'/%3E%3C/line%3E%3Cline x1='38.39' y1='43.03' x2='37.61' y2='47.97' fill='none' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' stroke='url(%23e)'%3E%3CanimateTransform attributeName='transform' begin='-0.2s' type='translate' values='1 -5; -2 10' dur='0.7s' repeatCount='indefinite'/%3E%3Canimate attributeName='opacity' begin='-0.2s' values='0;1;1;0' dur='0.7s' repeatCount='indefinite'/%3E%3C/line%3E%3C/svg%3E");background-size: 60px;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: bottom;
+}
+
 /* ╔════════════════════════════════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
 /* ║ Sorting                                                                                                            ║ */
 /* ╚════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝ */

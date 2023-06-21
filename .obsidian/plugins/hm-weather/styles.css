@@ -1,0 +1,63 @@
+
+
+/* refresh button */
+.weather-button-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.weather-refresh-button {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-left: auto;
+    margin-top: 10px;
+    margin-right: 20px;
+    padding-left: 50px;
+    opacity: var(--icon-opacity, 0.3);
+    transition: opacity 0.3s ease;
+    --icon-size: 20px;
+    --icon-opacity: 0.4;
+    cursor: pointer;
+}
+
+.weather-refresh-button:hover {
+    --icon-opacity: 1
+}
+
+/* Location Name */
+.location-name {
+    font-weight: bold;
+    padding-bottom: 10px;
+    font-size: 1.4em;
+    margin-bottom: -20px;
+}
+
+/* Feels-Like Temp */
+.feels-like {
+    color: var(--color-accent);
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+/* Humidity */
+.humidity {
+    color: var(--color-accent);
+    font-weight: bold;
+}
+
+/* Condition Text */
+.condition-text {
+    color: var(--color-accent);
+    font-size: 1.2em;
+    /* margin-top: -20px; */
+    align-content: center;
+}
+
+.update-time {
+    color: gray;
+    margin-right: 10px;
+    margin-top: 10px;
+    font-size: 0.7em;
+    text-align: right;
+}

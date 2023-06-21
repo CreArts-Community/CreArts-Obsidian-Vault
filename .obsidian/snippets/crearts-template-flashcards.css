@@ -43,8 +43,47 @@ padding: 0px !important;
   right: 20px;
 }
 
+
 /* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
-/* ║ Custom CSS               ║ General                                                                                 ║ */
+/* ║ Custom CSS               ║ Heighlights                                                                             ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+/* Hightlight */
+.flashcard h2 strong,
+.flashcard h3 strong,
+.flashcard h4 strong,
+.flashcard h5 strong,
+.flashcard h6 strong {
+font-weight: 800;
+color: #CD0952;
+}
+
+/* Hightlight */
+.flashcard h2 strong,
+.flashcard h3 strong,
+.flashcard h4 strong,
+.flashcard h5 strong,
+.flashcard h6 strong {
+font-weight: 800;
+color: #CD0952;
+}
+
+
+
+
+.flashcard p strong {
+font-weight: 800;
+color: #CD0952;
+}
+
+.flashcard .has-list-bullet:not(p) strong {
+  font-weight: 800;
+  color: #CD0952;
+}
+
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Custom CSS               ║ Buttons                                                                                 ║ */
 /* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
 
 /* Tag */

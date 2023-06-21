@@ -1,5 +1,5 @@
 ---
-tag: template, flashcard
+tag: template, flashcards
 publish: false
 cssClass: flashcard
 cards-deck: template
@@ -21,18 +21,10 @@ action Nach PDF exportieren
 class flashcard-button-pdf
 ```
 
-## Example question I? #cards
-* 1
-	* A
-* 2
-	* B
-* 3
-	* C
-
-## Example question II? #cards
+## Example **question** I? #flashcard
 * A
 * B
 * C
 
-## Example question III? #cards
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+## **Example** question II? #flashcard
+Lorem ipsum dolor sit amet, **consetetur** sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore **magna** aliquyam erat, sed diam voluptua.
