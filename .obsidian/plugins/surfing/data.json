@@ -43,5 +43,17 @@
     ],
     "defaultFilterType": "tree"
   },
-  "treeData": []
+  "treeData": [
+    {
+      "id": "03ba1e26f1b638ec",
+      "parent": 0,
+      "droppable": true,
+      "text": "Musik-Featurette und TV-Spot zu Indiana Jones 5 - Nachrichten - Star Wars Union",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
+    }
+  ]
 }

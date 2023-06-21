@@ -1,295 +1,16 @@
 {
   "workspaces": {
-    "Study": {
-      "main": {
-        "id": "f303de9522acab0e",
-        "type": "split",
-        "children": [
-          {
-            "id": "4369aba7d635e08a",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "91790b9b9eb44a3a",
-                "type": "leaf",
-                "pinned": true,
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "8 Resources/Home.md",
-                    "mode": "preview",
-                    "backlinks": false,
-                    "source": false
-                  },
-                  "pinned": true
-                }
-              },
-              {
-                "id": "b619fc90de6e084d",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "6 Study/BWL/BWL WS 2018/Skript/01 - Grundlagen der BWL.pdf"
-                  }
-                }
-              }
-            ],
-            "currentTab": 1
-          },
-          {
-            "id": "895e4ebe3df012e8",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "bc155ff804bc8281",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "6 Study/BWL/BWL WS 2018/WS 2018 - Study Notes.md",
-                    "mode": "preview",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "5e4477cf986fa987",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "6 Study/BWL/BWL WS 2018/WS 2018 - Flashcards.md",
-                    "mode": "preview",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical"
-      },
-      "left": {
-        "id": "a098e848eb517c66",
-        "type": "split",
-        "children": [
-          {
-            "id": "c5abf96d5ddd01aa",
-            "type": "tabs",
-            "dimension": 59.19899874843555,
-            "children": [
-              {
-                "id": "cb73e9494fd80308",
-                "type": "leaf",
-                "state": {
-                  "type": "file-explorer",
-                  "state": {
-                    "sortOrder": "alphabetical"
-                  }
-                }
-              },
-              {
-                "id": "eeab6c3ffb05abdc",
-                "type": "leaf",
-                "state": {
-                  "type": "bookmarks",
-                  "state": {}
-                }
-              },
-              {
-                "id": "38fa887848b95ab0",
-                "type": "leaf",
-                "state": {
-                  "type": "tag",
-                  "state": {
-                    "sortOrder": "alphabetical",
-                    "useHierarchy": false
-                  }
-                }
-              },
-              {
-                "id": "0652e6c434835154",
-                "type": "leaf",
-                "state": {
-                  "type": "search",
-                  "state": {
-                    "query": "flashcard",
-                    "matchingCase": false,
-                    "explainSearch": false,
-                    "collapseAll": false,
-                    "extraContext": false,
-                    "sortOrder": "alphabetical"
-                  }
-                }
-              },
-              {
-                "id": "e353c18428e60be4",
-                "type": "leaf",
-                "state": {
-                  "type": "recent-files",
-                  "state": {}
-                }
-              },
-              {
-                "id": "487f59cee5e023c1",
-                "type": "leaf",
-                "state": {
-                  "type": "surfing-tab-tree",
-                  "state": {}
-                }
-              }
-            ]
-          },
-          {
-            "id": "b7eae4f69447eaeb",
-            "type": "tabs",
-            "dimension": 40.80100125156446,
-            "children": [
-              {
-                "id": "89a36589cf8e4a32",
-                "type": "leaf",
-                "state": {
-                  "type": "graph",
-                  "state": {}
-                }
-              },
-              {
-                "id": "5c4379c1a68fb14b",
-                "type": "leaf",
-                "state": {
-                  "type": "outline",
-                  "state": {
-                    "file": "6 Study/BWL/BWL WS 2018/Skript/01 - Grundlagen der BWL.pdf"
-                  }
-                }
-              },
-              {
-                "id": "663141e8694e3684",
-                "type": "leaf",
-                "state": {
-                  "type": "backlink",
-                  "state": {
-                    "file": "6 Study/BWL/BWL WS 2018/Skript/01 - Grundlagen der BWL.pdf",
-                    "collapseAll": false,
-                    "extraContext": false,
-                    "sortOrder": "alphabetical",
-                    "showSearch": false,
-                    "searchQuery": "",
-                    "backlinkCollapsed": false,
-                    "unlinkedCollapsed": true
-                  }
-                }
-              },
-              {
-                "id": "8bcc8cd0ba502e90",
-                "type": "leaf",
-                "state": {
-                  "type": "outgoing-link",
-                  "state": {
-                    "file": "6 Study/BWL/BWL WS 2018/Skript/01 - Grundlagen der BWL.pdf",
-                    "linksCollapsed": false,
-                    "unlinkedCollapsed": true
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "horizontal",
-        "width": 222.51013946533203,
-        "collapsed": true
-      },
-      "right": {
-        "id": "46f7e53db47ebf39",
-        "type": "split",
-        "children": [
-          {
-            "id": "41fa5054f53826f6",
-            "type": "tabs",
-            "dimension": 26.28120893561104,
-            "children": [
-              {
-                "id": "1e585342250f268d",
-                "type": "leaf",
-                "state": {
-                  "type": "custom-frames-clock",
-                  "state": {}
-                }
-              }
-            ]
-          },
-          {
-            "id": "173d81a6a0983062",
-            "type": "tabs",
-            "dimension": 42.04993429697766,
-            "children": [
-              {
-                "id": "18bb9d0ae2dd8a2b",
-                "type": "leaf",
-                "state": {
-                  "type": "calendar",
-                  "state": {}
-                }
-              }
-            ]
-          },
-          {
-            "id": "19475811ecd5978e",
-            "type": "tabs",
-            "dimension": 31.668856767411302,
-            "children": [
-              {
-                "id": "14daf17029436797",
-                "type": "leaf",
-                "state": {
-                  "type": "WeatherView",
-                  "state": {}
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "horizontal",
-        "width": 258.5,
-        "collapsed": true
-      },
-      "left-ribbon": {
-        "hiddenItems": {
-          "daily-notes:Heutige Notiz öffnen": true,
-          "workspaces:Workspace-Layouts verwalten": false,
-          "homepage:Open homepage": false,
-          "graph:Graphen-Ansicht öffnen": true,
-          "canvas:Neuen Canvas erstellen": true,
-          "templates:Vorlage einfügen": true,
-          "command-palette:Befehlspalette öffnen": true,
-          "flashcards-obsidian:Generate flashcards": true,
-          "obsidian-custom-frames:Open ChatGPT": false,
-          "obsidian-custom-frames:Open Google Calendar": false,
-          "obsidian-custom-frames:Open Google Tasks": false,
-          "obsidian-custom-frames:Open DeepL": false,
-          "obsidian-custom-frames:Open Wikipedia": false,
-          "obsidian-custom-frames:Open Google Keep": false,
-          "obsidian-custom-frames:Open Google Search": false,
-          "obsidian-custom-frames:Open Google Maps": false,
-          "obsidian-custom-frames:Open Google Contacts": false
-        }
-      },
-      "active": "b619fc90de6e084d"
-    },
     "Home": {
       "main": {
         "id": "f303de9522acab0e",
         "type": "split",
         "children": [
           {
-            "id": "5929c3730d74d43d",
+            "id": "aef600805421bad1",
             "type": "tabs",
             "children": [
               {
-                "id": "212b8dd206bf8df3",
+                "id": "287b69256b0e48f5",
                 "type": "leaf",
                 "pinned": true,
                 "state": {
@@ -315,7 +36,7 @@
           {
             "id": "c5abf96d5ddd01aa",
             "type": "tabs",
-            "dimension": 70.05208333333333,
+            "dimension": 67.04260651629073,
             "children": [
               {
                 "id": "cb73e9494fd80308",
@@ -374,10 +95,10 @@
           {
             "id": "b7eae4f69447eaeb",
             "type": "tabs",
-            "dimension": 29.947916666666664,
+            "dimension": 32.957393483709275,
             "children": [
               {
-                "id": "89a36589cf8e4a32",
+                "id": "2cbebc7f9242357b",
                 "type": "leaf",
                 "state": {
                   "type": "graph",
@@ -389,7 +110,9 @@
                 "type": "leaf",
                 "state": {
                   "type": "outline",
-                  "state": {}
+                  "state": {
+                    "file": "8 Resources/Home.md"
+                  }
                 }
               },
               {
@@ -398,6 +121,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
+                    "file": "8 Resources/Home.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -414,6 +138,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
+                    "file": "8 Resources/Home.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -432,7 +157,7 @@
           {
             "id": "41fa5054f53826f6",
             "type": "tabs",
-            "dimension": 26.28120893561104,
+            "dimension": 25.28445006321112,
             "children": [
               {
                 "id": "1e585342250f268d",
@@ -447,7 +172,7 @@
           {
             "id": "173d81a6a0983062",
             "type": "tabs",
-            "dimension": 42.04993429697766,
+            "dimension": 44.50063211125158,
             "children": [
               {
                 "id": "18bb9d0ae2dd8a2b",
@@ -462,7 +187,7 @@
           {
             "id": "19475811ecd5978e",
             "type": "tabs",
-            "dimension": 31.668856767411302,
+            "dimension": 30.214917825537295,
             "children": [
               {
                 "id": "14daf17029436797",
@@ -499,7 +224,7 @@
           "obsidian-custom-frames:Open Discord": false
         }
       },
-      "active": "89a36589cf8e4a32"
+      "active": "287b69256b0e48f5"
     }
   },
   "active": "Home"

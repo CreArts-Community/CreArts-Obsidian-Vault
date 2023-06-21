@@ -1,0 +1,21 @@
+{
+  "pluginList": [
+    "ms3056/Weather_old",
+    "Zachatoo/obsidian-css-editor"
+  ],
+  "pluginSubListFrozenVersion": [
+    {
+      "repo": "ms3056/Weather_old",
+      "version": "0.1.0"
+    }
+  ],
+  "themesList": [],
+  "updateAtStartup": false,
+  "updateThemesAtStartup": false,
+  "ribbonIconEnabled": false,
+  "loggingEnabled": false,
+  "loggingPath": "BRAT-log",
+  "loggingVerboseEnabled": false,
+  "debuggingMode": true,
+  "notificationsEnabled": false
+}

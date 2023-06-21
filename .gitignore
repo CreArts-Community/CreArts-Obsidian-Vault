@@ -7,6 +7,7 @@
 .obsidian/starred.json
 .obsidian/workspace
 
+.obsidian/workspaces.json
 .obsidian/workspace-mobile.json
 .obsidian/workspace.json
 
@@ -14,7 +15,9 @@
 .obsidian/plugins/home-tab/data.json
 .obsidian/plugins/recent-files-obsidian/data.json
 .obsidian/plugins/remember-cursor-position/cursor-positions.json
-.obsidian/plugins/hm-weather/data.json
+.obsidian/plugins/surfing/data.json
+
+.obsidian/plugins/obsidian-sample-plugin/data.json
 
 # ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
 # ║ Gitignore                ║ Folders                                                                                 ║
