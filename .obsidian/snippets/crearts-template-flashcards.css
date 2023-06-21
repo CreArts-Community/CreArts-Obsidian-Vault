@@ -8,60 +8,6 @@
 /* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
 
 /* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
-/* ║ Custom CSS               ║ General                                                                                 ║ */
-/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
-
-/* Tag */
-.flashcard .tag {
-  display: none;
-  }
-  
-  /* Header */
-  .flashcard h2,
-  .flashcard h3,
-  .flashcard h4,
-  .flashcard h5,
-  .flashcard h6 {
-    background: var(--bg2) !important;
-    border-radius: 12px 12px 0px 0px;
-    margin-bottom: 0px;
-    margin-top: 40px;
-    padding: 12px 12px 12px 30px;
-    border-bottom: var(--tab-outline-width) solid var(--tab-outline-color);
-    border-color: var(--hr-color);
-  }
-  
-  /* Collapsed */
-  .flashcard .is-collapsed h2 {
-    border: none;
-    border-radius: 12px;
-  }
-  
-  /* Collapse Indicator */
-  .flashcard h2 .collapse-indicator  {
-    opacity: 1;
-  }
-  
-  /* Text */
-  .flashcard p {
-    background: var(--bg2);
-    border-radius: 0px 0px 12px 12px;
-    margin-bottom: 40px;
-    margin-top: 0px;
-    padding: 12px;
-  }
-  
-  /* Bullet List */
-  .flashcard .has-list-bullet:not(p) {
-    background: var(--bg2) !important;
-    border-radius: 0px 0px 12px 12px;
-    margin-bottom: 40px;
-    margin-top: 0px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-  }
-  
-/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
 /* ║ Custom CSS               ║ Buttons                                                                                 ║ */
 /* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
 
@@ -95,4 +41,57 @@ padding: 0px !important;
 /* Create Flashcard */
 .flashcard-button {
   right: 20px;
+}
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Custom CSS               ║ General                                                                                 ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+/* Tag */
+.flashcard .tag {
+display: none;
+}
+
+/* Header */
+.flashcard h2,
+.flashcard h3,
+.flashcard h4,
+.flashcard h5,
+.flashcard h6 {
+  background: var(--bg2) !important;
+  border-radius: 12px 12px 0px 0px;
+  margin-bottom: 0px;
+  margin-top: 40px;
+  padding: 12px 12px 12px 30px;
+  border-bottom: var(--tab-outline-width) solid var(--tab-outline-color);
+  border-color: var(--hr-color);
+}
+
+/* Collapsed */
+.flashcard .is-collapsed h2 {
+  border: none;
+  border-radius: 12px;
+}
+
+/* Collapse Indicator */
+.flashcard h2 .collapse-indicator  {
+  opacity: 1;
+}
+
+/* Text */
+.flashcard p {
+  background: var(--bg2);
+  border-radius: 0px 0px 12px 12px;
+  margin-bottom: 40px;
+  margin-top: 0px;
+  padding: 12px;
+}
+
+/* Bullet List */
+.flashcard .has-list-bullet:not(p) {
+  background: var(--bg2) !important;
+  border-radius: 0px 0px 12px 12px;
+  margin-top: 0px;
+  padding-top: 8px;
+  padding-bottom: 8px;
 }
