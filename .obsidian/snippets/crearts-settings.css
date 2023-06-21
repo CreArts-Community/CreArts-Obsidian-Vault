@@ -1,0 +1,110 @@
+/* @settings
+
+name: CreArts
+id: crarts-style
+settings:
+	-
+		id: interface
+		title: Interface colors
+		type: heading
+		level: 2
+		collapsed: true
+	-
+		id: base
+		title: Base color
+		description: Defines all background and border colors unless overridden in more granular settings
+		type: variable-themed-color
+		format: hsl-split
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: background-primary
+		title: Primary background
+		description: Background color for the main window
+		type: variable-themed-color
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: background-secondary
+		title: Secondary background
+		description: Background color for left sidebar and menus
+		type: variable-themed-color
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: bg3
+		title: Active background
+		description: Background color for hovered buttons and currently selected file
+		type: variable-themed-color
+		opacity: true
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: ui1
+		title: Border color
+		type: variable-themed-color
+		description: For buttons, divider lines, and outlined elements
+		opacity: true
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: ui2
+		title: Highlighted border color
+		description: Used when hovering over buttons, dividers, and outlined elements
+		type: variable-themed-color
+		opacity: true
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: ui3
+		title: Active border color
+		description: Used when clicking buttons and outlined elements
+		type: variable-themed-color
+		opacity: true
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: accent-color
+		title: Accent color
+		type: heading
+		level: 2
+		collapsed: true
+	-
+		id: ax1
+		title: Accent color
+		type: variable-themed-color
+		description: Used primarily for links
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: ax2
+		title: Accent color (hover)
+		type: variable-themed-color
+		description: Used primarily for hovered links
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: ax3
+		title: Accent color interactive
+		type: variable-themed-color
+		description: Used for buttons, checklists, toggles
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: sp1
+		title: Text on accent
+		type: variable-themed-color
+		description: Used primarily for text on accented buttons
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+*/
