@@ -1,8 +1,80 @@
 # ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-# ║ Gitignore                ║ Obisidian                                                                               ║
+# ║ Gitignore                ║ Main                                                                                    ║
 # ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
-# Files
+/*
+!.obsidian
+!.trash
+!1 Notes
+!2 Bookmarks
+!3 Tasks
+!4 Projects
+!5 Documents
+!6 Study
+!7 Wiki
+!8 Resources
+!9 Templates
+!license
+!manifest.json
+!readme.md
+
+# ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+# ║ Gitignore                ║ Sub                                                                                     ║
+# ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+.git/*
+
+# Trash
+.trash/*
+!.gitkeep
+
+# Notes
+1 Notes/*
+!.gitkeep
+
+# Bookmarks
+2 Bookmarks/* 
+!.gitkeep
+
+# Tasks
+3 Tasks/* 
+!.gitkeep
+
+
+# Projects
+4 Projects/*
+!.gitkeep
+
+# Documents
+5 Documents/*
+!.gitkeep
+
+# Study
+6 Study/*
+!.gitkeep
+
+# Wiki
+7 Wiki/*
+!.gitkeep
+
+# Resources
+8 Resources/attachments/*
+!.gitkeep
+8 Resources/banners/*
+!space1.jpg
+!space2.jpg
+!space3.jpg
+!space4.jpg
+
+# Sorting
+Sorting
+!.gitkeep
+
+# ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+# ║ Gitignore                ║ Obsidian                                                                                ║
+# ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+# Obsidian
 .obsidian/bookmarks.json
 .obsidian/starred.json
 .obsidian/workspace
@@ -14,56 +86,10 @@
 # Plugins
 .obsidian/plugins/home-tab/data.json
 .obsidian/plugins/recent-files-obsidian/data.json
-.obsidian/plugins/remember-cursor-position/cursor-positions.json
 .obsidian/plugins/surfing/data.json
-
 .obsidian/plugins/obsidian-sample-plugin/data.json
-
-# ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-# ║ Gitignore                ║ Folders                                                                                 ║
-# ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
-
-.trash/*
-!.gitkeep
-
-1 Notes/*
-!.gitkeep
-
-2 Bookmarks/* 
-!.gitkeep
-
-3 Tasks/* 
-!.gitkeep
-
-4 Projects/*
-!.gitkeep
-
-5 Documents/*
-!.gitkeep
-
-6 Study/*
-!.gitkeep
-
-7 Wiki/*
-!.gitkeep
-
-
-8 Resources/attachments/*
-!.gitkeep
-
-8 Resources/banners/*
-!space1.jpg
-!space2.jpg
-!space3.jpg
-!space4.jpg
-
-Sorting
-
-# ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-# ║ Git                      ║ Windows                                                                                 ║
-# ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
-
-.git/*
+.obsidian/plugins/emoji-shortcodes/data.json
+.obsidian/plugins/remember-cursor-position/cursor-positions.json
 
 # ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
 # ║ Gitignore                ║ Windows                                                                                 ║

@@ -1,7 +1,12 @@
 {
   "callouts": {
     "custom": [
-      "button"
+      "c-important",
+      "c-question",
+      "c-info",
+      "c-note",
+      "c-quote",
+      "c-example"
     ],
     "settings": {
       "button": [
@@ -24,6 +29,129 @@
           },
           "changes": {
             "color": "175, 182, 212"
+          }
+        }
+      ],
+      "c-important": [
+        {
+          "changes": {
+            "icon": "remix-FireFill"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "light"
+          },
+          "changes": {
+            "color": "205, 9, 82"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "dark"
+          },
+          "changes": {
+            "color": "205, 9, 82"
+          }
+        }
+      ],
+      "c-question": [
+        {
+          "changes": {
+            "icon": "remix-QuestionFill"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "light"
+          },
+          "changes": {
+            "color": "9, 205, 133"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "dark"
+          },
+          "changes": {
+            "color": "9, 205, 133"
+          }
+        }
+      ],
+      "c-info": [
+        {
+          "changes": {
+            "icon": "remix-InformationFill"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "light"
+          },
+          "changes": {
+            "color": "255, 216, 97"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "dark"
+          },
+          "changes": {
+            "color": "255, 216, 97"
+          }
+        }
+      ],
+      "c-example": [
+        {
+          "changes": {
+            "icon": "lucide-align-left"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "light"
+          },
+          "changes": {
+            "color": "161, 66, 255"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "dark"
+          },
+          "changes": {
+            "color": "161, 66, 255"
+          }
+        }
+      ],
+      "c-note": [
+        {
+          "changes": {
+            "icon": "remix-PencilFill"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "light"
+          },
+          "changes": {
+            "color": "66, 113, 255"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "dark"
+          },
+          "changes": {
+            "color": "66, 113, 255"
+          }
+        }
+      ],
+      "c-quote": [
+        {
+          "changes": {
+            "icon": "remix-DoubleQuotesR",
+            "color": "226, 91, 64"
           }
         }
       ]

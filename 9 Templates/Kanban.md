@@ -1,5 +1,5 @@
 ---
-tag: template, kanban
+tag: templates, kanban
 publish: false
 cssClass: kanban
 kanban-plugin: basic

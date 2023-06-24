@@ -11,7 +11,6 @@
   "obsidian-smart-typography",
   "file-explorer-note-count",
   "editing-toolbar",
-  "cm-editor-syntax-highlight-obsidian",
   "url-into-selection",
   "reveal-active-file-button",
   "recent-files-obsidian",
@@ -25,16 +24,12 @@
   "obsidian-columns",
   "callout-manager",
   "home-tab",
-  "OA-file-hider",
-  "obsidian-hider",
   "dataview",
   "obsidian-sortable",
   "flashcards-obsidian",
-  "copy-url-in-preview",
   "surfing",
   "obsidian-custom-frames",
-  "obsidian-style-settings",
-  "obsidian42-brat",
-  "css-editor",
-  "obsidian-sample-plugin"
+  "obsidian-sample-plugin",
+  "templater-obsidian",
+  "obsidian-style-settings"
 ]

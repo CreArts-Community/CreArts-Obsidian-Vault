@@ -1,0 +1,130 @@
+/* ╔════════════════════════════════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Obsidian Template                                                                                                  ║ */
+/* ╠══════════════════════════╦═════════════════════════════════════════════════════════════════════════════════════════╣ */
+/* ║ Name:                    ║ Colors                                                                                  ║ */
+/* ║ Version:                 ║ 1.0.0                                                                                   ║ */
+/* ║ Author:                  ║ Corellan                                                                                ║ */
+/* ║ License:                 ║ MIT                                                                                     ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Colors                   ║ Variables                                                                               ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+[data-callout="colors-4"] {
+  --colors-columns-4: calc(100% / 4 - 8px);
+}
+
+[data-callout="colors-3"] {
+  --colors-columns-3: calc(100% / 3 - 8px);
+}
+
+[data-callout="colors-2"] {
+  --colors-columns-2: calc(100% / 2 - 8px);
+}
+
+[data-callout="colors-1"] {
+  --colors-columns-1: calc(100% / 1 - 8px);
+}
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Colors                   ║ General                                                                                 ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+/* Spacing */
+[data-callout="colors-4"] p,
+[data-callout="colors-3"] p,
+[data-callout="colors-2"] p,
+[data-callout="colors-1"] p  {
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 8px;
+  row-gap: 8px;
+  column-gap: 4px;
+}
+
+/* Background */
+[data-callout="colors-4"] span,
+[data-callout="colors-3"] span,
+[data-callout="colors-2"] span,
+[data-callout="colors-1"] span {
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  font-weight: 500;
+  padding: 0px 6px 0px 6px;
+}
+
+/* Text */
+[data-callout="colors-4"] span::before,
+[data-callout="colors-3"] span::before,
+[data-callout="colors-2"] span::before,
+[data-callout="colors-1"] span::before {
+  content: "#";
+  font-weight: 800;
+}
+
+/* Selection */
+[data-callout="colors-4"] span,
+[data-callout="colors-3"] span,
+[data-callout="colors-2"] span,
+[data-callout="colors-1"] span {
+  user-select: all;
+  -moz-user-select: all;
+  -webkit-user-select: all;
+}
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Colors                   ║ Remove                                                                                  ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+
+/* Remove Title */
+[data-callout="colors-4"] .callout-title,
+[data-callout="colors-3"] .callout-title,
+[data-callout="colors-2"] .callout-title,
+[data-callout="colors-1"] .callout-title {
+  display: none;
+}
+
+/* Remove Background */
+[data-callout="colors-4"],
+[data-callout="colors-3"],
+[data-callout="colors-2"],
+[data-callout="colors-1"] {
+  background: transparent;
+  box-shadow: none !important;
+  padding: 0px;
+}
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Colors                   ║ Variables (Column-4)                                                                    ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+[data-callout="colors-4"] span {
+  width: var(--colors-columns-4);
+}
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Colors                   ║ Variables (Column-3)                                                                    ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+[data-callout="colors-3"] span {
+  width: var(--colors-columns-3);
+}
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Colors                   ║ Variables (Column-2)                                                                    ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+[data-callout="colors-2"] span {
+  width: var(--colors-columns-2);
+}
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Colors                   ║ Variables (Column-1)                                                                    ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+[data-callout="colors-1"] span {
+  width: var(--colors-columns-1);
+}

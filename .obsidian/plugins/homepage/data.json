@@ -4,7 +4,7 @@
     "Main Homepage": {
       "version": 2,
       "hasRibbonIcon": true,
-      "openMode": "Replace all open notes",
+      "openMode": "Keep open notes",
       "view": "Reading view",
       "refreshDataview": false,
       "value": "8 Resources/Home",
@@ -14,7 +14,9 @@
       "openWhenEmpty": true,
       "alwaysApply": true,
       "pin": true,
-      "revertView": true
+      "revertView": true,
+      "autoScroll": true,
+      "manualOpenMode": "Keep open notes"
     }
   },
   "separateMobile": false

@@ -1,5 +1,5 @@
 ---
-tag: template, task
+tag: templates, task
 publish: false
 cssClass: task
 ---
@@ -13,3 +13,4 @@ cssClass: task
 - [ ] Example IV
 - [ ] Example V
 - [ ] Example VI
+- [S] Example VI

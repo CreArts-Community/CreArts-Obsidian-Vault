@@ -6,11 +6,11 @@
         "type": "split",
         "children": [
           {
-            "id": "aef600805421bad1",
+            "id": "da2bfc95dfdb97f1",
             "type": "tabs",
             "children": [
               {
-                "id": "287b69256b0e48f5",
+                "id": "865e090012a5461c",
                 "type": "leaf",
                 "pinned": true,
                 "state": {
@@ -19,9 +19,17 @@
                     "file": "8 Resources/Home.md",
                     "mode": "preview",
                     "backlinks": false,
-                    "source": false
+                    "source": true
                   },
                   "pinned": true
+                }
+              },
+              {
+                "id": "d63329b814e1b919",
+                "type": "leaf",
+                "state": {
+                  "type": "graph",
+                  "state": {}
                 }
               }
             ]
@@ -36,7 +44,6 @@
           {
             "id": "c5abf96d5ddd01aa",
             "type": "tabs",
-            "dimension": 67.04260651629073,
             "children": [
               {
                 "id": "cb73e9494fd80308",
@@ -49,11 +56,13 @@
                 }
               },
               {
-                "id": "eeab6c3ffb05abdc",
+                "id": "5c4379c1a68fb14b",
                 "type": "leaf",
                 "state": {
-                  "type": "bookmarks",
-                  "state": {}
+                  "type": "outline",
+                  "state": {
+                    "file": "8 Resources/Home.md"
+                  }
                 }
               },
               {
@@ -91,28 +100,64 @@
                 }
               }
             ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 223.51013946533203
+      },
+      "right": {
+        "id": "46f7e53db47ebf39",
+        "type": "split",
+        "children": [
+          {
+            "id": "41fa5054f53826f6",
+            "type": "tabs",
+            "dimension": 26.31578947368421,
+            "children": [
+              {
+                "id": "1e585342250f268d",
+                "type": "leaf",
+                "state": {
+                  "type": "custom-frames-clock",
+                  "state": {}
+                }
+              }
+            ]
           },
           {
-            "id": "b7eae4f69447eaeb",
+            "id": "173d81a6a0983062",
             "type": "tabs",
-            "dimension": 32.957393483709275,
+            "dimension": 41.44736842105263,
             "children": [
+              {
+                "id": "18bb9d0ae2dd8a2b",
+                "type": "leaf",
+                "state": {
+                  "type": "calendar",
+                  "state": {}
+                }
+              }
+            ]
+          },
+          {
+            "id": "19475811ecd5978e",
+            "type": "tabs",
+            "dimension": 32.23684210526316,
+            "children": [
+              {
+                "id": "14daf17029436797",
+                "type": "leaf",
+                "state": {
+                  "type": "WeatherView",
+                  "state": {}
+                }
+              },
               {
                 "id": "2cbebc7f9242357b",
                 "type": "leaf",
                 "state": {
                   "type": "graph",
                   "state": {}
-                }
-              },
-              {
-                "id": "5c4379c1a68fb14b",
-                "type": "leaf",
-                "state": {
-                  "type": "outline",
-                  "state": {
-                    "file": "8 Resources/Home.md"
-                  }
                 }
               },
               {
@@ -148,83 +193,30 @@
           }
         ],
         "direction": "horizontal",
-        "width": 223.51013946533203
-      },
-      "right": {
-        "id": "46f7e53db47ebf39",
-        "type": "split",
-        "children": [
-          {
-            "id": "41fa5054f53826f6",
-            "type": "tabs",
-            "dimension": 25.28445006321112,
-            "children": [
-              {
-                "id": "1e585342250f268d",
-                "type": "leaf",
-                "state": {
-                  "type": "custom-frames-clock",
-                  "state": {}
-                }
-              }
-            ]
-          },
-          {
-            "id": "173d81a6a0983062",
-            "type": "tabs",
-            "dimension": 44.50063211125158,
-            "children": [
-              {
-                "id": "18bb9d0ae2dd8a2b",
-                "type": "leaf",
-                "state": {
-                  "type": "calendar",
-                  "state": {}
-                }
-              }
-            ]
-          },
-          {
-            "id": "19475811ecd5978e",
-            "type": "tabs",
-            "dimension": 30.214917825537295,
-            "children": [
-              {
-                "id": "14daf17029436797",
-                "type": "leaf",
-                "state": {
-                  "type": "WeatherView",
-                  "state": {}
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "horizontal",
         "width": 258.5
       },
       "left-ribbon": {
         "hiddenItems": {
-          "daily-notes:Heutige Notiz öffnen": true,
-          "workspaces:Workspace-Layouts verwalten": false,
+          "templater-obsidian:Templater": true,
           "homepage:Open homepage": false,
-          "graph:Graphen-Ansicht öffnen": true,
-          "canvas:Neuen Canvas erstellen": true,
-          "templates:Vorlage einfügen": true,
-          "command-palette:Befehlspalette öffnen": true,
+          "workspaces:Workspace-Layouts verwalten": false,
+          "canvas:Neuen Canvas erstellen": false,
+          "templates:Vorlage einfügen": false,
+          "graph:Graphen-Ansicht öffnen": false,
+          "command-palette:Befehlspalette öffnen": false,
           "flashcards-obsidian:Generate flashcards": true,
           "obsidian-custom-frames:Open ChatGPT": false,
-          "obsidian-custom-frames:Open Google Calendar": false,
-          "obsidian-custom-frames:Open Google Tasks": false,
           "obsidian-custom-frames:Open DeepL": false,
           "obsidian-custom-frames:Open Wikipedia": false,
+          "obsidian-custom-frames:Open Google Calendar": false,
           "obsidian-custom-frames:Open Google Keep": false,
+          "obsidian-custom-frames:Open Google Tasks": false,
           "obsidian-custom-frames:Open Google Maps": false,
           "obsidian-custom-frames:Open Google Contacts": false,
           "obsidian-custom-frames:Open Discord": false
         }
       },
-      "active": "287b69256b0e48f5"
+      "active": "865e090012a5461c"
     }
   },
   "active": "Home"

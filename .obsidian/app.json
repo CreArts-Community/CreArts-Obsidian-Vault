@@ -23,5 +23,6 @@
     "de",
     "en"
   ],
-  "defaultViewMode": "preview"
+  "defaultViewMode": "preview",
+  "alwaysUpdateLinks": true
 }

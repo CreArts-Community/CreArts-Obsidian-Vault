@@ -1,6 +1,6 @@
 {
   "groups": [],
-  "generateCommands": true,
+  "generateCommands": false,
   "showNoticeOnGroupLoad": "none",
   "devLogs": false,
   "devices": [],

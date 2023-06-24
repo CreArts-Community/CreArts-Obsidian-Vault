@@ -1,0 +1,145 @@
+/* ╔════════════════════════════════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Obsidian Template                                                                                                  ║ */
+/* ╠══════════════════════════╦═════════════════════════════════════════════════════════════════════════════════════════╣ */
+/* ║ Name:                    ║ Buttons                                                                                 ║ */
+/* ║ Version:                 ║ 1.0.0                                                                                   ║ */
+/* ║ Author:                  ║ Corellan                                                                                ║ */
+/* ║ License:                 ║ MIT                                                                                     ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Buttons                  ║ Variables                                                                               ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+[data-callout="buttons-4"] {
+  --buttons-columns-4: calc(100% / 4 - 8px);
+  --buttons-height-4: 80px;
+}
+
+[data-callout="buttons-3"] {
+  --buttons-columns-3: calc(100% / 3 - 8px);
+  --buttons-height-3: 120px;
+}
+
+[data-callout="buttons-2"] {
+  --buttons-columns-2: calc(100% / 2 - 8px);
+  --buttons-height-2: 160px;
+}
+
+[data-callout="buttons-1"] {
+  --buttons-columns-1: calc(100% / 1 - 8px);
+  --buttons-height-1: 240px;
+}
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Buttons                  ║ Remove                                                                                  ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+/* Remove Title */
+[data-callout="buttons-4"] .callout-title,
+[data-callout="buttons-3"] .callout-title,
+[data-callout="buttons-2"] .callout-title,
+[data-callout="buttons-1"] .callout-title {
+  display: none;
+}
+
+/* Remove Background */
+[data-callout="buttons-4"],
+[data-callout="buttons-3"],
+[data-callout="buttons-2"],
+[data-callout="buttons-1"] {
+  background: transparent;
+  box-shadow: none !important;
+  padding: 0px;
+}
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Buttons                  ║ General                                                                                 ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+/* Spacing */
+[data-callout="buttons-4"] p,
+[data-callout="buttons-3"] p,
+[data-callout="buttons-2"] p,
+[data-callout="buttons-1"] p {
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 8px;
+  row-gap: 8px;
+  column-gap: 4px;
+  padding: 12px;
+}
+
+/* Background */
+[data-callout="buttons-4"] .external-link,
+[data-callout="buttons-3"] .external-link,
+[data-callout="buttons-2"] .external-link,
+[data-callout="buttons-1"] .external-link {
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  border-radius: 12px !important;
+  overflow: hidden !important;
+  align-items: center !important;
+  background: transparent;
+  background-color: var(--bg1);
+  cursor: pointer;
+  padding: 0px;
+}
+
+/* Background - Hover */
+[data-callout="buttons-4"] .external-link:hover,
+[data-callout="buttons-3"] .external-link:hover,
+[data-callout="buttons-2"] .external-link:hover,
+[data-callout="buttons-1"] .external-link:hover {
+  background-color: var(--bg1);
+
+}
+
+/* Embed */
+[data-callout="buttons-4"] .external-link img,
+[data-callout="buttons-3"] .external-link img,
+[data-callout="buttons-2"] .external-link img,
+[data-callout="buttons-1"] .external-link img {
+  cursor: unset !important;
+}
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Buttons                  ║ buttons-4                                                                               ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+[data-callout="buttons-4"] .external-link {
+  width: var(--buttons-columns-4);
+  max-height: var(--buttons-height-4);
+  height: var(--buttons-height-4);
+}
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Buttons                  ║ buttons-3                                                                               ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+[data-callout="buttons-3"] .external-link {
+  width: var(--buttons-columns-3);
+  max-height: var(--buttons-height-3);
+  height: var(--buttons-height-3);
+}
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Buttons                  ║ buttons-2                                                                               ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+[data-callout="buttons-2"] .external-link {
+  width: var(--buttons-columns-2);
+  max-height: var(--buttons-height-2);
+  height: var(--buttons-height-2);
+}
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Buttons                  ║ buttons-1                                                                               ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+[data-callout="buttons-1"] .external-link {
+  width: var(--buttons-columns-1);
+  max-height: var(--buttons-height-1);
+  height: var(--buttons-height-1);
+}

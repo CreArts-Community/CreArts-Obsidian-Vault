@@ -1,0 +1,78 @@
+/* ╔════════════════════════════════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Obsidian Add-On                                                                                                    ║ */
+/* ╠══════════════════════════╦═════════════════════════════════════════════════════════════════════════════════════════╣ */
+/* ║ Name:                    ║ CreArts Dock headers                                                                    ║ */
+/* ║ Version:                 ║ 1.0.0                                                                                   ║ */
+/* ║ Author:                  ║ Corellan                                                                                ║ */
+/* ║ License:                 ║ MIT                                                                                     ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Custom CSS               ║ Header (MAIN)                                                                           ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+.side-dock-actions > div:nth-child(1) {
+  margin-bottom: 20px;
+
+}
+
+.side-dock-actions > div:nth-child(1)::after {
+  position: absolute;
+  background: var(--bg1);
+  border-radius: 4px;
+  padding: 0px 2px 0px 2px;
+  font-size: 11px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: var(--text-muted);
+  font-size: 10px;
+  margin-bottom: -50px;
+  content: "MAIN";
+}
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Custom CSS               ║ Header (TOOL)                                                                           ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+.side-dock-actions > div:nth-child(6) {
+  margin-bottom: 20px;
+}
+
+.side-dock-actions > div:nth-child(6)::after {
+  position: absolute;
+  background: var(--bg1);
+  border-radius: 4px;
+  padding: 0px 2px 0px 2px;
+  font-size: 11px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: var(--text-muted);
+  font-size: 10px;
+  margin-bottom: -50px;
+  content: "TOOL";
+}
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Custom CSS               ║ Header (APPS)                                                                           ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+.side-dock-actions > div:nth-child(8) {
+  margin-bottom: 20px;
+}
+
+.side-dock-actions > div:nth-child(8)::after {
+  position: absolute;
+  background: var(--bg1);
+  border-radius: 4px;
+  padding: 0px 2px 0px 2px;
+  font-size: 11px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: var(--text-muted);
+  font-size: 10px;
+  margin-bottom: -50px;
+  content: "APPS";
+}
