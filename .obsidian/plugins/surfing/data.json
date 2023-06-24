@@ -43,17 +43,5 @@
     ],
     "defaultFilterType": "tree"
   },
-  "treeData": [
-    {
-      "id": "c79c86f7cbb247cb",
-      "parent": 0,
-      "droppable": true,
-      "text": "Embed hyperlink into image/icon - Help - Obsidian Forum",
-      "data": {
-        "fileType": "site",
-        "fileSize": "",
-        "icon": {}
-      }
-    }
-  ]
+  "treeData": []
 }

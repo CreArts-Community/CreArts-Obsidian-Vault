@@ -22,6 +22,7 @@
 # ║ Gitignore                ║ Sub                                                                                     ║
 # ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
+# Git
 .git/*
 
 # Trash
@@ -39,7 +40,6 @@
 # Tasks
 3 Tasks/* 
 !.gitkeep
-
 
 # Projects
 4 Projects/*
@@ -70,7 +70,6 @@
 8 Resources/scripts/*
 !.gitkeep
 
-
 # Sorting
 Sorting
 !.gitkeep
@@ -84,14 +83,13 @@ Sorting
 .obsidian/starred.json
 .obsidian/workspace
 
-.obsidian/workspaces.json
 .obsidian/workspace-mobile.json
 .obsidian/workspace.json
 
 # Plugins
 .obsidian/plugins/home-tab/data.json
 .obsidian/plugins/recent-files-obsidian/data.json
-.obsidian/plugins/surfing/data.json
+
 .obsidian/plugins/obsidian-sample-plugin/data.json
 .obsidian/plugins/emoji-shortcodes/data.json
 .obsidian/plugins/remember-cursor-position/cursor-positions.json

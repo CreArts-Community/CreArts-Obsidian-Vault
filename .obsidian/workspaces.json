@@ -23,14 +23,6 @@
                   },
                   "pinned": true
                 }
-              },
-              {
-                "id": "d63329b814e1b919",
-                "type": "leaf",
-                "state": {
-                  "type": "graph",
-                  "state": {}
-                }
               }
             ]
           }
@@ -127,7 +119,7 @@
           {
             "id": "173d81a6a0983062",
             "type": "tabs",
-            "dimension": 41.44736842105263,
+            "dimension": 42.5,
             "children": [
               {
                 "id": "18bb9d0ae2dd8a2b",
@@ -142,13 +134,21 @@
           {
             "id": "19475811ecd5978e",
             "type": "tabs",
-            "dimension": 32.23684210526316,
+            "dimension": 31.18421052631579,
             "children": [
               {
                 "id": "14daf17029436797",
                 "type": "leaf",
                 "state": {
                   "type": "WeatherView",
+                  "state": {}
+                }
+              },
+              {
+                "id": "d63329b814e1b919",
+                "type": "leaf",
+                "state": {
+                  "type": "graph",
                   "state": {}
                 }
               },
@@ -197,13 +197,13 @@
       },
       "left-ribbon": {
         "hiddenItems": {
-          "templater-obsidian:Templater": true,
           "homepage:Open homepage": false,
-          "workspaces:Workspace-Layouts verwalten": false,
-          "canvas:Neuen Canvas erstellen": false,
-          "templates:Vorlage einfügen": false,
-          "graph:Graphen-Ansicht öffnen": false,
-          "command-palette:Befehlspalette öffnen": false,
+          "workspaces:Manage workspace layouts": false,
+          "canvas:Create new canvas": false,
+          "templates:Insert template": false,
+          "graph:Open graph view": false,
+          "command-palette:Open command palette": false,
+          "templater-obsidian:Templater": true,
           "flashcards-obsidian:Generate flashcards": true,
           "obsidian-custom-frames:Open ChatGPT": false,
           "obsidian-custom-frames:Open DeepL": false,
@@ -216,7 +216,7 @@
           "obsidian-custom-frames:Open Discord": false
         }
       },
-      "active": "865e090012a5461c"
+      "active": "14daf17029436797"
     }
   },
   "active": "Home"
