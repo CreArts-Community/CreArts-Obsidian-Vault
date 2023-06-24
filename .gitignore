@@ -65,6 +65,11 @@
 !space2.jpg
 !space3.jpg
 !space4.jpg
+8 Resources/icons/*
+!.gitkeep
+8 Resources/scripts/*
+!.gitkeep
+
 
 # Sorting
 Sorting
