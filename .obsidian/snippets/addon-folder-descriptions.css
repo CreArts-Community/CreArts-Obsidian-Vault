@@ -1,0 +1,141 @@
+/* ╔════════════════════════════════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Obsidian Add-On                                                                                                    ║ */
+/* ╠══════════════════════════╦═════════════════════════════════════════════════════════════════════════════════════════╣ */
+/* ║ Name:                    ║ Folder Descriptions                                                                     ║ */
+/* ║ Version:                 ║ 1.0.0                                                                                   ║ */
+/* ║ Author:                  ║ Corellan                                                                                ║ */
+/* ║ License:                 ║ MIT                                                                                     ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Descriptions             ║ Vars                                                                                    ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+:root {
+/* Description 1 */
+--folder-description-1: "My Personal Notes";
+--folder-description-1-color: ;
+
+/* Description 2 */
+--folder-description-2: "My Saved Links";
+--folder-description-2-color: ;
+
+/* Description 3 */
+--folder-description-3: "My To-Do's";
+--folder-description-3-color: ;
+
+/* Description 4 */
+--folder-description-4: "My Private Notes";
+--folder-description-4-color: ;
+
+/* Description 5 */
+--folder-description-5: "My Personal Studies";
+--folder-description-5-color: ;
+
+/* Description 6 */
+--folder-description-6: "My Work Files";
+--folder-description-6-color: ;
+
+/* Description 7 */
+--folder-description-7: "My Published Knowledge";
+--folder-description-7-color: ;
+
+/* Description 8 */
+--folder-description-8: "Files & Resources";
+--folder-description-8-color: ;
+
+/* Description 9 */
+--folder-description-9: "My Custom Tempaltes";
+--folder-description-9-color: ;
+}
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Descriptions             ║ General                                                                                 ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+/* Spacing */
+[data-path="1 Notes"] .tree-item-inner,
+[data-path="2 Bookmarks"] .tree-item-inner,
+[data-path="3 Tasks"] .tree-item-inner,
+[data-path="4 Personal"] .tree-item-inner,
+[data-path="5 Study"] .tree-item-inner,
+[data-path="6 Work"] .tree-item-inner,
+[data-path="7 Knowledge"] .tree-item-inner,
+[data-path="8 Resources"] .tree-item-inner,
+[data-path="9 Templates"] .tree-item-inner {
+  height: 30px;
+}
+
+/* Color */
+.tree-item-inner::after {
+  position: absolute;
+  font-size: 10px;
+  bottom: 4px;
+  left: 50px;
+}
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Descriptions             ║ Descriptions                                                                            ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+/* Notes */
+[data-path="1 Notes"] .tree-item-inner::after {
+  content: var(--folder-description-1);
+  color: var(--folder-description-1-color, var(--text-muted));
+}
+
+/* Bookmarks */
+[data-path="2 Bookmarks"] .tree-item-inner::after {
+  content: var(--folder-description-2);
+  color: var(--folder-description-2-color, var(--text-muted));
+}
+
+/* Tasks */
+[data-path="3 Tasks"] .tree-item-inner::after {
+  content: var(--folder-description-3);
+  color: var(--folder-description-3-color, var(--text-muted));
+}
+
+/* Personal */
+[data-path="4 Personal"] .tree-item-inner::after {
+  content: var(--folder-description-4);
+  color: var(--folder-description-4-color, var(--text-muted));
+}
+
+/* Study */
+[data-path="5 Study"] .tree-item-inner::after {
+  content: var(--folder-description-5);
+  color: var(--folder-description-5-color, var(--text-muted));
+}
+
+/* Work */
+[data-path="6 Work"] .tree-item-inner::after {
+  content: var(--folder-description-6);
+  color: var(--folder-description-6-color, var(--text-muted));
+}
+
+/* Wiki */
+[data-path="7 Knowledge"] .tree-item-inner::after {
+  content: var(--folder-description-7);
+  color: var(--folder-description-7-color, var(--text-muted));
+}
+
+/* Resources */
+[data-path="8 Resources"] .tree-item-inner::after {
+  content: var(--folder-description-8);
+  color: var(--folder-description-8-color, var(--text-muted));
+}
+
+/* Templates */
+[data-path="9 Templates"] .tree-item-inner::after {
+  content: var(--folder-description-9);
+  color: var(--folder-description-9-color, var(--text-muted));
+}
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Descriptions             ║ Plugins                                                                                    ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+.nav-folder-title[data-count]::after {
+  align-self: start;
+}

@@ -6,11 +6,11 @@
         "type": "split",
         "children": [
           {
-            "id": "da2bfc95dfdb97f1",
+            "id": "c0d72a5615167f8f",
             "type": "tabs",
             "children": [
               {
-                "id": "865e090012a5461c",
+                "id": "b63266b1cca4a98d",
                 "type": "leaf",
                 "pinned": true,
                 "state": {
@@ -19,7 +19,7 @@
                     "file": "8 Resources/Home.md",
                     "mode": "preview",
                     "backlinks": false,
-                    "source": true
+                    "source": false
                   },
                   "pinned": true
                 }
@@ -74,7 +74,7 @@
                 "state": {
                   "type": "search",
                   "state": {
-                    "query": "flashcard",
+                    "query": "tag:#Work",
                     "matchingCase": false,
                     "explainSearch": false,
                     "collapseAll": false,
@@ -95,14 +95,14 @@
           }
         ],
         "direction": "horizontal",
-        "width": 223.51013946533203
+        "width": 200
       },
       "right": {
         "id": "46f7e53db47ebf39",
         "type": "split",
         "children": [
           {
-            "id": "41fa5054f53826f6",
+            "id": "36d6e0ae0f879b45",
             "type": "tabs",
             "dimension": 26.31578947368421,
             "children": [
@@ -119,7 +119,7 @@
           {
             "id": "173d81a6a0983062",
             "type": "tabs",
-            "dimension": 42.5,
+            "dimension": 41.8421052631579,
             "children": [
               {
                 "id": "18bb9d0ae2dd8a2b",
@@ -134,7 +134,7 @@
           {
             "id": "19475811ecd5978e",
             "type": "tabs",
-            "dimension": 31.18421052631579,
+            "dimension": 31.842105263157894,
             "children": [
               {
                 "id": "14daf17029436797",
@@ -193,30 +193,31 @@
           }
         ],
         "direction": "horizontal",
-        "width": 258.5
+        "width": 200
       },
       "left-ribbon": {
         "hiddenItems": {
           "homepage:Open homepage": false,
-          "workspaces:Manage workspace layouts": false,
-          "canvas:Create new canvas": false,
-          "templates:Insert template": false,
-          "graph:Open graph view": false,
-          "command-palette:Open command palette": false,
+          "workspaces:Workspace-Layouts verwalten": false,
+          "canvas:Neuen Canvas erstellen": true,
+          "templates:Vorlage einfügen": false,
+          "obsidian-excalidraw-plugin:Create new drawing": false,
+          "graph:Graphen-Ansicht öffnen": false,
+          "command-palette:Befehlspalette öffnen": true,
           "templater-obsidian:Templater": true,
           "flashcards-obsidian:Generate flashcards": true,
           "obsidian-custom-frames:Open ChatGPT": false,
           "obsidian-custom-frames:Open DeepL": false,
+          "obsidian-custom-frames:Open Language Tool": false,
           "obsidian-custom-frames:Open Wikipedia": false,
           "obsidian-custom-frames:Open Google Calendar": false,
           "obsidian-custom-frames:Open Google Keep": false,
           "obsidian-custom-frames:Open Google Tasks": false,
           "obsidian-custom-frames:Open Google Maps": false,
-          "obsidian-custom-frames:Open Google Contacts": false,
-          "obsidian-custom-frames:Open Discord": false
+          "obsidian-custom-frames:Open Google Contacts": false
         }
       },
-      "active": "14daf17029436797"
+      "active": "b63266b1cca4a98d"
     }
   },
   "active": "Home"

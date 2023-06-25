@@ -8,10 +8,10 @@
 !1 Notes
 !2 Bookmarks
 !3 Tasks
-!4 Projects
-!5 Documents
-!6 Study
-!7 Wiki
+!4 Personal
+!5 Study
+!6 Work
+!7 Knowledge
 !8 Resources
 !9 Templates
 !license
@@ -41,20 +41,20 @@
 3 Tasks/* 
 !.gitkeep
 
-# Projects
-4 Projects/*
-!.gitkeep
-
-# Documents
-5 Documents/*
+# Personal
+4 Personal/*
 !.gitkeep
 
 # Study
-6 Study/*
+5 Study/*
 !.gitkeep
 
-# Wiki
-7 Wiki/*
+# Work
+6 Work/*
+!.gitkeep
+
+# Knowledge
+7 Knowledge/*
 !.gitkeep
 
 # Resources
@@ -81,10 +81,11 @@ Sorting
 # Obsidian
 .obsidian/bookmarks.json
 .obsidian/starred.json
-.obsidian/workspace
+.obsidian/graph.json
 
-.obsidian/workspace-mobile.json
+.obsidian/workspace
 .obsidian/workspace.json
+.obsidian/workspace-mobile.json
 
 # Plugins
 .obsidian/plugins/home-tab/data.json
@@ -93,6 +94,7 @@ Sorting
 .obsidian/plugins/obsidian-sample-plugin/data.json
 .obsidian/plugins/emoji-shortcodes/data.json
 .obsidian/plugins/remember-cursor-position/cursor-positions.json
+.obsidian/plugins/obsidian-excalidraw-plugin/data.json
 
 # ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
 # ║ Gitignore                ║ Windows                                                                                 ║

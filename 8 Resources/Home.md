@@ -44,9 +44,9 @@ class home-button
 flexGrow=1
 ===
 ```button
-name Wikipedia
+name Language Tool
 type command
-action Custom Frames: Open Wikipedia
+action Custom Frames: Open Language Tool
 class home-button
 ```
 ````

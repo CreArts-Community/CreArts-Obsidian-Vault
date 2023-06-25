@@ -1,201 +1,111 @@
 /* ╔════════════════════════════════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
-/* ║ Obsidian Template                                                                                                  ║ */
+/* ║ Obsidian Add-On                                                                                                    ║ */
 /* ╠══════════════════════════╦═════════════════════════════════════════════════════════════════════════════════════════╣ */
-/* ║ Name:                    ║ Gallery                                                                                 ║ */
-/* ║ Version:                 ║ 1.1.0                                                                                   ║ */
+/* ║ Name:                    ║ Effects                                                                                 ║ */
+/* ║ Version:                 ║ 2.1.0                                                                                   ║ */
 /* ║ Author:                  ║ Corellan                                                                                ║ */
 /* ║ License:                 ║ MIT                                                                                     ║ */
 /* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
 
 /* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
-/* ║ Gallery                  ║ Variables                                                                               ║ */
+/* ║ Effects                  ║ Weather                                                                                 ║ */
 /* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
 
-[data-callout="gallery-4"] {
-  --gallery-columns-4: calc(100% / 4 - 8px);
-  --gallery-height-4: 80px;
-}
-
-[data-callout="gallery-3"] {
-  --gallery-columns-3: calc(100% / 3 - 8px);
-  --gallery-height-3: 120px;
-}
-
-[data-callout="gallery-2"] {
-  --gallery-columns-2: calc(100% / 2 - 8px);
-  --gallery-height-2: 160px;
-}
-
-[data-callout="gallery-1"] {
-  --gallery-columns-1: calc(100% / 1 - 8px);
-  --gallery-height-1: 240px;
+[style="display: flex; flex-direction: column; align-items: center; margin-right: 10px;"],
+[style="display: flex; flex-direction: column; align-items: center; margin-right: 10px;"],
+[style="display: flex; flex-direction: column; align-items: center;"] {
+  box-shadow: 2px 2px 20px #1f212b,
+  -2px -2px 12px #2f313f !important;
 }
 
 /* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
-/* ║ Gallery                  ║ Remove                                                                                  ║ */
+/* ║ Effects                  ║ Home                                                                                    ║ */
 /* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
 
-/* Remove Title */
-[data-callout="gallery-4"] .callout-title,
-[data-callout="gallery-3"] .callout-title,
-[data-callout="gallery-2"] .callout-title,
-[data-callout="gallery-1"] .callout-title {
-  display: none;
+/* Searchbar */
+.home-tab-searchbar {
+  box-shadow: inset 5px 5px 20px #1f212b,
+              inset -5px -5px 20px #353949;
 }
 
-/* Remove Background */
-[data-callout="gallery-4"],
-[data-callout="gallery-3"],
-[data-callout="gallery-2"],
-[data-callout="gallery-1"] {
-  background: transparent;
-  box-shadow: none !important;
-  padding: 0px;
+/* Buttons */
+.home-button {
+  box-shadow: 2px 2px 20px #1f212b,
+              -2px -2px 12px #2f313f !important;
+}
+
+.home-button:hover {
+  box-shadow: inset 6px 6px 20px #1f212b,
+              inset -6px -6px 20px #353949 !important;
 }
 
 /* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
-/* ║ Gallery                  ║ General                                                                                 ║ */
+/* ║ Effects                  ║ Toolbar                                                                                 ║ */
 /* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
-
-/* Spacing */
-[data-callout="gallery-4"] p,
-[data-callout="gallery-3"] p,
-[data-callout="gallery-2"] p,
-[data-callout="gallery-1"] p {
-  display: flex;
-  flex-wrap: wrap;
-  border-radius: 8px;
-  row-gap: 8px;
-  column-gap: 4px;
-}
 
 /* Background */
-[data-callout="gallery-4"] .image-embed,
-[data-callout="gallery-3"] .image-embed,
-[data-callout="gallery-2"] .image-embed,
-[data-callout="gallery-1"] .image-embed {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  border-radius: 12px !important;
-  overflow: hidden;
-}
-
-/* Image */
-[data-callout="gallery-4"] .image-embed img,
-[data-callout="gallery-3"] .image-embed img,
-[data-callout="gallery-2"] .image-embed img,
-[data-callout="gallery-1"] .image-embed img {
-  height: 100%;
-  overflow: hidden;
-  object-fit: cover;
+#cMenuToolbarModalBar.top {
+  box-shadow: none;
+  box-shadow: 2px 2px 20px #1f212b,
+              -2px -2px 12px #2f313f !important;
 }
 
 /* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
-/* ║ Gallery                  ║ Gallery-4                                                                               ║ */
+/* ║ Effects                  ║ Calendar                                                                                ║ */
 /* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
 
-[data-callout="gallery-4"] .image-embed {
-  width: var(--gallery-columns-4);
-  max-height: var(--gallery-height-4);
+#calendar-container .day:not(.today) .dot-container.svelte-q3wqg9 {
+  box-shadow: none;
+  box-shadow: 2px 2px 14px #1f212b,
+              -2px -2px 6px #2f313f !important;
+}
+
+.callout {
+  box-shadow: none;
+  box-shadow: 2px 2px 14px #1f212b,
+              -2px -2px 6px #2f313f !important;
 }
 
 /* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
-/* ║ Gallery                  ║ Gallery-3                                                                               ║ */
+/* ║ Effects                  ║ Dock Headers                                                                            ║ */
 /* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
 
-[data-callout="gallery-3"] .image-embed {
-  width: var(--gallery-columns-3);
-    max-height: var(--gallery-height-3);
+.side-dock-actions > div::after {
+  box-shadow: 2px 2px 20px #1f212b,
+              -2px -2px 20px #2f313f !important;
 }
 
 /* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
-/* ║ Gallery                  ║ Gallery-2                                                                               ║ */
+/* ║ Effects                  ║ Folder Headers                                                                          ║ */
 /* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
 
-[data-callout="gallery-2"] .image-embed {
-  width: var(--gallery-columns-2);
-  max-height: var(--gallery-height-2);
+body:not(.is-mobile) .nav-folder.mod-root>.nav-folder-title .nav-folder-title-content::after {
+  box-shadow: 2px 2px 20px #1f212b,
+              -2px -2px 20px #2f313f !important;
+}
+
+.nav-folder.mod-root > .nav-folder-children > .nav-folder::after {
+  box-shadow: 2px 2px 20px #1f212b,
+              -2px -2px 20px #2f313f !important;
 }
 
 /* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
-/* ║ Gallery                  ║ Gallery-1                                                                               ║ */
+/* ║ Effects                  ║ Template (Buttons)                                                                      ║ */
 /* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
 
-[data-callout="gallery-1"] .image-embed {
-  width: var(--gallery-columns-1);
-  max-height: var(--gallery-height-1);
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Background */
-[data-callout="gallery-4"] .external-link,
-[data-callout="gallery-3"] .external-link,
-[data-callout="gallery-2"] .external-link,
-[data-callout="gallery-1"] .external-link {
-  display: flex !important;
-  flex-direction: column !important;
-  justify-content: center !important;
-  border-radius: 12px !important;
-  overflow: hidden !important;
-  align-items: center !important;
-  justify-content: center !important;
-  background: transparent;
-
-  background-color: var(--bg1);
-  cursor: pointer;
-  padding: 2px;
+[data-callout="buttons-4"] .external-link,
+[data-callout="buttons-3"] .external-link,
+[data-callout="buttons-2"] .external-link,
+[data-callout="buttons-1"] .external-link {
+  box-shadow: 2px 2px 20px #1f212b,
+              -2px -2px 12px #2f313f !important;
 }
 
 /* Background - Hover */
-[data-callout="gallery-4"] .external-link:hover,
-[data-callout="gallery-3"] .external-link:hover,
-[data-callout="gallery-2"] .external-link:hover,
-[data-callout="gallery-1"] .external-link:hover {
-  background-color: var(--bg1);
-  background-color: var(--bg3);
-}
-
-/* Embed */
-[data-callout="gallery-4"] .external-link img,
-[data-callout="gallery-3"] .external-link img,
-[data-callout="gallery-2"] .external-link img,
-[data-callout="gallery-1"] .external-link img {
-  cursor: unset !important;
-}
-
-
-[data-callout="gallery-4"] .external-link {
-  width: var(--gallery-columns-4);
-  max-height: var(--gallery-height-4);
-}
-
-[data-callout="gallery-3"] .external-link {
-  width: var(--gallery-columns-3);
-  max-height: var(--gallery-height-3);
-}
-
-[data-callout="gallery-1"] .external-link {
-  width: var(--gallery-columns-1);
-  max-height: var(--gallery-height-1);
-}
-
-[data-callout="gallery-2"] .external-link {
-  width: var(--gallery-columns-2);
-  max-height: var(--gallery-height-2);
+[data-callout="buttons-4"] .external-link:hover,
+[data-callout="buttons-3"] .external-link:hover,
+[data-callout="buttons-2"] .external-link:hover,
+[data-callout="buttons-1"] .external-link:hover {
+  box-shadow: inset 6px 6px 20px #1f212b,
+              inset -6px -6px 20px #353949 !important;
 }

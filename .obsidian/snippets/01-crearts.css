@@ -265,11 +265,6 @@
 /* ║ Custom CSS               ║ Sidebar Button                                                                          ║ */
 /* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
 
-/* Background */
-body:not(.is-grabbing) .tree-item-self.is-clickable:hover  {
-  background: var(--interactive-accent)
-}
-
 /* Name */
 body:not(.is-grabbing) .tree-item-self.is-clickable:hover .tree-item-inner  {
   color: white;
@@ -867,7 +862,7 @@ background: transparent !important;
 }
 
 .mod-left-split .workspace-leaf-content .view-content {
-  margin-top: 0px !important;
+  margin-top: var(--layout-margin) !important;
 }
 
 /* Hover */
@@ -919,86 +914,6 @@ background: transparent !important;
 }
 */
 
-/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
-/* ║ Effects                  ║ Weather                                                                                 ║ */
-/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
-
-[style="display: flex; flex-direction: column; align-items: center; margin-right: 10px;"],
-[style="display: flex; flex-direction: column; align-items: center; margin-right: 10px;"],
-[style="display: flex; flex-direction: column; align-items: center;"] {
-  box-shadow: 2px 2px 20px #1f212b,
-  -2px -2px 12px #2f313f !important;
-}
-
-/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
-/* ║ Effects                  ║ Home                                                                                    ║ */
-/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
-
-/* Searchbar */
-.home-tab-searchbar {
-  box-shadow: inset 5px 5px 20px #1f212b,
-              inset -5px -5px 20px #353949;
-}
-
-/* Buttons */
-.home-button {
-  box-shadow: 2px 2px 20px #1f212b,
-              -2px -2px 12px #2f313f !important;
-}
-
-.home-button:hover {
-  box-shadow: inset 6px 6px 20px #1f212b,
-              inset -6px -6px 20px #353949 !important;
-}
-
-/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
-/* ║ Effects                  ║ Toolbar                                                                                 ║ */
-/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
-
-/* Background */
-#cMenuToolbarModalBar.top {
-  box-shadow: none;
-  box-shadow: 2px 2px 20px #1f212b,
-              -2px -2px 12px #2f313f !important;
-}
-
-/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
-/* ║ Effects                  ║ Calendar                                                                                ║ */
-/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
-
-#calendar-container .day:not(.today) .dot-container.svelte-q3wqg9 {
-  box-shadow: none;
-  box-shadow: 2px 2px 14px #1f212b,
-              -2px -2px 6px #2f313f !important;
-}
-
-.callout {
-  box-shadow: none;
-  box-shadow: 2px 2px 14px #1f212b,
-              -2px -2px 6px #2f313f !important;
-}
-
-/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
-/* ║ Effects                  ║ Template (Buttons)                                                                      ║ */
-/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
-
-[data-callout="buttons-4"] .external-link,
-[data-callout="buttons-3"] .external-link,
-[data-callout="buttons-2"] .external-link,
-[data-callout="buttons-1"] .external-link {
-  box-shadow: 2px 2px 20px #1f212b,
-              -2px -2px 12px #2f313f !important;
-}
-
-/* Background - Hover */
-[data-callout="buttons-4"] .external-link:hover,
-[data-callout="buttons-3"] .external-link:hover,
-[data-callout="buttons-2"] .external-link:hover,
-[data-callout="buttons-1"] .external-link:hover {
-  box-shadow: inset 6px 6px 20px #1f212b,
-              inset -6px -6px 20px #353949 !important;
-}
-
 /* ╔════════════════════════════════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
 /* ║ Sorting                                                                                                            ║ */
 /* ╚════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝ */
@@ -1011,3 +926,45 @@ background: transparent !important;
   background: var(--crearts-background-secondary);
   border-radius: 12px;
 }
+
+/* ╔════════════════════════════════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Sorting                                                                                                            ║ */
+/* ╚════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+/* Sidebar Widths */
+.mod-left-split,
+.mod-right-split {
+  min-width: 272px !important;
+  max-width: 460px !important;
+}
+
+.workspace-tabs .mod-top {
+  min-height: 160px;
+  height: 160px;
+  max-height: 160px;
+}
+
+/* Sidebar */
+.workspace:not(.is-right-sidedock-open) .view-header {
+  margin-right: calc(var(--layout-margin) + var(--layout-margin)) !important;
+}
+
+.workspace:not(.is-right-sidedock-open) .view-content {
+  margin-right: calc(var(--layout-margin) + var(--layout-margin)) !important;
+}
+
+/* ╔════════════════════════════════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Sorting                                                                                                            ║ */
+/* ╚════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+.tree-item-self .is-clickable {
+  padding-left: 0px !important;
+  padding: 0px !important;
+}
+
+
+
+
+
+
+

@@ -27,9 +27,10 @@
   "dataview",
   "obsidian-sortable",
   "flashcards-obsidian",
-  "surfing",
-  "obsidian-custom-frames",
   "obsidian-sample-plugin",
   "templater-obsidian",
-  "obsidian-style-settings"
+  "obsidian-style-settings",
+  "obsidian-custom-frames",
+  "obsidian-excalidraw-plugin",
+  "cmdr"
 ]

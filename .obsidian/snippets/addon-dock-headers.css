@@ -1,0 +1,115 @@
+/* ╔════════════════════════════════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Obsidian Add-On                                                                                                    ║ */
+/* ╠══════════════════════════╦═════════════════════════════════════════════════════════════════════════════════════════╣ */
+/* ║ Name:                    ║ CreArts Dock headers                                                                    ║ */
+/* ║ Version:                 ║ 1.0.0                                                                                   ║ */
+/* ║ Author:                  ║ Corellan                                                                                ║ */
+/* ║ License:                 ║ MIT                                                                                     ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Dock Headers             ║ Variables                                                                               ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+:root {
+--dock-header-text-transform: uppercase; /* use: (uppercase, lowercase,capitalize) */
+--dock-header-border-radius: 4px;
+--dock-header-padding-width: 1px;
+--dock-header-padding-height: 1px;
+--dock-header-font-weight: 500;
+--dock-header-font-size: 10px;
+--dock-header-transition: 0.1s;
+
+/* Header 1 */
+--dock-header-1: "Main";
+--dock-header-1-color: var(--text-muted);
+--dock-header-1-color-hover: white;
+--dock-header-1-background: #303445;
+--dock-header-1-background-hover: rgba(205, 9, 81, 0.400);
+
+/* Header 2 */
+--dock-header-2: "Tool";
+--dock-header-2-color: var(--text-muted);
+--dock-header-2-color-hover: white;
+--dock-header-2-background: #303445;
+--dock-header-2-background-hover: rgba(9, 205, 133, 0.400);
+
+/* Header 3 */
+--dock-header-3: "Apps";
+--dock-header-3-color: var(--text-muted);
+--dock-header-3-color-hover: white;
+--dock-header-3-background: #303445;
+--dock-header-3-background-hover: rgba(176, 97, 255, 0.400);
+}
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Dock Headers             ║ General                                                                                 ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+/* Spacing */
+.side-dock-actions > div:nth-child(1),
+.side-dock-actions > div:nth-child(5),
+.side-dock-actions > div:nth-child(8) {
+  margin-bottom: 20px;
+}
+
+/* Background */
+.side-dock-actions > div:nth-child(1)::after,
+.side-dock-actions > div:nth-child(5)::after,
+.side-dock-actions > div:nth-child(8)::after {
+  position: absolute;
+  border-radius: var(--dock-header-border-radius);
+  padding: var(--dock-header-padding-height) var(--dock-header-padding-width) var(--dock-header-padding-height) var(--dock-header-padding-width);
+  font-size: 11px;
+  font-weight: var(--dock-header-font-weight);
+  text-transform: var(--dock-header-text-transform);
+  letter-spacing: 0.2em;
+  font-size: var(--dock-header-font-size);
+  margin-bottom: -50px;
+  transition: background-color var(--dock-header-transition) ease;
+}
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Dock Headers             ║ Header (MAIN)                                                                           ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+.side-dock-actions > div:nth-child(1)::after {
+  content: var(--dock-header-1);
+  background: var(--dock-header-1-background);
+  color: var(--dock-header-1-color);
+}
+
+.workspace-ribbon:hover .side-dock-actions > div:nth-child(1)::after {
+  background: var(--dock-header-1-background-hover);
+  color: var(--dock-header-1-color-hover);
+}
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Dock Headers             ║ Header (TOOL)                                                                           ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+.side-dock-actions > div:nth-child(5)::after {
+  content: var(--dock-header-2);
+  background: var(--dock-header-2-background);
+  color: var(--dock-header-2-color);
+}
+
+.workspace-ribbon:hover .side-dock-actions > div:nth-child(5)::after {
+  background: var(--dock-header-2-background-hover);
+  color: var(--dock-header-2-color-hover);
+}
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Dock Headers             ║ Header (APPS)                                                                           ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+.side-dock-actions > div:nth-child(8)::after {
+  content: var(--dock-header-3);
+  background: var(--dock-header-1-background);
+  color: var(--dock-header-3-color);
+}
+
+.workspace-ribbon:hover .side-dock-actions > div:nth-child(8)::after {
+  background: var(--dock-header-3-background-hover);
+  color: var(--dock-header-3-color-hover);
+}

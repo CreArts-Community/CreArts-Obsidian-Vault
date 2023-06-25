@@ -9,7 +9,7 @@
   "attachmentFolderPath": "8 Resources/attachments",
   "promptDelete": false,
   "useTab": true,
-  "showFrontmatter": false,
+  "showFrontmatter": true,
   "foldHeading": true,
   "pdfExportSettings": {
     "pageSize": "A4",

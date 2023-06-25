@@ -1,9 +1,9 @@
 ---
-tag: templates, task
+tag: templates, tasks
 publish: false
-cssClass: task
+cssClass: tasks
 ---
-# Task
+# Tasks
 --- 
 
 ## My Tasks
@@ -13,4 +13,3 @@ cssClass: task
 - [ ] Example IV
 - [ ] Example V
 - [ ] Example VI
-- [S] Example VI
