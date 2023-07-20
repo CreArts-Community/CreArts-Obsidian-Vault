@@ -1,0 +1,46 @@
+/*
+.workspace-tab-container {
+  background: red !important;
+  margin: 20px;
+}
+
+.nav-header {
+  background: blue;
+}
+
+.workspace-ribbon {
+  background: red !important;
+  margin: 20px;
+}
+*/
+
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Custom CSS               ║ Sidebar (Left)                                                                          ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+/* Nav */
+.mod-left-split .nav-header {
+  background: var(--crearts-background-secondary);
+  border-radius: var(--radius-secondary);
+  margin: var(--layout-margin);
+  min-height: 44px;
+}
+
+.mod-left-split .view-content {
+  background: var(--crearts-background-secondary);
+  border-radius: var(--radius-secondary);
+  margin: var(--layout-margin) var(--layout-margin) calc(var(--layout-margin) + var(--layout-margin)) var(--layout-margin);
+}
+
+.mod-left-split .nav-files-container {
+  background: var(--crearts-background-secondary);
+  border-radius: var(--radius-secondary);
+  margin: var(--layout-margin) var(--layout-margin) calc(var(--layout-margin) + var(--layout-margin)) var(--layout-margin);
+}
+
+/* Vault Header */
+.nav-folder.mod-root > .nav-folder-title {
+  padding-left: var(--layout-margin) !important;
+  margin-top: var(--layout-margin);
+}

@@ -1,0 +1,33 @@
+{
+  "statusBar": [
+    {
+      "prefix": "",
+      "suffix": " Words",
+      "metric": {
+        "type": 0,
+        "counter": 0
+      }
+    },
+    {
+      "prefix": " ",
+      "suffix": " Characters",
+      "metric": {
+        "type": 0,
+        "counter": 1
+      }
+    }
+  ],
+  "altBar": [
+    {
+      "prefix": "",
+      "suffix": " Files",
+      "metric": {
+        "type": 2,
+        "counter": 6
+      }
+    }
+  ],
+  "countComments": true,
+  "collectStats": false,
+  "pageWords": 300
+}

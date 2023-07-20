@@ -1,5 +1,5 @@
 ---
-tag: templates, callouts, gallery
+tag: templates
 publish: false
 cssClass: gallery
 ---

@@ -1,15 +1,15 @@
 ---
-tag: templates, tasks
+tag: templates
 publish: false
 cssClass: tasks
 ---
 # Tasks
 --- 
 
-## My Tasks
-- [ ] Example I
-- [ ] Example II
-- [ ] Example III
-- [ ] Example IV
-- [ ] Example V
-- [ ] Example VI
+> [!TASKS] My Tasks
+> - [x] Task I
+> - [ ] Task II
+> - [x] Task III
+> - [x] Task IV
+> - [ ] Task V
+> - [ ] Task VI

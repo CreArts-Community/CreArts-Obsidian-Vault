@@ -6,5 +6,21 @@
       ],
       "key": "="
     }
+  ],
+  "cmdr:macro-0": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "1"
+    }
+  ],
+  "cmdr:macro-1": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "2"
+    }
   ]
 }

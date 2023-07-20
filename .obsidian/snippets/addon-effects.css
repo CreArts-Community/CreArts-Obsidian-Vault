@@ -109,3 +109,19 @@ body:not(.is-mobile) .nav-folder.mod-root>.nav-folder-title .nav-folder-title-co
   box-shadow: inset 6px 6px 20px #1f212b,
               inset -6px -6px 20px #353949 !important;
 }
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Effects                  ║ Template (Tasks)                                                                        ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+
+.callout[data-callout="tasks"] .task-list-item {
+  box-shadow: 2px 2px 20px #1f212b,
+              -2px -2px 12px #2f313f !important;
+}
+
+
+.callout[data-callout="tasks"] .task-list-item.is-checked {
+  box-shadow: inset 6px 6px 20px #1f212b,
+              inset -6px -6px 20px #353949 !important;
+}

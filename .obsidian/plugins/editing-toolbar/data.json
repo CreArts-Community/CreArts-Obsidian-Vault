@@ -214,5 +214,15 @@
   "cMenuWidth": 450,
   "cMenuFontColor": "#ff0000",
   "cMenuBackgroundColor": "rgba(3, 135, 102, 0.2)",
-  "autohide": false
+  "autohide": false,
+  "custom_bg1": "#FFB78B8C",
+  "custom_bg2": "#CDF4698C",
+  "custom_bg3": "#A0CCF68C",
+  "custom_bg4": "#F0A7D88C",
+  "custom_bg5": "#ADEFEF8C",
+  "custom_fc1": "#D83931",
+  "custom_fc2": "#DE7802",
+  "custom_fc3": "#245BDB",
+  "custom_fc4": "#6425D0",
+  "custom_fc5": "#646A73"
 }

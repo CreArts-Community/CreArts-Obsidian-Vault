@@ -1,5 +1,5 @@
 ---
-tag: templates, flashcards
+tag: templates
 publish: false
 cssClass: flashcard
 cards-deck: template

@@ -70,7 +70,9 @@
 /* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
 
 .nav-folder.mod-root > .nav-folder-title .nav-folder-title-content::after,
-.nav-folder.mod-root > .nav-folder-children > .nav-folder::after {
+.nav-folder.mod-root > .nav-folder-children > .nav-folder::after,
+.nav-folder.mod-root > .nav-folder-title .nav-folder-title-content::before,
+.nav-folder.mod-root > .nav-folder-children > .nav-folder::before {
   border-radius: var(--folder-header-border-radius);
   padding: var(--folder-header-padding-height) var(--folder-header-padding-width) var(--folder-header-padding-height) var(--folder-header-padding-width);
   left: var(--layout-margin);
@@ -87,6 +89,7 @@
 /* ║ Folder Headers           ║ Header 1                                                                                ║ */
 /* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
 
+/*
 .nav-folder.mod-root>.nav-folder-title .nav-folder-title-content::after {
   content: var(--folder-header-1);
   background: var(--folder-header-1-background);
@@ -95,6 +98,23 @@
 }
 
 .nav-files-container:hover > .nav-folder.mod-root>.nav-folder-title .nav-folder-title-content::after {
+  background: var(--folder-header-1-background-hover);
+  color: var(--folder-header-1-color-hover);
+}
+*/
+
+.nav-folder.mod-root > .nav-folder-children > .nav-folder:nth-child(2)::before {
+  content: var(--folder-header-1);
+  background: var(--folder-header-1-background, var(--bg1));
+  color: var(--folder-header-1-color, var(--text-muted));
+  position: absolute;
+  margin-left: 20px;
+  margin-top: 14px;
+  top: 0;
+  left: 0;
+}
+
+.nav-files-container:hover > .nav-folder.mod-root > .nav-folder-children > .nav-folder:nth-child(2)::before {
   background: var(--folder-header-1-background-hover);
   color: var(--folder-header-1-color-hover);
 }

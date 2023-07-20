@@ -1,7 +1,7 @@
 ---
-tag: templates, callouts, buttons
+tag: templates
 publish: false
-cssClass: colors
+cssClass: buttons
 ---
 # Buttons
 --- 

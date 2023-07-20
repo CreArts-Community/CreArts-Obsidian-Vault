@@ -5,7 +5,6 @@
   "nldates-obsidian",
   "obsidian-minimal-settings",
   "homepage",
-  "better-word-count",
   "obsidian-reading-time",
   "remember-cursor-position",
   "obsidian-smart-typography",
@@ -30,7 +29,8 @@
   "obsidian-sample-plugin",
   "templater-obsidian",
   "obsidian-style-settings",
-  "obsidian-custom-frames",
   "obsidian-excalidraw-plugin",
-  "cmdr"
+  "cmdr",
+  "better-word-count",
+  "obsidian-custom-frames"
 ]

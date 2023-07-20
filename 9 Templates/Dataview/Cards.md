@@ -1,5 +1,5 @@
 ---
-tag: templates, dataview, cards
+tag: templates
 publish: false
 cssClass: cards
 ---

@@ -1,7 +1,7 @@
 {
   "frames": [
     {
-      "url": "https://chat.openai.com/c/83289885-e021-408a-b325-2ee8c7d9a096",
+      "url": "https://chat.openai.com/c/258d34e2-fec0-4963-bdd8-a31c09ce0667",
       "displayName": "ChatGPT",
       "icon": "message-square",
       "hideOnMobile": true,
@@ -109,6 +109,17 @@
       "zoomLevel": 1,
       "forceIframe": false,
       "customCss": ".footer__wrapper,\n.footer-nav__wrapper__list,\n.page--background,\n.headline,\n.btn-wrapper,\n.header,\n.partners-section,\n.editor-section,\n.gray-section\n,.mac-app-teaser-section,\n.download-section,\n.column-section__wrapper,\n.section,\n.summary,\n.conversion-section {\n    display: none !important;\n}\n"
+    },
+    {
+      "url": "",
+      "displayName": "New Frame",
+      "icon": "",
+      "hideOnMobile": true,
+      "addRibbonIcon": true,
+      "openInCenter": true,
+      "zoomLevel": 1,
+      "forceIframe": false,
+      "customCss": ""
     }
   ],
   "padding": 0

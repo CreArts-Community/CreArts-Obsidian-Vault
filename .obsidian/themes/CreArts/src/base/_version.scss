@@ -1,0 +1,17 @@
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Version                  ║ General                                                                                 ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+.vertical-tab-header::after {
+  display: block;
+  content:
+  var(--CrOb-info-loaded, "")
+  var(--SeIc-info-loaded, "");
+  font-size: 12px;
+  line-height: 16px;
+  color: var(--text-muted);
+  margin-top: 12px;
+  white-space: pre;
+  text-transform: none;
+  margin-left: 8px;
+}

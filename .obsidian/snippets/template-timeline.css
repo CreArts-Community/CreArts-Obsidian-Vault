@@ -1,0 +1,55 @@
+/* ╔════════════════════════════════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Obsidian Template                                                                                                  ║ */
+/* ╠══════════════════════════╦═════════════════════════════════════════════════════════════════════════════════════════╣ */
+/* ║ Name:                    ║ Timeline                                                                                ║ */
+/* ║ Version:                 ║ 1.0.0                                                                                   ║ */
+/* ║ Author:                  ║ Corellan                                                                                ║ */
+/* ║ License:                 ║ MIT                                                                                     ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Message                  ║ Variables                                                                               ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+
+
+
+
+.callout[data-callout="timeline-left"],
+.callout[data-callout="timeline-right"] {
+  box-shadow: none !important;
+  width: 50%;
+
+  padding: 20px 20px 0px 20px !important;
+
+}
+
+
+.callout[data-callout="timeline-left"] {
+  margin-right: 50%;
+}
+
+
+.callout[data-callout="timeline-right"] {
+  margin-left: 50%;
+}
+
+.callout[data-callout="timeline-left"]::after,
+.callout[data-callout="timeline-right"]::after {
+  content: "";
+  background: red;
+  width: 2px;
+  height: 20px;
+  position: absolute;
+
+  left: 50%;
+  margin-left: 16px;
+  margin-top: -100px;
+}
+
+
+
+.callout[data-callout="timeline-left"] .callout-icon,
+.callout[data-callout="timeline-right"] .callout-icon {
+display: none;
+}

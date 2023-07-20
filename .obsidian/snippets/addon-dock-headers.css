@@ -113,3 +113,21 @@
   background: var(--dock-header-3-background-hover);
   color: var(--dock-header-3-color-hover);
 }
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Dock Headers             ║ Divider                                                                                 ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+/* Spacing */
+.side-dock-actions > div:nth-child(9) {
+  margin-bottom: 20px;
+}
+
+/* Divider */
+.side-dock-actions > div:nth-child(9)::after {
+  content: "";
+  position: absolute;
+  border-bottom: 2px solid var(--background-modifier-border);
+  margin-bottom: -50px;
+  width: 30px;
+}

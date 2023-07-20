@@ -1,5 +1,5 @@
 ---
-tag: templates, dataview, table
+tag: templates
 publish: false
 cssClass: table
 ---

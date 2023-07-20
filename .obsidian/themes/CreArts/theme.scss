@@ -1,0 +1,56 @@
+// ╔════════════════════════════════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Obsidian Theme                                                                                                     ║
+// ╠══════════════════════════╦═════════════════════════════════════════════════════════════════════════════════════════╣
+// ║ Name:                    ║ CreArts                                                                                 ║
+// ║ Version:                 ║ 1.0.0                                                                                   ║
+// ║ Author:                  ║ Corellan                                                                                ║
+// ║ License:                 ║ MIT                                                                                     ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Theme                    ║ Source                                                                                  ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Source Files (This loads the compiled source css file.)
+@use "./src/source";
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Theme                    ║ Variables                                                                               ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+:root {
+  // Info (Custom)
+  --CrOb-info-version: "v1.0.0";
+  --CrOb-info-loaded: "Theme:" "\00a0" var(--CrOb-info-version, "") "\a";
+  --CrOb-info-skin: var(--SKIN-skin, "Default");
+  --CrOb-info-author: var(--SKIN-author, "Corellan");
+
+  // Wallpaper (Custom)
+  --CrOb-wallpaper: var(--SKIN-wallpaper, url(""));
+  --CrOb-wallpaper-opacity: var(--SKIN-wallpaper-opacity, 1);
+
+  // Radius
+  --CrOb-radius-primary: var(--SKIN-radius-primary, 18px);
+  --CrOb-radius-secondary: var(--SKIN-radius-secondary, 12px);
+  --CrOb-radius-tertiary: var(--SKIN-radius-tertiary, 6px);
+
+  // Layout
+  --CrOb-layout-margin: var(--SKIN-layout-margin, 20px);
+  --CrOb-layout-margin-top: var(--SKIN-layout-margin-top, 20px);
+  --CrOb-layout-margin-left: var(--SKIN-layout-margin-left, 20px);
+  --CrOb-layout-margin-right: var(--SKIN-layout-margin-right, 20px);
+  --CrOb-layout-margin-bottom: var(--SKIN-layout-margin-bottom, 20px);
+
+  // Inner
+  --CrOb-inner-primary: var(--SKIN-inner-primary, 8px);
+  --CrOb-inner-secondary: var(--SKIN-inner-secondary, 12px);
+  --CrOb-inner-tertiary: var(--SKIN-inner-tertiary, 16px);
+
+  // Width
+  --CrOb-width-sidebarleft: var(--SKIN-width-channel, 260px);
+  --CrOb-width-sidebarright: var(--SKIN-width-members, 240px);
+
+  // Height
+  --CrOb-height-titlebar: var(--SKIN-height-titlebar, 32px);
+  --CrOb-height-header: var(--SKIN-height-header, 44px);
+}

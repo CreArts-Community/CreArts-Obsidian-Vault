@@ -3,10 +3,67 @@
   "search": "",
   "showTags": true,
   "showAttachments": true,
-  "hideUnresolved": false,
+  "hideUnresolved": true,
   "showOrphans": true,
   "collapse-color-groups": false,
-  "colorGroups": [],
+  "colorGroups": [
+    {
+      "query": "tag:#notes",
+      "color": {
+        "a": 1,
+        "rgb": 13437266
+      }
+    },
+    {
+      "query": "tag:#bookmarks",
+      "color": {
+        "a": 1,
+        "rgb": 13437266
+      }
+    },
+    {
+      "query": "tag:#tasks",
+      "color": {
+        "a": 1,
+        "rgb": 13437266
+      }
+    },
+    {
+      "query": "tag:#templates",
+      "color": {
+        "a": 1,
+        "rgb": 11559423
+      }
+    },
+    {
+      "query": "tag:#personal",
+      "color": {
+        "a": 1,
+        "rgb": 642437
+      }
+    },
+    {
+      "query": "tag:#study",
+      "color": {
+        "a": 1,
+        "rgb": 642437
+      }
+    },
+    {
+      "query": "tag:#work",
+      "color": {
+        "a": 1,
+        "rgb": 642437
+      }
+    },
+    {
+      "query": "tag:#knowledge",
+      "color": {
+        "a": 1,
+        "rgb": 6392319
+      }
+    }
+  ],
   "collapse-display": false,
   "showArrow": false,
   "textFadeMultiplier": 0.6,
@@ -17,6 +74,6 @@
   "repelStrength": 13.7165791911084,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.08317427835927559,
+  "scale": 0.03590926640145022,
   "close": true
 }

@@ -1,5 +1,5 @@
 ---
-tag: templates, dataview, list
+tag: templates
 publish: false
 cssClass: list
 ---

@@ -52,9 +52,7 @@
                 "type": "leaf",
                 "state": {
                   "type": "outline",
-                  "state": {
-                    "file": "8 Resources/Home.md"
-                  }
+                  "state": {}
                 }
               },
               {
@@ -134,7 +132,7 @@
           {
             "id": "19475811ecd5978e",
             "type": "tabs",
-            "dimension": 31.842105263157894,
+            "dimension": 31.842105263157897,
             "children": [
               {
                 "id": "14daf17029436797",
@@ -153,20 +151,11 @@
                 }
               },
               {
-                "id": "2cbebc7f9242357b",
-                "type": "leaf",
-                "state": {
-                  "type": "graph",
-                  "state": {}
-                }
-              },
-              {
                 "id": "663141e8694e3684",
                 "type": "leaf",
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "8 Resources/Home.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -183,13 +172,13 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "8 Resources/Home.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "horizontal",
@@ -198,15 +187,15 @@
       "left-ribbon": {
         "hiddenItems": {
           "homepage:Open homepage": false,
-          "workspaces:Workspace-Layouts verwalten": false,
-          "canvas:Neuen Canvas erstellen": true,
-          "templates:Vorlage einfügen": false,
+          "workspaces:Manage workspace layouts": false,
+          "canvas:Create new canvas": true,
+          "templates:Insert template": false,
           "obsidian-excalidraw-plugin:Create new drawing": false,
-          "graph:Graphen-Ansicht öffnen": false,
-          "command-palette:Befehlspalette öffnen": true,
+          "graph:Open graph view": false,
+          "command-palette:Open command palette": true,
+          "obsidian-custom-frames:Open ChatGPT": false,
           "templater-obsidian:Templater": true,
           "flashcards-obsidian:Generate flashcards": true,
-          "obsidian-custom-frames:Open ChatGPT": false,
           "obsidian-custom-frames:Open DeepL": false,
           "obsidian-custom-frames:Open Language Tool": false,
           "obsidian-custom-frames:Open Wikipedia": false,
@@ -217,7 +206,7 @@
           "obsidian-custom-frames:Open Google Contacts": false
         }
       },
-      "active": "b63266b1cca4a98d"
+      "active": "d63329b814e1b919"
     }
   },
   "active": "Home"

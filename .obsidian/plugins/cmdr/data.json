@@ -9,10 +9,36 @@
   "titleBar": [],
   "statusBar": [],
   "pageHeader": [],
-  "macros": [],
+  "macros": [
+    {
+      "macro": [
+        {
+          "action": 0,
+          "commandId": "markdown:toggle-preview"
+        }
+      ],
+      "name": "Toggle Editor / Preview Mode",
+      "icon": "book-open",
+      "startup": false
+    },
+    {
+      "macro": [
+        {
+          "action": 0,
+          "commandId": "editor:toggle-source"
+        }
+      ],
+      "name": "Toggle Live / Quellcode View",
+      "icon": "code",
+      "startup": false
+    }
+  ],
   "explorer": [],
   "hide": {
-    "statusbar": [],
+    "statusbar": [
+      "flashcards-obsidian",
+      "editing-toolbar"
+    ],
     "leftRibbon": []
   },
   "spacing": 8,

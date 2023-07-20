@@ -1,5 +1,5 @@
 ---
-tag: templates, note
+tag: templates
 publish: false
 cssClass: note
 ---

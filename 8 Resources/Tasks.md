@@ -1,12 +1,10 @@
 ---
 tag: home
 publish: false
-cssClass: cards
+cssClass: home
+banner: "![[space3.jpg]]"
+banner_y: 0.470
 ---
-
-# Tasks
----
-
 ```dataview
 TABLE
 from #tasks

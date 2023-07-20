@@ -2,12 +2,12 @@
 tag: home
 publish: false
 cssClass: cards
----
-
-# Bookmarks
+banner: "![[space3.jpg]]"
+banner_y: 0.470
 ---
 
 ```dataview
-TABLE
-from #bookmark 
+TABLE name, url, category, cover
+from #bookmarks
+sort status
 ```

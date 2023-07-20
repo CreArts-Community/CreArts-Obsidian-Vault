@@ -1,0 +1,8 @@
+{
+  "recommendations": [
+  // Live Sass Compiler
+    "glenn2223.live-sass",
+  // Prettier
+    "esbenp.prettier-vscode"
+  ]
+}

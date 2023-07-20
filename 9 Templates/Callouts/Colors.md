@@ -1,5 +1,5 @@
 ---
-tag: templates, callouts, colors
+tag: templates
 publish: false
 cssClass: colors
 ---
@@ -40,3 +40,8 @@ cssClass: colors
 <span style="background:#CD0952; color:white;"> CD0952 </span>
 <span style="background:#09CD85; color:white;"> 09CD85 </span>
 <span style="background:#FFD861; color:black;"> FFD861 </span>
+<span style="background:#E6715A; color:white;"> E6715A </span>
+<span style="background:#6189FF; color:white;"> 6189FF </span>
+<span style="background:#B061FF; color:white;"> B061FF </span>
+<span style="background:#CD0952; color:white;"> CD0952 </span>
+<span style="background:#6189FF; color:white;"> 6189FF </span>

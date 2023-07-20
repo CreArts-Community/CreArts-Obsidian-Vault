@@ -1,0 +1,256 @@
+/* ╔════════════════════════════════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Obsidian Template                                                                                                  ║ */
+/* ╠══════════════════════════╦═════════════════════════════════════════════════════════════════════════════════════════╣ */
+/* ║ Name:                    ║ Message                                                                                 ║ */
+/* ║ Version:                 ║ 1.0.0                                                                                   ║ */
+/* ║ Author:                  ║ Corellan                                                                                ║ */
+/* ║ License:                 ║ MIT                                                                                     ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Message                  ║ Variables                                                                               ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+:root {
+  --message-background-left: #303445; /* #303445 */ /* Whats App: #1f2c33 */
+  --message-background-right: #404559; /* #404559 */ /* Whats App: #005c4c */
+  --message-background: ;
+  --message-color-text: var(--text-normal);
+  --message-color-header: var(--text-normal);
+}
+
+
+
+
+
+
+
+
+
+
+/*
+.message {
+  background: #091b23;
+}
+*/
+
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Message                  ║ Message First                                                                           ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+/* Spacing */
+.callout[data-callout="message-left-first"],
+.callout[data-callout="message-right-first"] {
+  background: transparent;
+  box-shadow: none !important;
+  margin: 20px 0px 0px 0px !important;
+  padding: 0px !important;
+}
+
+/* Image */
+.callout[data-callout="message-left-first"] img,
+.callout[data-callout="message-right-first"] img  {
+  border-radius: 8px;
+}
+
+/* Title */
+.callout[data-callout="message-left-first"] .callout-title,
+.callout[data-callout="message-right-first"] .callout-title {
+  color: var(--message-color-header);
+  position: absolute;
+  z-index: 9;
+  margin-top: -30px;
+  margin-left: 70px;
+}
+
+.callout[data-callout="message-left-first"] .callout-title-inner,
+.callout[data-callout="message-right-first"] .callout-title-inner {
+  font-weight: 500 !important;
+}
+
+.callout[data-callout="message-left-first"] .callout-title svg,
+.callout[data-callout="message-right-first"] .callout-title svg {
+  display: none;
+}
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Message                  ║ Message Left First                                                                      ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+.callout[data-callout="message-left-first"] {
+  width: auto !important;
+  margin-top: 40px !important;
+}
+
+/* Background */
+.callout[data-callout="message-left-first"] .callout-content {
+  display: inline-block;
+  background: var(--message-background-left);
+  border-radius: 0px 12px 12px 12px;
+  margin: 0px 0px 0px 80px !important;
+  padding: 0px 20px 0px 20px !important;
+  width: auto !important;
+  max-width: 80vw;
+  min-height: 100px;
+  color: var(--message-color-text);
+}
+
+.callout[data-callout="message-left-first"]:before {
+  position: absolute;
+  content: "";
+  border-left: 12px solid transparent;
+  border-bottom: 8px solid transparent;
+  border-top: 12px solid var(--message-background-left);
+  width: 2px;
+  height: 2px;
+  margin-left: 68px;
+}
+
+/* Image */
+.callout[data-callout="message-left-first"] .callout-content p:nth-child(1) img {
+  width: 60px !important;
+  height: 60px !important;
+  border-radius: 90%;
+  position: absolute;
+  margin-left: -100px;
+  margin-top: -44px;
+}
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Message                  ║ Message Right First                                                                     ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+.callout[data-callout="message-right-first"] {
+  width: auto !important;
+  margin-top: 40px !important;
+}
+
+/* Background */
+.callout[data-callout="message-right-first"] .callout-content {
+  display: inline-block;
+  background: var(--message-background-right);
+  border-radius: 0px 12px 12px 12px;
+  margin: 0px 0px 0px 80px !important;
+  padding: 0px 20px 0px 20px !important;
+  width: auto !important;
+  max-width: 80vw;
+  min-height: 100px;
+  color: var(--message-color-text);
+}
+
+.callout[data-callout="message-right-first"]:before {
+  position: absolute;
+  content: "";
+  border-left: 12px solid transparent;
+  border-bottom: 8px solid transparent;
+  border-top: 12px solid var(--message-background-right);
+  width: 2px;
+  height: 2px;
+  margin-left: 68px;
+}
+
+/* Image */
+.callout[data-callout="message-right-first"] .callout-content p:nth-child(1) img {
+  width: 60px !important;
+  height: 60px !important;
+  border-radius: 90%;
+  position: absolute;
+  margin-left: -100px;
+  margin-top: -44px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Message                  ║ Message                                                                                 ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+/* Spacing */
+.callout[data-callout="message-left"],
+.callout[data-callout="message-right"] {
+  background: transparent;
+  box-shadow: none !important;
+  margin: 0px !important;
+  padding: 0px !important;
+}
+
+/* Image */
+.callout[data-callout="message-left"] img,
+.callout[data-callout="message-right"] img {
+  border-radius: 8px;
+}
+
+/* Title */
+.callout[data-callout="message-left"] .callout-title,
+.callout[data-callout="message-right"] .callout-title {
+display: none;
+}
+
+.callout[data-callout="message-left"] .callout-title-inner,
+.callout[data-callout="message-right"] .callout-title-inner {
+  font-weight: 500 !important;
+}
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Message                  ║ Message Left                                                                            ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+.callout[data-callout="message-left"] {
+  width: auto !important;
+}
+
+/* Background */
+.callout[data-callout="message-left"] .callout-content {
+  display: inline-block;
+  background: var(--message-background-left);
+  border-radius: 12px;
+  margin: 0px 0px 0px 80px !important;
+  padding: 0px 20px 0px 20px !important;
+  width: auto !important;
+  max-width: 80vw;
+  color: var(--message-color-text);
+}
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Message                  ║ Message Right                                                                           ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+.callout[data-callout="message-right"] {
+  width: auto !important;
+}
+
+/* Background */
+.callout[data-callout="message-right"] .callout-content {
+  display: inline-block;
+  background: var(--message-background-right);
+  border-radius: 12px;
+  margin: 0px 0px 0px 80px !important;
+  padding: 0px 20px 0px 20px !important;
+  width: auto !important;
+  max-width: 80vw;
+  color: var(--message-color-text);
+}

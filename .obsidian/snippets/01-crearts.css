@@ -29,11 +29,11 @@
   --graph-controls-width: 220px;
   --graph-text: var(--text-normal);
   --graph-line: var(--bg3);
-  --graph-node: var(--text-muted);
+  --graph-node: var(--bg3);
   --graph-node-unresolved: var(--text-faint);
   --graph-node-focused: var(--text-accent);
-  --graph-node-tag: var(--ax1);
-  --graph-node-attachment: #FFD861;
+  --graph-node-tag: var(--text-normal);
+  --graph-node-attachment: #FFD861 !important;
 }
 
 :root {
@@ -662,7 +662,7 @@ background: transparent !important;
 /* ║ Plugins                  ║ Searchbar                                                                               ║ */
 /* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
 
-.home-tab-searchbar.svelte-1v6c0q.svelte-1v6c0q {
+.home-tab-searchbar {
   width: 100% !important;
   border: none !important;
 }
@@ -967,4 +967,18 @@ background: transparent !important;
 
 
 
+/* ╔════════════════════════════════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Canvas                                                                                                             ║ */
+/* ╚════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝ */
 
+
+[id="8bfd6fc6eda05b34"] {
+display: none;
+}
+
+.canvas-wrapper .markdown-preview-view {
+  text-align: center;
+  text-align-last: center;
+  text-justify: inter-word;
+  hyphens: auto;
+}

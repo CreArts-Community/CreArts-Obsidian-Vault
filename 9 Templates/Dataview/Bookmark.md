@@ -1,5 +1,5 @@
 ---
-tag: template, dataview, bookmark
+tag: templates
 publish: false
 cssClass: bookmark
 ---

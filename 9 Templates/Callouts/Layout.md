@@ -1,5 +1,5 @@
 ---
-tag: templates, snippets, layout
+tag: templates
 publish: false
 cssClass: layout
 ---

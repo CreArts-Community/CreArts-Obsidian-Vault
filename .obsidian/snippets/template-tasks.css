@@ -1,0 +1,65 @@
+/* ╔════════════════════════════════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Obsidian Template                                                                                                  ║ */
+/* ╠══════════════════════════╦═════════════════════════════════════════════════════════════════════════════════════════╣ */
+/* ║ Name:                    ║ Tasks                                                                                   ║ */
+/* ║ Version:                 ║ 1.0.0                                                                                   ║ */
+/* ║ Author:                  ║ Corellan                                                                                ║ */
+/* ║ License:                 ║ MIT                                                                                     ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Message                  ║ Variables                                                                               ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+/* Background */
+.callout[data-callout="tasks"] {
+  box-shadow: none !important;
+  margin-bottom: 40px !important;
+  background: transparent;
+  padding: 0px;
+  margin-left: -20px;
+}
+
+/* Spacing */
+.callout[data-callout="tasks"] .contains-task-list {
+  padding: 0px;
+}
+
+/* Title */
+.callout[data-callout="tasks"] .callout-title-inner {
+  color: var(--tx1);
+  margin-left: 20px;
+}
+
+/* Item */
+.callout[data-callout="tasks"] .task-list-item {
+  background: var(--bg1);
+  border-radius: 12px;
+  margin-bottom: 20px;
+  padding: 8px 0px 8px 40px;
+  height: 40px;
+  margin: 0px 20px 20px 20px;
+}
+
+/* Item Checked */
+.callout[data-callout="tasks"] .task-list-item.is-checked {
+  text-decoration: line-through;
+}
+
+/* Pointer */
+.callout[data-callout="tasks"] .task-list-item-checkbox::before {
+  content: "";
+  background: transparent;
+  width: 2000px;
+  height: 40px;
+  top: -12px;
+  position: absolute;
+  left: -14px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+/* Remove Icon */
+.callout[data-callout="tasks"] .callout-icon {
+  display: none;
+}
