@@ -1,93 +1,67 @@
 /* ╔════════════════════════════════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
 /* ║ Obsidian Template                                                                                                  ║ */
 /* ╠══════════════════════════╦═════════════════════════════════════════════════════════════════════════════════════════╣ */
-/* ║ Name:                    ║ Cards                                                                                   ║ */
+/* ║ Name:                    ║ Infobox                                                                                 ║ */
 /* ║ Version:                 ║ 1.0.0                                                                                   ║ */
 /* ║ Author:                  ║ Corellan                                                                                ║ */
 /* ║ License:                 ║ MIT                                                                                     ║ */
 /* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
 
 /* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
-/* ║ Cards                    ║ Variables                                                                               ║ */
+/* ║ Layout                   ║ Variables                                                                               ║ */
 /* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
 
-
-/* Background */
-.cards .table-view-tbody tr {
-  background: var(--bg1) !important;
-  border: none !important;
-  border-radius: 12px !important;
-  padding: 0px !important;
+/* Backgground */
+.callout[data-callout="infobox"] {
+  background: var(--bg1);
+  border-radius: 12px;
+  width: 260px;
+  margin-left: 12px;
+  padding: 0px;
+  float: right;
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
 }
 
-/* Hover */
-body:not(.row-hover) .dataview.task-list-basic-item:hover,
-body:not(.row-hover) .dataview.task-list-item:hover,
-body:not(.row-hover) .table-view-table>tbody>tr:hover {
-  background: var(--bg2) !important;
+/* Spacing */
+.callout[data-callout="infobox"] .callout-content {
+  margin-bottom: 12px;
 }
 
-/* Cards */
-.cards .table-view-tbody td {
-  width: unset !important;
-  max-height: 240px;
-  border: none !important;
+.callout[data-callout="infobox"] p {
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+}
+
+/* Image */
+.callout[data-callout="infobox"] img {
   border-radius: 12px;
 }
 
 /* Title */
-.cards .table-view-tbody td:nth-child(1) {
-  order: -1;
+.callout[data-callout="infobox"] h1 {
+  margin: 4px 12px 8px 12px;
 }
 
 
-
-
-/* Image */
-.cards .table-view-tbody img {
-  object-fit: cover !important;
-  height: 100%;
-  width: 100%;
+/* Table */
+.callout[data-callout="infobox"] table {
+  margin: 0px !important;
   padding: 0px !important;
 }
 
-/* Cover */
-.cards .table-view-tbody td:nth-child(2) {
-  margin: 0px !important;
-  order: -2;
-  height: 20% !important;
-
+.callout[data-callout="infobox"] td {
+  border: none;
+  padding-left: 12px; 
+  padding-right: 0px;
 }
 
-
-
-
-
-
-
-
-
-
-/* Header */
-.cards .table-view-tbody td:nth-child(3) {
-  font-size: 16px !important;
-  font-weight: 600;
-
+/* Remove Title */
+.callout[data-callout="infobox"] .callout-title {
+  display: none;
 }
 
-
-
-
-/* Remove File */
-/*
-.cards .table-view-tbody td:nth-child(1) {
-  display: none !important;
+/* Remove th */
+.callout[data-callout="infobox"] th {
+  display: none;
 }
-*/
-
-/* Remove Link Icon */
-.cards .external-link {
-  background: transparent;
-}
-
-

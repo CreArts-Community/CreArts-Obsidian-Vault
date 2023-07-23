@@ -19,7 +19,7 @@
                     "file": "8 Resources/Home.md",
                     "mode": "preview",
                     "backlinks": false,
-                    "source": false
+                    "source": true
                   },
                   "pinned": true
                 }
@@ -88,65 +88,12 @@
                   "type": "recent-files",
                   "state": {}
                 }
-              }
-            ]
-          }
-        ],
-        "direction": "horizontal",
-        "width": 200
-      },
-      "right": {
-        "id": "46f7e53db47ebf39",
-        "type": "split",
-        "children": [
-          {
-            "id": "36d6e0ae0f879b45",
-            "type": "tabs",
-            "dimension": 26.31578947368421,
-            "children": [
-              {
-                "id": "1e585342250f268d",
-                "type": "leaf",
-                "state": {
-                  "type": "custom-frames-clock",
-                  "state": {}
-                }
-              }
-            ]
-          },
-          {
-            "id": "173d81a6a0983062",
-            "type": "tabs",
-            "dimension": 41.8421052631579,
-            "children": [
-              {
-                "id": "18bb9d0ae2dd8a2b",
-                "type": "leaf",
-                "state": {
-                  "type": "calendar",
-                  "state": {}
-                }
-              }
-            ]
-          },
-          {
-            "id": "19475811ecd5978e",
-            "type": "tabs",
-            "dimension": 31.842105263157897,
-            "children": [
-              {
-                "id": "14daf17029436797",
-                "type": "leaf",
-                "state": {
-                  "type": "WeatherView",
-                  "state": {}
-                }
               },
               {
-                "id": "d63329b814e1b919",
+                "id": "3cf5fa22a71746a6",
                 "type": "leaf",
                 "state": {
-                  "type": "graph",
+                  "type": "bookmarks",
                   "state": {}
                 }
               },
@@ -177,8 +124,68 @@
                   }
                 }
               }
-            ],
-            "currentTab": 1
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 200
+      },
+      "right": {
+        "id": "46f7e53db47ebf39",
+        "type": "split",
+        "children": [
+          {
+            "id": "36d6e0ae0f879b45",
+            "type": "tabs",
+            "dimension": 26.31578947368421,
+            "children": [
+              {
+                "id": "1e585342250f268d",
+                "type": "leaf",
+                "state": {
+                  "type": "custom-frames-clock",
+                  "state": {}
+                }
+              }
+            ]
+          },
+          {
+            "id": "173d81a6a0983062",
+            "type": "tabs",
+            "dimension": 41.578947368421055,
+            "children": [
+              {
+                "id": "18bb9d0ae2dd8a2b",
+                "type": "leaf",
+                "state": {
+                  "type": "calendar",
+                  "state": {}
+                }
+              }
+            ]
+          },
+          {
+            "id": "19475811ecd5978e",
+            "type": "tabs",
+            "dimension": 32.10526315789474,
+            "children": [
+              {
+                "id": "14daf17029436797",
+                "type": "leaf",
+                "state": {
+                  "type": "WeatherView",
+                  "state": {}
+                }
+              },
+              {
+                "id": "d63329b814e1b919",
+                "type": "leaf",
+                "state": {
+                  "type": "graph",
+                  "state": {}
+                }
+              }
+            ]
           }
         ],
         "direction": "horizontal",
@@ -186,6 +193,7 @@
       },
       "left-ribbon": {
         "hiddenItems": {
+          "daily-notes:Open today's daily note": true,
           "homepage:Open homepage": false,
           "workspaces:Manage workspace layouts": false,
           "canvas:Create new canvas": true,
@@ -206,7 +214,7 @@
           "obsidian-custom-frames:Open Google Contacts": false
         }
       },
-      "active": "d63329b814e1b919"
+      "active": "cb73e9494fd80308"
     }
   },
   "active": "Home"

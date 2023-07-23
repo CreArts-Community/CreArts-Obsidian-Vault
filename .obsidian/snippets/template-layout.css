@@ -23,10 +23,6 @@
   --layout-columns-2: calc(100% / 2 - 8px);
 }
 
-[data-callout="layout-1"] {
-  --layout-columns-2: calc(100% / 1 - 8px);
-}
-
 /* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
 /* ║ Layout                   ║ General                                                                                 ║ */
 /* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
@@ -39,13 +35,13 @@
   border-radius: 8px;
   row-gap: 8px;
   column-gap: 24px;
+  min-width: 100% !important;
 }
 
 /* Spacing */
 [data-callout="layout-4"] p,
 [data-callout="layout-3"] p,
-[data-callout="layout-2"] p,
-[data-callout="layout-1"] p  {
+[data-callout="layout-2"] p {
   display: flex;
   flex-wrap: wrap;
   border-radius: 8px;
@@ -60,22 +56,18 @@
 /* Remove Title */
 [data-callout="layout-4"] .callout-title,
 [data-callout="layout-3"] .callout-title,
-[data-callout="layout-2"] .callout-title,
-[data-callout="layout-1"] .callout-title {
+[data-callout="layout-2"] .callout-title {
   display: none;
 }
 
 /* Remove Background */
 [data-callout="layout-4"],
 [data-callout="layout-3"],
-[data-callout="layout-2"],
-[data-callout="layout-1"] {
+[data-callout="layout-2"]{
   background: transparent;
   box-shadow: none !important;
   padding: 0px;
 }
-
-
 
 /* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
 /* ║ Layout                   ║ Columns-4                                                                               ║ */
@@ -90,7 +82,7 @@
 /* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
 
 [data-callout="layout-3"] p {
-  width: var(--layout-columns-4);
+  width: var(--layout-columns-3);
 }
 
 /* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
@@ -98,21 +90,29 @@
 /* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
 
 [data-callout="layout-2"] p {
-  width: var(--layout-columns-4);
+  width: var(--layout-columns-2);
 }
 
 /* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
-/* ║ Layout                   ║ Columns-1                                                                               ║ */
+/* ║ Layout                   ║ Callcout (Tasks)                                                                        ║ */
 /* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
 
-[data-callout="layout-1"] p {
-  width: var(--layout-columns-4);
+/* Spacing */
+[data-callout="layout-4"] .callout-content > .callout[data-callout="tasks"],
+[data-callout="layout-3"] .callout-content > .callout[data-callout="tasks"],
+[data-callout="layout-2"] .callout-content > .callout[data-callout="tasks"] {
+  width: 100%;
 }
 
+[data-callout="layout-4"] .callout-content > .callout[data-callout="tasks"] .contains-task-list,
+[data-callout="layout-3"] .callout-content > .callout[data-callout="tasks"] .contains-task-list,
+[data-callout="layout-2"] .callout-content > .callout[data-callout="tasks"] .contains-task-list {
+  width: 100%;
+}
 
-
-
-
-
-
-
+/* Title */
+[data-callout="layout-4"] .callout-content > .callout[data-callout="tasks"] .callout-title,
+[data-callout="layout-3"] .callout-content > .callout[data-callout="tasks"] .callout-title,
+[data-callout="layout-2"] .callout-content > .callout[data-callout="tasks"] .callout-title {
+  display: block;
+}

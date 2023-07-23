@@ -1,8 +1,10 @@
 ---
+
 tag: templates
 publish: false
 cssClass: kanban
 kanban-plugin: basic
+
 ---
 
 ## To-Do

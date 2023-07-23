@@ -6,10 +6,12 @@
   "canvas",
   "outgoing-link",
   "tag-pane",
+  "daily-notes",
   "templates",
   "command-palette",
   "slash-command",
   "editor-status",
+  "bookmarks",
   "outline",
   "workspaces",
   "file-recovery"

@@ -28,6 +28,12 @@
               inset -5px -5px 20px #353949;
 }
 
+/* Searchbar - Suggestion */
+.home-tab-suggestion-container {
+  box-shadow: 2px 2px 20px #1f212b,
+              -2px -2px 12px #2f313f;
+}
+
 /* Buttons */
 .home-button {
   box-shadow: 2px 2px 20px #1f212b,
@@ -120,8 +126,19 @@ body:not(.is-mobile) .nav-folder.mod-root>.nav-folder-title .nav-folder-title-co
               -2px -2px 12px #2f313f !important;
 }
 
-
 .callout[data-callout="tasks"] .task-list-item.is-checked {
   box-shadow: inset 6px 6px 20px #1f212b,
               inset -6px -6px 20px #353949 !important;
+}
+
+
+
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Effects                  ║ Template (Cards)                                                                        ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+.cards .table-view-tbody tr {
+  box-shadow: 2px 2px 20px #1f212b,
+              -2px -2px 12px #2f313f !important;
 }

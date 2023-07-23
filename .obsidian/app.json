@@ -67,5 +67,6 @@
     "ttet wer",
     "Levitikus",
     "Deuteronmium"
-  ]
+  ],
+  "readableLineLength": false
 }

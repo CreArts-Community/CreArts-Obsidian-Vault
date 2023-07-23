@@ -1,7 +1,6 @@
 ---
 tag: templates
 publish: false
-cssClass: tasks
 ---
 # Tasks
 --- 

@@ -11,9 +11,7 @@
 /* ║ Custom CSS               ║ Variables                                                                               ║ */
 /* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
 
-:root {
-  --home-banner: 84px;
-}
+
 
 /* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
 /* ║ Custom CSS               ║ Text                                                                                    ║ */
@@ -41,9 +39,18 @@
 /* ║ Custom CSS               ║ Searchbar                                                                               ║ */
 /* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
 
-.home-tab-searchbar {
+.home-tab-searchbar.svelte-1v6c0q {
   background: #2a2d3a;
   border-radius: 12px !important;
+  max-width: unset !important;
+}
+
+.home-tab-suggestion-container {
+  border-radius: 12px !important;
+  border: none !important;
+  max-width: unset !important;
+  width: 100% !important;
+  margin-top: 20px;
 }
 
 /* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */

@@ -1,13 +1,13 @@
 ---
 tag: home
 publish: false
-cssClass: cards
 banner: "![[space3.jpg]]"
 banner_y: 0.470
 ---
-
+# Bookmarks
+---
 ```dataview
-TABLE name, url, category, cover
+TABLE cover, name, category, url 
 from #bookmarks
 sort status
 ```

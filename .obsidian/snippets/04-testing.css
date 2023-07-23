@@ -1,12 +1,92 @@
 /* ╔════════════════════════════════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
-/* ║ Obsidian Template                                                                                                  ║ */
+/* ║ Obsidian Theme                                                                                                     ║ */
 /* ╠══════════════════════════╦═════════════════════════════════════════════════════════════════════════════════════════╣ */
-/* ║ Name:                    ║ Bookmark                                                                                ║ */
+/* ║ Name:                    ║ Testing                                                                                 ║ */
 /* ║ Version:                 ║ 1.0.0                                                                                   ║ */
 /* ║ Author:                  ║ Corellan                                                                                ║ */
 /* ║ License:                 ║ MIT                                                                                     ║ */
 /* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
 
 /* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
-/* ║ Custom CSS               ║ Buttons                                                                                 ║ */
+/* ║ Testing                  ║ General                                                                                 ║ */
 /* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+/*
+.markdown-preview-view .internal-embed img {
+  width: 40% !important;
+  height: 40% !important;
+  margin-left: -22px !important;
+  border-radius: 6px;
+  position: relative;
+  z-index: 2;
+}
+
+.markdown-preview-view .list-bullet {
+  z-index: 1 !important;
+}
+*/
+
+/* Spacing */
+.cmdr-adder {
+  display: none;
+}
+
+.status-bar .clickable-icon svg {
+  width: 12px;
+  height: 12px;
+}
+
+.status-bar .status-bar-item-icon {
+  width: 12px;
+  height: 12px;
+}
+
+/* Order */
+.status-bar .plugin-editor-status {
+  order: 9;
+}
+
+.status-bar .cmdr {
+  order: 8;
+}
+
+.status-bar .plugin-obsidian-languagetool-plugin {
+  order: 7;
+}
+
+.status-bar .plugin-obsidian-reading-time {
+  order: 6;
+}
+
+.status-bar .plugin-backlink {
+  order: 5;
+}
+
+.status-bar .plugin-better-word-count {
+  order: 4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.notice-container {
+  opacity: 0.2;
+}
+
+
+
+
+
+
